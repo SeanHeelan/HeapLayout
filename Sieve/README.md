@@ -9,10 +9,13 @@ recreate the experiments described in the [associated paper][1].
 
 ### Python Dependencies
 
+Python 3.6 or higher is required. Assuming you have it available as `python36`
+on your system, the following will initialise the required virtual environment.
+
 ```
-virtualenv --python36 sieve-venv
-source sieve-venv/bin/activate
-pip install jsonpickle
+$ virtualenv --python36 sieve-venv
+$ source sieve-venv/bin/activate
+$ pip install -r requirements.txt
 ```
 
 ### Building the Allocator Drivers
