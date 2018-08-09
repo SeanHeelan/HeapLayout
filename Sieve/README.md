@@ -69,11 +69,11 @@ $ ./runexp.py -j 1 -e 500000 -o /tmp/output -t 3600 -c 8 --starting-state php-em
 
 When the search completes the specified output directly will contain 4 files.
 
-`pos_trigger.txt` A record of the inputs required to achieve the positive layout
-`neg_trigger.txt` A record of the inputs required to achieve the negative layout
-`result.json` A jsonpickle record of the ExpResult object containing the
+* `pos_trigger.txt` A record of the inputs required to achieve the positive layout
+* `neg_trigger.txt` A record of the inputs required to achieve the negative layout
+* `result.json` A jsonpickle record of the ExpResult object containing the
 configuration settings for the experiment
-`output.log` The log output from the experiment
+* `output.log` The log output from the experiment
 
 The triggers cacn be replayed by feeding them directly to the allocator driver.
 e.g.
@@ -91,7 +91,7 @@ is before the second allocation and it equals the size of the second allocation
 (32) plus the metadata overhead (8).
 
 You can generate a log of the heap evolution over time that is consumable by
-Thomas Dullien's heap visualiser [2] as follows:
+Thomas Dullien's [heap visualiser](https://github.com/thomasdullien/heap_history_viewer) as follows:
 
 ```
 $ ./runner/runner-avrlibc-r2537 /tmp/output/neg_trigger.txt 1 2>/tmp/vizlog.json
@@ -108,13 +108,17 @@ $ head /tmp/vizlog.json
 { "type" : "alloc 32773", "tag" : "realloc_malloc", "size" : 79, "address" : 6329168 },
 ```
 
-And then generate a visualisation via
+And then, assuming you have `heap_history_viewer` at the same path, generate a visualisation via:
+
 ```
 $ ~/git/heap_history_viewer/release/HeapVizGL /tmp/vizlog.json
 ```
+
+Which will result in something similar to the following:
+
+![Heap Visualisation](https://seanhn.files.wordpress.com/2018/08/heap_vis.png)
 
 ## References
 
 [1] [Automatic Heap Layout Manipulation for Exploitation]
 (https://sean.heelan.io/heaplayout)
-[2] [HeapViz](https://github.com/thomasdullien/heap_history_viewer)
