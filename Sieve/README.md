@@ -118,6 +118,4 @@ Which will result in something similar to the following:
 
 ![Heap Visualisation](https://seanhn.files.wordpress.com/2018/08/heap_vis.png)
 
-## References
-
 [1]: https://sean.heelan.io/heaplayout
