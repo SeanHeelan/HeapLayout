@@ -1,9 +1,9 @@
 # Sieve
 
 Sieve is a framework for setting up and running experiments for evaluating
-algorithms for heap layout manipulation [1]. The `runexp.py` script will run a
+algorithms for [heap layout manipulation][1]. The `runexp.py` script will run a
 single experiment. See `repeat_experiments.sh` and `expmgmt.py` for scripts to
-recreate the experiments described in [1].
+recreate the experiments described in the [associated paper][1].
 
 ## Install
 
@@ -120,5 +120,4 @@ Which will result in something similar to the following:
 
 ## References
 
-[1] [Automatic Heap Layout Manipulation for Exploitation]
-(https://sean.heelan.io/heaplayout)
+[1]: https://sean.heelan.io/heaplayout
