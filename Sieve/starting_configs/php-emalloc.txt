@@ -1,0 +1,571 @@
+vtx alloc 28 0x2b91f5a01000
+vtx alloc 28 0x2b91f5a01040
+vtx realloc 50 0x2b91f5a01040 0x2b91f5a02000
+vtx free 0x2b91f5a02000
+vtx alloc 16388 0x2b91f5a03000
+vtx alloc 50 0x2b91f5a02000
+vtx free 0x2b91f5a02000
+vtx realloc 79 0x0 0x2b91f5a08000
+vtx alloc 92 0x2b91f5a09000
+vtx free 0x2b91f5a09000
+vtx free 0x2b91f5a08000
+vtx alloc 92 0x2b91f5a09000
+vtx free 0x2b91f5a09000
+vtx free 0x2b91f5a03000
+vtx alloc 32 0x2b91f5a01040
+vtx free 0x2b91f5a01040
+vtx alloc 18 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 9 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 12 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 13 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 10 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 10 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 15 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 6 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 8 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 10 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 15 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 18 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 9 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 18 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 13 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 13 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 8 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 12 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 14 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 32 0x2b91f5a01040
+vtx free 0x2b91f5a01040
+vtx alloc 13 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 14 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 12 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 22 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 24 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 18 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 8 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 20 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 12 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 12 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 16 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 17 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 8 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 8 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 12 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 19 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 12 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 16 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 17 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 16 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 16 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 12 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 10 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 19 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 25 0x2b91f5a01040
+vtx free 0x2b91f5a01040
+vtx alloc 16 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 9 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 6 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 4 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 4 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 4 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 5 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 7 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 7 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 7 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 7 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 9 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 9 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 9 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 9 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 10 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 10 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 10 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 10 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 10 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 7 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 10 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 5 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 12 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 8 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 6 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 7 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 7 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 8 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 7 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 8 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 6 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 17 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 18 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 26 0x2b91f5a01040
+vtx free 0x2b91f5a01040
+vtx alloc 14 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 17 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 15 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 24 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 23 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 32 0x2b91f5a01040
+vtx free 0x2b91f5a01040
+vtx alloc 15 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 10 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 17 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 14 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 16 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 25 0x2b91f5a01040
+vtx free 0x2b91f5a01040
+vtx alloc 17 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 15 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 17 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 14 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 23 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 14 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 22 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 12 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 14 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 23 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 12 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 18 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 19 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 27 0x2b91f5a01040
+vtx free 0x2b91f5a01040
+vtx alloc 13 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 14 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 18 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 20 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 9 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 8 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 17 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 14 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 12 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 17 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 17 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 32 0x2b91f5a01040
+vtx free 0x2b91f5a01040
+vtx alloc 4 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 13 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 7 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 32 0x2b91f5a01040
+vtx free 0x2b91f5a01040
+vtx alloc 32 0x2b91f5a01040
+vtx free 0x2b91f5a01040
+vtx alloc 24 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 19 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 39 0x2b91f5a06000
+vtx free 0x2b91f5a06000
+vtx alloc 15 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 20 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 11 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 10 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 27 0x2b91f5a01040
+vtx free 0x2b91f5a01040
+vtx alloc 19 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 20 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 20 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 15 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 20 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 17 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 16 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 17 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 19 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 24 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 20 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 24 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 16 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 10 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 33 0x2b91f5a06000
+vtx free 0x2b91f5a06000
+vtx alloc 1 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 6 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 1 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 32 0x2b91f5a01040
+vtx free 0x2b91f5a01040
+vtx alloc 32 0x2b91f5a01040
+vtx free 0x2b91f5a01040
+vtx alloc 17 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 18 0x2b91f5a03000
+vtx free 0x2b91f5a03000
+vtx alloc 32 0x2b91f5a01040
+vtx free 0x2b91f5a01040
+vtx alloc 14 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 5 0x2b91f5a05000
+vtx free 0x2b91f5a05000
+vtx alloc 9 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 13 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 32 0x2b91f5a01040
+vtx free 0x2b91f5a01040
+vtx alloc 32 0x2b91f5a01040
+vtx free 0x2b91f5a01040
+vtx alloc 10 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx alloc 10 0x2b91f5a04000
+vtx free 0x2b91f5a04000
+vtx free 0x2b91f5a01000
+vtx alloc 28 0x2b91f5a01000
+vtx alloc 65536 0x2b91f5a02000
+vtx alloc 262144 0x2b91f5a13000
+vtx alloc 8192 0x2b91f5a54000
+vtx alloc 24 0x2b91f5a57000
+vtx free 0x2b91f5a57000
+vtx alloc 56 0x2b91f5a58000
+vtx alloc 2304 0x2b91f5a59000
+vtx alloc 56 0x2b91f5a58060
+vtx alloc 56 0x2b91f5a580c0
+vtx alloc 56 0x2b91f5a58120
+vtx alloc 56 0x2b91f5a58180
+vtx alloc 32 0x2b91f5a01040
+vtx alloc 264 0x2b91f5a5e000
+vtx alloc 32 0x2b91f5a01080
+vtx alloc 32 0x2b91f5a010c0
+vtx alloc 56 0x2b91f5a581e0
+vtx alloc 32 0x2b91f5a01100
+vtx alloc 40 0x2b91f5a63000
+vtx alloc 288 0x2b91f5a5e140
+vtx alloc 32 0x2b91f5a01140
+vtx alloc 40 0x2b91f5a63050
+vtx alloc 48 0x2b91f5a630a0
+vtx alloc 40 0x2b91f5a630f0
+vtx alloc 72 0x2b91f5a64000
+vtx alloc 40 0x2b91f5a63140
+vtx alloc 32 0x2b91f5a01180
+vtx alloc 56 0x2b91f5a58240
+vtx alloc 40 0x2b91f5a63190
+vtx alloc 32 0x2b91f5a011c0
+vtx alloc 40 0x2b91f5a631e0
+vtx alloc 32 0x2b91f5a01200
+vtx alloc 32 0x2b91f5a01240
+vtx alloc 40 0x2b91f5a63230
+vtx alloc 32 0x2b91f5a01280
+vtx alloc 40 0x2b91f5a63280
+vtx alloc 576 0x2b91f5a65000
+vtx free 0x2b91f5a5e140
+vtx alloc 32 0x2b91f5a012c0
+vtx alloc 40 0x2b91f5a632d0
+vtx alloc 32 0x2b91f5a01300
+vtx alloc 48 0x2b91f5a63320
+vtx alloc 48 0x2b91f5a63370
+vtx alloc 32 0x2b91f5a01340
+vtx alloc 40 0x2b91f5a633c0
+vtx alloc 48 0x2b91f5a63410
+vtx alloc 32 0x2b91f5a01380
+vtx alloc 32 0x2b91f5a013c0
+vtx alloc 1712 0x2b91f5a6a000
+vtx alloc 40 0x2b91f5a63460
+vtx alloc 56 0x2b91f5a582a0
+vtx alloc 40 0x2b91f5a634b0
+vtx alloc 32 0x2b91f5a01400
+vtx alloc 40 0x2b91f5a63500
+vtx alloc 1152 0x2b91f5a71000
+vtx free 0x2b91f5a65000
+vtx alloc 88 0x2b91f5a76000
+vtx alloc 40 0x2b91f5a63550
+vtx alloc 72 0x2b91f5a64070
+vtx alloc 56 0x2b91f5a58300
+vtx alloc 56 0x2b91f5a58360
+vtx alloc 32 0x2b91f5a01440
+vtx alloc 152 0x2b91f5a77000
+vtx alloc 32 0x2b91f5a01480
+vtx alloc 48 0x2b91f5a635a0
+vtx alloc 32 0x2b91f5a014c0
+vtx alloc 32 0x2b91f5a01500
+vtx alloc 40 0x2b91f5a635f0
+vtx alloc 40 0x2b91f5a63640
+vtx alloc 48 0x2b91f5a63690
+vtx alloc 32 0x2b91f5a01540
+vtx alloc 40 0x2b91f5a636e0
+vtx alloc 32 0x2b91f5a01580
+vtx alloc 48 0x2b91f5a63730
+vtx alloc 56 0x2b91f5a583c0
+vtx alloc 32 0x2b91f5a015c0
+vtx alloc 40 0x2b91f5a63780
+vtx alloc 40 0x2b91f5a637d0
+vtx alloc 32 0x2b91f5a01600
+vtx alloc 32 0x2b91f5a01640
+vtx alloc 40 0x2b91f5a63820
+vtx alloc 32 0x2b91f5a01680
+vtx alloc 144 0x2b91f5a770c0
+vtx alloc 40 0x2b91f5a63870
+vtx alloc 40 0x2b91f5a638c0
+vtx alloc 40 0x2b91f5a63910
+vtx alloc 32 0x2b91f5a016c0
+vtx alloc 40 0x2b91f5a63960
+vtx alloc 2304 0x2b91f5a59a00
+vtx free 0x2b91f5a71000
+vtx alloc 32 0x2b91f5a01700
+vtx alloc 32 0x2b91f5a01740
+vtx alloc 80 0x2b91f5a640e0
+vtx alloc 32 0x2b91f5a01780
+vtx alloc 32 0x2b91f5a017c0
+vtx alloc 40 0x2b91f5a639b0
+vtx alloc 40 0x2b91f5a63a00
+vtx alloc 40 0x2b91f5a63a50
+vtx alloc 32 0x2b91f5a01800
+vtx alloc 40 0x2b91f5a63aa0
+vtx alloc 40 0x2b91f5a63af0
+vtx alloc 32 0x2b91f5a01840
+vtx alloc 32 0x2b91f5a01880
+vtx alloc 32 0x2b91f5a018c0
+vtx alloc 48 0x2b91f5a63b40
+vtx alloc 56 0x2b91f5a58420
+vtx alloc 32 0x2b91f5a01900
+vtx alloc 32 0x2b91f5a01940
+vtx alloc 32 0x2b91f5a01980
+vtx alloc 48 0x2b91f5a63b90
+vtx alloc 32 0x2b91f5a019c0
+vtx alloc 32 0x2b91f5a01a00
+vtx alloc 280 0x2b91f5a5e140
+vtx alloc 40 0x2b91f5a63be0
+vtx alloc 136 0x2b91f5a77180
+vtx alloc 40 0x2b91f5a63c30
+vtx alloc 56 0x2b91f5a58480
+vtx alloc 56 0x2b91f5a584e0
+vtx alloc 48 0x2b91f5a63c80
+vtx alloc 40 0x2b91f5a63cd0
+vtx alloc 56 0x2b91f5a58540
+vtx alloc 40 0x2b91f5a63d20
+vtx alloc 32 0x2b91f5a01a40
+vtx alloc 40 0x2b91f5a63d70
+vtx alloc 40 0x2b91f5a63dc0
+vtx alloc 40 0x2b91f5a63e10
+vtx alloc 32 0x2b91f5a01a80
+vtx alloc 32 0x2b91f5a01ac0
+vtx alloc 32 0x2b91f5a01b00
+vtx alloc 48 0x2b91f5a63e60
+vtx alloc 32 0x2b91f5a01b40
+vtx alloc 40 0x2b91f5a63eb0
+vtx alloc 56 0x2b91f5a585a0
+vtx alloc 32 0x2b91f5a01b80
+vtx alloc 40 0x2b91f5a63f00
+vtx alloc 40 0x2b91f5a63f50
+vtx alloc 56 0x2b91f5a58600
+vtx alloc 40 0x2b91f5a63fa0
+vtx alloc 72 0x2b91f5a64150
+vtx alloc 48 0x2b91f5a78000
+vtx alloc 152 0x2b91f5a77240
+vtx alloc 40 0x2b91f5a78050
+vtx alloc 48 0x2b91f5a780a0
+vtx alloc 32 0x2b91f5a01bc0
+vtx alloc 56 0x2b91f5a58660
+vtx alloc 32 0x2b91f5a01c00
+vtx alloc 40 0x2b91f5a780f0
+vtx alloc 288 0x2b91f5a5e280
+vtx alloc 32 0x2b91f5a01c40
+vtx alloc 40 0x2b91f5a78140
+vtx alloc 32 0x2b91f5a01c80
+vtx alloc 40 0x2b91f5a78190
+vtx alloc 32 0x2b91f5a01cc0
+vtx alloc 40 0x2b91f5a781e0
+vtx alloc 32 0x2b91f5a01d00
+vtx alloc 40 0x2b91f5a78230
+vtx alloc 40 0x2b91f5a78280
+vtx alloc 32 0x2b91f5a01d40
+vtx alloc 40 0x2b91f5a782d0
+vtx alloc 40 0x2b91f5a78320
+vtx alloc 32 0x2b91f5a01d80
+vtx alloc 40 0x2b91f5a78370
+vtx alloc 40 0x2b91f5a783c0
+vtx alloc 4608 0x2b91f5a79000
+vtx free 0x2b91f5a59a00
+vtx alloc 48 0x2b91f5a78410
+vtx alloc 40 0x2b91f5a78460
+vtx alloc 32 0x2b91f5a01dc0
+vtx alloc 32 0x2b91f5a01e00
+vtx alloc 4096 0x2b91f5a7b000

@@ -1,0 +1,1140 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALIAS	jemalloc.c	2089;"	d	file:
+ALIAS	jemalloc.c	2101;"	d	file:
+APPEND_C	util.c	324;"	d	file:
+APPEND_C	util.c	589;"	d	file:
+APPEND_PADDED_S	util.c	336;"	d	file:
+APPEND_PADDED_S	util.c	591;"	d	file:
+APPEND_S	util.c	329;"	d	file:
+APPEND_S	util.c	590;"	d	file:
+ATOMIC_COPY_HOOK	chunk.c	107;"	d	file:
+ATOMIC_COPY_HOOK	chunk.c	92;"	d	file:
+BILLION	nstime.c	3;"	d	file:
+BIN_INFO_INIT_bin_no	arena.c	3776;"	d	file:
+BIN_INFO_INIT_bin_no	arena.c	3781;"	d	file:
+BIN_INFO_INIT_bin_yes	arena.c	3771;"	d	file:
+BIN_INFO_INIT_bin_yes	arena.c	3780;"	d	file:
+BT_FRAME	prof.c	367;"	d	file:
+BT_FRAME	prof.c	522;"	d	file:
+CHILD	ctl.c	219;"	d	file:
+CHILD	ctl.c	515;"	d	file:
+CONFIG_WRITE_BOOL_JSON	stats.c	591;"	d	file:
+CONFIG_WRITE_BOOL_JSON	stats.c	642;"	d	file:
+CONF_HANDLE_BOOL	jemalloc.c	1046;"	d	file:
+CONF_HANDLE_BOOL	jemalloc.c	1305;"	d	file:
+CONF_HANDLE_CHAR_P	jemalloc.c	1127;"	d	file:
+CONF_HANDLE_CHAR_P	jemalloc.c	1314;"	d	file:
+CONF_HANDLE_SIZE_T	jemalloc.c	1103;"	d	file:
+CONF_HANDLE_SIZE_T	jemalloc.c	1312;"	d	file:
+CONF_HANDLE_SSIZE_T	jemalloc.c	1106;"	d	file:
+CONF_HANDLE_SSIZE_T	jemalloc.c	1313;"	d	file:
+CONF_HANDLE_T_U	jemalloc.c	1064;"	d	file:
+CONF_HANDLE_T_U	jemalloc.c	1310;"	d	file:
+CONF_HANDLE_UNSIGNED	jemalloc.c	1099;"	d	file:
+CONF_HANDLE_UNSIGNED	jemalloc.c	1311;"	d	file:
+CONF_MATCH	jemalloc.c	1042;"	d	file:
+CONF_MATCH	jemalloc.c	1303;"	d	file:
+CONF_MATCH_VALUE	jemalloc.c	1044;"	d	file:
+CONF_MATCH_VALUE	jemalloc.c	1304;"	d	file:
+CONF_MAX_no	jemalloc.c	1062;"	d	file:
+CONF_MAX_no	jemalloc.c	1308;"	d	file:
+CONF_MAX_yes	jemalloc.c	1063;"	d	file:
+CONF_MAX_yes	jemalloc.c	1309;"	d	file:
+CONF_MIN_no	jemalloc.c	1060;"	d	file:
+CONF_MIN_no	jemalloc.c	1306;"	d	file:
+CONF_MIN_yes	jemalloc.c	1061;"	d	file:
+CONF_MIN_yes	jemalloc.c	1307;"	d	file:
+CTL	ctl.c	223;"	d	file:
+CTL	ctl.c	516;"	d	file:
+CTL_GET	stats.c	4;"	d	file:
+CTL_M2_GET	stats.c	9;"	d	file:
+CTL_M2_M4_GET	stats.c	18;"	d	file:
+CTL_MAX_DEPTH	ctl.c	216;"	d	file:
+CTL_PROTO	ctl.c	44;"	d	file:
+CTL_RO_CGEN	ctl.c	1123;"	d	file:
+CTL_RO_CLGEN	ctl.c	1100;"	d	file:
+CTL_RO_CONFIG_GEN	ctl.c	1222;"	d	file:
+CTL_RO_GEN	ctl.c	1144;"	d	file:
+CTL_RO_NL_CGEN	ctl.c	1167;"	d	file:
+CTL_RO_NL_GEN	ctl.c	1186;"	d	file:
+CTL_TSD_RO_NL_CGEN	ctl.c	1203;"	d	file:
+D2S_BUFSIZE	util.c	37;"	d	file:
+DUMP_FILENAME_BUFSIZE	prof.c	1633;"	d	file:
+GET_ARG_NUMERIC	util.c	354;"	d	file:
+GET_ARG_NUMERIC	util.c	592;"	d	file:
+INDEX	ctl.c	229;"	d	file:
+INDEX	ctl.c	517;"	d	file:
+INDEX_PROTO	ctl.c	48;"	d	file:
+INITIALIZER	jemalloc.c	198;"	d	file:
+INITIALIZER	jemalloc.c	203;"	d	file:
+IS_INITIALIZER	jemalloc.c	199;"	d	file:
+IS_INITIALIZER	jemalloc.c	204;"	d	file:
+JEMALLOC_ARENA_C_	arena.c	1;"	d	file:
+JEMALLOC_ATOMIC_C_	atomic.c	1;"	d	file:
+JEMALLOC_ATTR	jemalloc.c	/^JEMALLOC_ATTR(malloc) JEMALLOC_ALLOC_SIZE(1)$/;"	f
+JEMALLOC_ATTR	jemalloc.c	/^JEMALLOC_ATTR(malloc) JEMALLOC_ALLOC_SIZE(2)$/;"	f
+JEMALLOC_ATTR	jemalloc.c	/^JEMALLOC_ATTR(malloc) JEMALLOC_ALLOC_SIZE2(1, 2)$/;"	f
+JEMALLOC_ATTR	jemalloc.c	/^JEMALLOC_ATTR(malloc)$/;"	f
+JEMALLOC_ATTR	jemalloc.c	/^JEMALLOC_ATTR(pure)$/;"	f
+JEMALLOC_ATTR	zone.c	/^JEMALLOC_ATTR(constructor)$/;"	f
+JEMALLOC_BASE_C_	base.c	1;"	d	file:
+JEMALLOC_BITMAP_C_	bitmap.c	1;"	d	file:
+JEMALLOC_CHUNK_C_	chunk.c	1;"	d	file:
+JEMALLOC_CHUNK_DSS_C_	chunk_dss.c	1;"	d	file:
+JEMALLOC_CHUNK_MMAP_C_	chunk_mmap.c	1;"	d	file:
+JEMALLOC_CKH_C_	ckh.c	37;"	d	file:
+JEMALLOC_CTL_C_	ctl.c	1;"	d	file:
+JEMALLOC_C_	jemalloc.c	1;"	d	file:
+JEMALLOC_EXTENT_C_	extent.c	1;"	d	file:
+JEMALLOC_HASH_C_	hash.c	1;"	d	file:
+JEMALLOC_HUGE_C_	huge.c	1;"	d	file:
+JEMALLOC_MB_C_	mb.c	1;"	d	file:
+JEMALLOC_MUTEX_C_	mutex.c	1;"	d	file:
+JEMALLOC_PAGES_C_	pages.c	1;"	d	file:
+JEMALLOC_PRNG_C_	prng.c	1;"	d	file:
+JEMALLOC_PROF_C_	prof.c	1;"	d	file:
+JEMALLOC_QUARANTINE_C_	quarantine.c	1;"	d	file:
+JEMALLOC_RTREE_C_	rtree.c	1;"	d	file:
+JEMALLOC_SPIN_C_	spin.c	1;"	d	file:
+JEMALLOC_STATS_C_	stats.c	1;"	d	file:
+JEMALLOC_TCACHE_C_	tcache.c	1;"	d	file:
+JEMALLOC_TICKER_C_	ticker.c	1;"	d	file:
+JEMALLOC_TSD_C_	tsd.c	1;"	d	file:
+JEMALLOC_UTIL_C_	util.c	27;"	d	file:
+JEMALLOC_WITNESS_C_	witness.c	1;"	d	file:
+NAME	ctl.c	218;"	d	file:
+NAME	ctl.c	514;"	d	file:
+NO_INITIALIZER	jemalloc.c	197;"	d	file:
+NO_INITIALIZER	jemalloc.c	202;"	d	file:
+NSTIME_MONOTONIC	nstime.c	101;"	d	file:
+NSTIME_MONOTONIC	nstime.c	114;"	d	file:
+NSTIME_MONOTONIC	nstime.c	124;"	d	file:
+NSTIME_MONOTONIC	nstime.c	134;"	d	file:
+NSTIME_MONOTONIC	nstime.c	142;"	d	file:
+NSTIME_MONOTONIC	nstime.c	162;"	d	file:
+O	tsd.c	80;"	d	file:
+O	tsd.c	83;"	d	file:
+O2S_BUFSIZE	util.c	39;"	d	file:
+OPT_WRITE_BOOL	stats.c	645;"	d	file:
+OPT_WRITE_BOOL	stats.c	776;"	d	file:
+OPT_WRITE_BOOL_MUTABLE	stats.c	656;"	d	file:
+OPT_WRITE_BOOL_MUTABLE	stats.c	777;"	d	file:
+OPT_WRITE_CHAR_P	stats.c	715;"	d	file:
+OPT_WRITE_CHAR_P	stats.c	780;"	d	file:
+OPT_WRITE_SIZE_T	stats.c	681;"	d	file:
+OPT_WRITE_SIZE_T	stats.c	778;"	d	file:
+OPT_WRITE_SSIZE_T	stats.c	691;"	d	file:
+OPT_WRITE_SSIZE_T	stats.c	779;"	d	file:
+OPT_WRITE_SSIZE_T_MUTABLE	stats.c	701;"	d	file:
+OPT_WRITE_UNSIGNED	stats.c	671;"	d	file:
+PAGES_PROT_COMMIT	pages.c	12;"	d	file:
+PAGES_PROT_DECOMMIT	pages.c	13;"	d	file:
+PREALIAS	jemalloc.c	2091;"	d	file:
+PREALIAS	jemalloc.c	2100;"	d	file:
+PSZ_no	jemalloc.c	101;"	d	file:
+PSZ_no	jemalloc.c	96;"	d	file:
+PSZ_yes	jemalloc.c	100;"	d	file:
+PSZ_yes	jemalloc.c	94;"	d	file:
+QUARANTINE_STATE_MAX	quarantine.c	10;"	d	file:
+QUARANTINE_STATE_PURGATORY	quarantine.c	9;"	d	file:
+QUARANTINE_STATE_REINCARNATED	quarantine.c	8;"	d	file:
+READ	ctl.c	1073;"	d	file:
+READONLY	ctl.c	1051;"	d	file:
+READ_XOR_WRITE	ctl.c	1065;"	d	file:
+S2B_0	jemalloc.c	117;"	d	file:
+S2B_1	jemalloc.c	146;"	d	file:
+S2B_10	jemalloc.c	173;"	d	file:
+S2B_10	jemalloc.c	189;"	d	file:
+S2B_11	jemalloc.c	176;"	d	file:
+S2B_11	jemalloc.c	190;"	d	file:
+S2B_2	jemalloc.c	149;"	d	file:
+S2B_3	jemalloc.c	152;"	d	file:
+S2B_3	jemalloc.c	182;"	d	file:
+S2B_4	jemalloc.c	155;"	d	file:
+S2B_4	jemalloc.c	183;"	d	file:
+S2B_5	jemalloc.c	158;"	d	file:
+S2B_5	jemalloc.c	184;"	d	file:
+S2B_6	jemalloc.c	161;"	d	file:
+S2B_6	jemalloc.c	185;"	d	file:
+S2B_7	jemalloc.c	164;"	d	file:
+S2B_7	jemalloc.c	186;"	d	file:
+S2B_8	jemalloc.c	167;"	d	file:
+S2B_8	jemalloc.c	187;"	d	file:
+S2B_9	jemalloc.c	170;"	d	file:
+S2B_9	jemalloc.c	188;"	d	file:
+S2B_no	jemalloc.c	178;"	d	file:
+S2B_no	jemalloc.c	191;"	d	file:
+SC	arena.c	3777;"	d	file:
+SC	arena.c	3782;"	d	file:
+SC	jemalloc.c	102;"	d	file:
+SC	jemalloc.c	107;"	d	file:
+SC	jemalloc.c	110;"	d	file:
+SC	jemalloc.c	179;"	d	file:
+SC	jemalloc.c	192;"	d	file:
+SC	jemalloc.c	97;"	d	file:
+STEP	arena.c	1305;"	d	file:
+STEP	arena.c	1308;"	d	file:
+U2S_BUFSIZE	util.c	34;"	d	file:
+UNW_LOCAL_ONLY	prof.c	6;"	d	file:
+UTRACE	jemalloc.c	251;"	d	file:
+UTRACE	jemalloc.c	263;"	d	file:
+VSEQ_INVALID	prof.c	1634;"	d	file:
+WRITE	ctl.c	1086;"	d	file:
+WRITEONLY	ctl.c	1058;"	d	file:
+X2S_BUFSIZE	util.c	41;"	d	file:
+_CRT_SPINCOUNT	mutex.c	9;"	d	file:
+__free_hook	jemalloc.c	/^JEMALLOC_EXPORT void (*__free_hook)(void *ptr) = je_free;$/;"	v
+__malloc_hook	jemalloc.c	/^JEMALLOC_EXPORT void *(*__malloc_hook)(size_t size) = je_malloc;$/;"	v
+__memalign_hook	jemalloc.c	/^JEMALLOC_EXPORT void *(*__memalign_hook)(size_t alignment, size_t size) =$/;"	v
+__realloc_hook	jemalloc.c	/^JEMALLOC_EXPORT void *(*__realloc_hook)(void *ptr, size_t size) = je_realloc;$/;"	v
+_init_init_lock	jemalloc.c	/^_init_init_lock(void)$/;"	f	file:
+_malloc_thread_cleanup	tsd.c	/^_malloc_thread_cleanup(void)$/;"	f
+_malloc_zone_t	zone.c	/^typedef struct _malloc_zone_t {$/;"	s	file:
+_tls_callback	tsd.c	/^_tls_callback(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved)$/;"	f	file:
+a0	jemalloc.c	/^static arena_t		*a0; \/* arenas[0]; read-only after initialization. *\/$/;"	v	file:
+a0dalloc	jemalloc.c	/^a0dalloc(void *ptr)$/;"	f
+a0get	jemalloc.c	/^a0get(void)$/;"	f
+a0ialloc	jemalloc.c	/^a0ialloc(size_t size, bool zero, bool is_metadata)$/;"	f	file:
+a0idalloc	jemalloc.c	/^a0idalloc(void *ptr, bool is_metadata)$/;"	f	file:
+a0malloc	jemalloc.c	/^a0malloc(size_t size)$/;"	f
+address	zone.c	/^	vm_address_t address;$/;"	m	struct:__anon4	file:
+arena_achunk_prof_reset	arena.c	/^arena_achunk_prof_reset(tsd_t *tsd, arena_t *arena, arena_chunk_t *chunk)$/;"	f	file:
+arena_ad_comp	arena.c	/^arena_ad_comp(const arena_chunk_map_misc_t *a,$/;"	f
+arena_alloc_junk_small	arena.c	/^arena_alloc_junk_small(void *ptr, arena_bin_info_t *bin_info, bool zero)$/;"	f
+arena_avail_insert	arena.c	/^arena_avail_insert(arena_t *arena, arena_chunk_t *chunk, size_t pageind,$/;"	f	file:
+arena_avail_remove	arena.c	/^arena_avail_remove(arena_t *arena, arena_chunk_t *chunk, size_t pageind,$/;"	f	file:
+arena_basic_stats_merge	arena.c	/^arena_basic_stats_merge(tsdn_t *tsdn, arena_t *arena, unsigned *nthreads,$/;"	f
+arena_basic_stats_merge_locked	arena.c	/^arena_basic_stats_merge_locked(arena_t *arena, unsigned *nthreads,$/;"	f	file:
+arena_bin_info	arena.c	/^arena_bin_info_t	arena_bin_info[NBINS];$/;"	v
+arena_bin_lower_run	arena.c	/^arena_bin_lower_run(arena_t *arena, arena_run_t *run, arena_bin_t *bin)$/;"	f	file:
+arena_bin_malloc_hard	arena.c	/^arena_bin_malloc_hard(tsdn_t *tsdn, arena_t *arena, arena_bin_t *bin)$/;"	f	file:
+arena_bin_nonfull_run_get	arena.c	/^arena_bin_nonfull_run_get(tsdn_t *tsdn, arena_t *arena, arena_bin_t *bin)$/;"	f	file:
+arena_bin_nonfull_run_tryget	arena.c	/^arena_bin_nonfull_run_tryget(arena_bin_t *bin)$/;"	f	file:
+arena_bin_runs_insert	arena.c	/^arena_bin_runs_insert(arena_bin_t *bin, arena_run_t *run)$/;"	f	file:
+arena_bind	jemalloc.c	/^arena_bind(tsd_t *tsd, unsigned ind, bool internal)$/;"	f	file:
+arena_boot	arena.c	/^arena_boot(void)$/;"	f
+arena_choose_hard	jemalloc.c	/^arena_choose_hard(tsd_t *tsd, bool internal)$/;"	f
+arena_chunk_alloc	arena.c	/^arena_chunk_alloc(tsdn_t *tsdn, arena_t *arena)$/;"	f	file:
+arena_chunk_alloc_huge	arena.c	/^arena_chunk_alloc_huge(tsdn_t *tsdn, arena_t *arena, size_t usize,$/;"	f
+arena_chunk_alloc_huge_hard	arena.c	/^arena_chunk_alloc_huge_hard(tsdn_t *tsdn, arena_t *arena,$/;"	f	file:
+arena_chunk_alloc_internal	arena.c	/^arena_chunk_alloc_internal(tsdn_t *tsdn, arena_t *arena, bool *zero,$/;"	f	file:
+arena_chunk_alloc_internal_hard	arena.c	/^arena_chunk_alloc_internal_hard(tsdn_t *tsdn, arena_t *arena,$/;"	f	file:
+arena_chunk_cache_maybe_insert	arena.c	/^arena_chunk_cache_maybe_insert(arena_t *arena, extent_node_t *node, bool cache)$/;"	f
+arena_chunk_cache_maybe_remove	arena.c	/^arena_chunk_cache_maybe_remove(arena_t *arena, extent_node_t *node, bool dirty)$/;"	f
+arena_chunk_dalloc	arena.c	/^arena_chunk_dalloc(tsdn_t *tsdn, arena_t *arena, arena_chunk_t *chunk)$/;"	f	file:
+arena_chunk_dalloc_huge	arena.c	/^arena_chunk_dalloc_huge(tsdn_t *tsdn, arena_t *arena, void *chunk, size_t usize,$/;"	f
+arena_chunk_dirty_npages	arena.c	/^arena_chunk_dirty_npages(const extent_node_t *node)$/;"	f	file:
+arena_chunk_discard	arena.c	/^arena_chunk_discard(tsdn_t *tsdn, arena_t *arena, arena_chunk_t *chunk)$/;"	f	file:
+arena_chunk_init_hard	arena.c	/^arena_chunk_init_hard(tsdn_t *tsdn, arena_t *arena)$/;"	f	file:
+arena_chunk_init_spare	arena.c	/^arena_chunk_init_spare(arena_t *arena)$/;"	f	file:
+arena_chunk_ralloc_huge_expand	arena.c	/^arena_chunk_ralloc_huge_expand(tsdn_t *tsdn, arena_t *arena, void *chunk,$/;"	f
+arena_chunk_ralloc_huge_expand_hard	arena.c	/^arena_chunk_ralloc_huge_expand_hard(tsdn_t *tsdn, arena_t *arena,$/;"	f	file:
+arena_chunk_ralloc_huge_shrink	arena.c	/^arena_chunk_ralloc_huge_shrink(tsdn_t *tsdn, arena_t *arena, void *chunk,$/;"	f
+arena_chunk_ralloc_huge_similar	arena.c	/^arena_chunk_ralloc_huge_similar(tsdn_t *tsdn, arena_t *arena, void *chunk,$/;"	f
+arena_chunk_register	arena.c	/^arena_chunk_register(arena_t *arena, arena_chunk_t *chunk, size_t sn, bool zero,$/;"	f	file:
+arena_cleanup	jemalloc.c	/^arena_cleanup(tsd_t *tsd)$/;"	f
+arena_dalloc_bin	arena.c	/^arena_dalloc_bin(tsdn_t *tsdn, arena_t *arena, arena_chunk_t *chunk, void *ptr,$/;"	f
+arena_dalloc_bin_junked_locked	arena.c	/^arena_dalloc_bin_junked_locked(tsdn_t *tsdn, arena_t *arena,$/;"	f
+arena_dalloc_bin_locked_impl	arena.c	/^arena_dalloc_bin_locked_impl(tsdn_t *tsdn, arena_t *arena, arena_chunk_t *chunk,$/;"	f	file:
+arena_dalloc_bin_run	arena.c	/^arena_dalloc_bin_run(tsdn_t *tsdn, arena_t *arena, arena_chunk_t *chunk,$/;"	f	file:
+arena_dalloc_junk_large	arena.c	/^arena_dalloc_junk_large(void *ptr, size_t usize)$/;"	f
+arena_dalloc_junk_large	arena.c	/^arena_dalloc_junk_large_t *arena_dalloc_junk_large =$/;"	v
+arena_dalloc_junk_large	arena.c	3017;"	d	file:
+arena_dalloc_junk_large	arena.c	3018;"	d	file:
+arena_dalloc_junk_large	arena.c	3028;"	d	file:
+arena_dalloc_junk_large	arena.c	3029;"	d	file:
+arena_dalloc_junk_small	arena.c	/^arena_dalloc_junk_small(void *ptr, arena_bin_info_t *bin_info)$/;"	f
+arena_dalloc_junk_small	arena.c	/^arena_dalloc_junk_small_t *arena_dalloc_junk_small =$/;"	v
+arena_dalloc_junk_small	arena.c	2556;"	d	file:
+arena_dalloc_junk_small	arena.c	2557;"	d	file:
+arena_dalloc_junk_small	arena.c	2569;"	d	file:
+arena_dalloc_junk_small	arena.c	2570;"	d	file:
+arena_dalloc_large	arena.c	/^arena_dalloc_large(tsdn_t *tsdn, arena_t *arena, arena_chunk_t *chunk,$/;"	f
+arena_dalloc_large_junked_locked	arena.c	/^arena_dalloc_large_junked_locked(tsdn_t *tsdn, arena_t *arena,$/;"	f
+arena_dalloc_large_locked_impl	arena.c	/^arena_dalloc_large_locked_impl(tsdn_t *tsdn, arena_t *arena,$/;"	f	file:
+arena_dalloc_small	arena.c	/^arena_dalloc_small(tsdn_t *tsdn, arena_t *arena, arena_chunk_t *chunk,$/;"	f
+arena_decay_backlog_npages_limit	arena.c	/^arena_decay_backlog_npages_limit(const arena_t *arena)$/;"	f	file:
+arena_decay_backlog_update	arena.c	/^arena_decay_backlog_update(arena_t *arena, uint64_t nadvance_u64)$/;"	f	file:
+arena_decay_backlog_update_last	arena.c	/^arena_decay_backlog_update_last(arena_t *arena)$/;"	f	file:
+arena_decay_deadline_init	arena.c	/^arena_decay_deadline_init(arena_t *arena)$/;"	f	file:
+arena_decay_deadline_reached	arena.c	/^arena_decay_deadline_reached(const arena_t *arena, const nstime_t *time)$/;"	f	file:
+arena_decay_epoch_advance	arena.c	/^arena_decay_epoch_advance(tsdn_t *tsdn, arena_t *arena, const nstime_t *time)$/;"	f	file:
+arena_decay_epoch_advance_helper	arena.c	/^arena_decay_epoch_advance_helper(arena_t *arena, const nstime_t *time)$/;"	f	file:
+arena_decay_epoch_advance_purge	arena.c	/^arena_decay_epoch_advance_purge(tsdn_t *tsdn, arena_t *arena)$/;"	f	file:
+arena_decay_init	arena.c	/^arena_decay_init(arena_t *arena, ssize_t decay_time)$/;"	f	file:
+arena_decay_time_default_get	arena.c	/^arena_decay_time_default_get(void)$/;"	f
+arena_decay_time_default_set	arena.c	/^arena_decay_time_default_set(ssize_t decay_time)$/;"	f
+arena_decay_time_get	arena.c	/^arena_decay_time_get(tsdn_t *tsdn, arena_t *arena)$/;"	f
+arena_decay_time_set	arena.c	/^arena_decay_time_set(tsdn_t *tsdn, arena_t *arena, ssize_t decay_time)$/;"	f
+arena_decay_time_valid	arena.c	/^arena_decay_time_valid(ssize_t decay_time)$/;"	f	file:
+arena_dirty_count	arena.c	/^arena_dirty_count(arena_t *arena)$/;"	f	file:
+arena_dissociate_bin_run	arena.c	/^arena_dissociate_bin_run(arena_chunk_t *chunk, arena_run_t *run,$/;"	f	file:
+arena_dss_prec_get	arena.c	/^arena_dss_prec_get(tsdn_t *tsdn, arena_t *arena)$/;"	f
+arena_dss_prec_set	arena.c	/^arena_dss_prec_set(tsdn_t *tsdn, arena_t *arena, dss_prec_t dss_prec)$/;"	f
+arena_extent_sn_next	arena.c	/^arena_extent_sn_next(arena_t *arena)$/;"	f
+arena_huge_dalloc_stats_update	arena.c	/^arena_huge_dalloc_stats_update(arena_t *arena, size_t usize)$/;"	f	file:
+arena_huge_dalloc_stats_update_undo	arena.c	/^arena_huge_dalloc_stats_update_undo(arena_t *arena, size_t usize)$/;"	f	file:
+arena_huge_malloc_stats_update	arena.c	/^arena_huge_malloc_stats_update(arena_t *arena, size_t usize)$/;"	f	file:
+arena_huge_malloc_stats_update_undo	arena.c	/^arena_huge_malloc_stats_update_undo(arena_t *arena, size_t usize)$/;"	f	file:
+arena_huge_ralloc_stats_update	arena.c	/^arena_huge_ralloc_stats_update(arena_t *arena, size_t oldsize, size_t usize)$/;"	f	file:
+arena_huge_ralloc_stats_update_undo	arena.c	/^arena_huge_ralloc_stats_update_undo(arena_t *arena, size_t oldsize,$/;"	f	file:
+arena_huge_reset_stats_cancel	arena.c	/^arena_huge_reset_stats_cancel(arena_t *arena, size_t usize)$/;"	f	file:
+arena_i_chunk_hooks_ctl	ctl.c	/^arena_i_chunk_hooks_ctl(tsd_t *tsd, const size_t *mib, size_t miblen,$/;"	f	file:
+arena_i_decay_ctl	ctl.c	/^arena_i_decay_ctl(tsd_t *tsd, const size_t *mib, size_t miblen, void *oldp,$/;"	f	file:
+arena_i_decay_time_ctl	ctl.c	/^arena_i_decay_time_ctl(tsd_t *tsd, const size_t *mib, size_t miblen, void *oldp,$/;"	f	file:
+arena_i_dss_ctl	ctl.c	/^arena_i_dss_ctl(tsd_t *tsd, const size_t *mib, size_t miblen, void *oldp,$/;"	f	file:
+arena_i_index	ctl.c	/^arena_i_index(tsdn_t *tsdn, const size_t *mib, size_t miblen, size_t i)$/;"	f	file:
+arena_i_lg_dirty_mult_ctl	ctl.c	/^arena_i_lg_dirty_mult_ctl(tsd_t *tsd, const size_t *mib, size_t miblen,$/;"	f	file:
+arena_i_node	ctl.c	/^static const ctl_named_node_t arena_i_node[] = {$/;"	v	file:
+arena_i_purge	ctl.c	/^arena_i_purge(tsdn_t *tsdn, unsigned arena_ind, bool all)$/;"	f	file:
+arena_i_purge_ctl	ctl.c	/^arena_i_purge_ctl(tsd_t *tsd, const size_t *mib, size_t miblen, void *oldp,$/;"	f	file:
+arena_i_reset_ctl	ctl.c	/^arena_i_reset_ctl(tsd_t *tsd, const size_t *mib, size_t miblen, void *oldp,$/;"	f	file:
+arena_init	jemalloc.c	/^arena_init(tsdn_t *tsdn, unsigned ind)$/;"	f
+arena_init_locked	jemalloc.c	/^arena_init_locked(tsdn_t *tsdn, unsigned ind)$/;"	f	file:
+arena_lg_dirty_mult_default_get	arena.c	/^arena_lg_dirty_mult_default_get(void)$/;"	f
+arena_lg_dirty_mult_default_set	arena.c	/^arena_lg_dirty_mult_default_set(ssize_t lg_dirty_mult)$/;"	f
+arena_lg_dirty_mult_get	arena.c	/^arena_lg_dirty_mult_get(tsdn_t *tsdn, arena_t *arena)$/;"	f
+arena_lg_dirty_mult_set	arena.c	/^arena_lg_dirty_mult_set(tsdn_t *tsdn, arena_t *arena, ssize_t lg_dirty_mult)$/;"	f
+arena_lg_dirty_mult_valid	arena.c	/^arena_lg_dirty_mult_valid(ssize_t lg_dirty_mult)$/;"	f	file:
+arena_malloc_hard	arena.c	/^arena_malloc_hard(tsdn_t *tsdn, arena_t *arena, size_t size, szind_t ind,$/;"	f
+arena_malloc_large	arena.c	/^arena_malloc_large(tsdn_t *tsdn, arena_t *arena, szind_t binind, bool zero)$/;"	f
+arena_malloc_small	arena.c	/^arena_malloc_small(tsdn_t *tsdn, arena_t *arena, szind_t binind, bool zero)$/;"	f	file:
+arena_maxrun	arena.c	/^size_t		arena_maxrun; \/* Max run size for arenas. *\/$/;"	v
+arena_maybe_purge	arena.c	/^arena_maybe_purge(tsdn_t *tsdn, arena_t *arena)$/;"	f
+arena_maybe_purge_decay	arena.c	/^arena_maybe_purge_decay(tsdn_t *tsdn, arena_t *arena)$/;"	f	file:
+arena_maybe_purge_ratio	arena.c	/^arena_maybe_purge_ratio(tsdn_t *tsdn, arena_t *arena)$/;"	f	file:
+arena_migrate	jemalloc.c	/^arena_migrate(tsd_t *tsd, unsigned oldind, unsigned newind)$/;"	f
+arena_miscelm_extent_get	arena.c	/^arena_miscelm_extent_get(const arena_chunk_map_misc_t *miscelm)$/;"	f
+arena_miscelm_size_get	arena.c	/^arena_miscelm_size_get(const arena_chunk_map_misc_t *miscelm)$/;"	f
+arena_nactive_add	arena.c	/^arena_nactive_add(arena_t *arena, size_t add_pages)$/;"	f	file:
+arena_nactive_sub	arena.c	/^arena_nactive_sub(arena_t *arena, size_t sub_pages)$/;"	f	file:
+arena_new	arena.c	/^arena_new(tsdn_t *tsdn, unsigned ind)$/;"	f
+arena_node	ctl.c	/^static const ctl_indexed_node_t arena_node[] = {$/;"	v	file:
+arena_node_alloc	arena.c	/^arena_node_alloc(tsdn_t *tsdn, arena_t *arena)$/;"	f
+arena_node_dalloc	arena.c	/^arena_node_dalloc(tsdn_t *tsdn, arena_t *arena, extent_node_t *node)$/;"	f
+arena_nthreads_dec	arena.c	/^arena_nthreads_dec(arena_t *arena, bool internal)$/;"	f
+arena_nthreads_get	arena.c	/^arena_nthreads_get(arena_t *arena, bool internal)$/;"	f
+arena_nthreads_inc	arena.c	/^arena_nthreads_inc(arena_t *arena, bool internal)$/;"	f
+arena_palloc	arena.c	/^arena_palloc(tsdn_t *tsdn, arena_t *arena, size_t usize, size_t alignment,$/;"	f
+arena_palloc_large	arena.c	/^arena_palloc_large(tsdn_t *tsdn, arena_t *arena, size_t usize, size_t alignment,$/;"	f	file:
+arena_postfork_child	arena.c	/^arena_postfork_child(tsdn_t *tsdn, arena_t *arena)$/;"	f
+arena_postfork_parent	arena.c	/^arena_postfork_parent(tsdn_t *tsdn, arena_t *arena)$/;"	f
+arena_prefork0	arena.c	/^arena_prefork0(tsdn_t *tsdn, arena_t *arena)$/;"	f
+arena_prefork1	arena.c	/^arena_prefork1(tsdn_t *tsdn, arena_t *arena)$/;"	f
+arena_prefork2	arena.c	/^arena_prefork2(tsdn_t *tsdn, arena_t *arena)$/;"	f
+arena_prefork3	arena.c	/^arena_prefork3(tsdn_t *tsdn, arena_t *arena)$/;"	f
+arena_prof_promoted	arena.c	/^arena_prof_promoted(tsdn_t *tsdn, const void *ptr, size_t size)$/;"	f
+arena_purge	arena.c	/^arena_purge(tsdn_t *tsdn, arena_t *arena, bool all)$/;"	f
+arena_purge_stashed	arena.c	/^arena_purge_stashed(tsdn_t *tsdn, arena_t *arena, chunk_hooks_t *chunk_hooks,$/;"	f	file:
+arena_purge_to_limit	arena.c	/^arena_purge_to_limit(tsdn_t *tsdn, arena_t *arena, size_t ndirty_limit)$/;"	f	file:
+arena_quarantine_junk_small	arena.c	/^arena_quarantine_junk_small(void *ptr, size_t usize)$/;"	f
+arena_ralloc	arena.c	/^arena_ralloc(tsd_t *tsd, arena_t *arena, void *ptr, size_t oldsize, size_t size,$/;"	f
+arena_ralloc_junk_large	arena.c	/^arena_ralloc_junk_large(void *ptr, size_t old_usize, size_t usize)$/;"	f	file:
+arena_ralloc_junk_large	arena.c	/^arena_ralloc_junk_large_t *arena_ralloc_junk_large =$/;"	v
+arena_ralloc_junk_large	arena.c	3219;"	d	file:
+arena_ralloc_junk_large	arena.c	3220;"	d	file:
+arena_ralloc_junk_large	arena.c	3232;"	d	file:
+arena_ralloc_junk_large	arena.c	3233;"	d	file:
+arena_ralloc_large	arena.c	/^arena_ralloc_large(tsdn_t *tsdn, void *ptr, size_t oldsize, size_t usize_min,$/;"	f	file:
+arena_ralloc_large_grow	arena.c	/^arena_ralloc_large_grow(tsdn_t *tsdn, arena_t *arena, arena_chunk_t *chunk,$/;"	f	file:
+arena_ralloc_large_shrink	arena.c	/^arena_ralloc_large_shrink(tsdn_t *tsdn, arena_t *arena, arena_chunk_t *chunk,$/;"	f	file:
+arena_ralloc_move_helper	arena.c	/^arena_ralloc_move_helper(tsdn_t *tsdn, arena_t *arena, size_t usize,$/;"	f	file:
+arena_ralloc_no_move	arena.c	/^arena_ralloc_no_move(tsdn_t *tsdn, void *ptr, size_t oldsize, size_t size,$/;"	f
+arena_redzone_corruption	arena.c	/^arena_redzone_corruption(void *ptr, size_t usize, bool after,$/;"	f	file:
+arena_redzone_corruption	arena.c	/^arena_redzone_corruption_t *arena_redzone_corruption =$/;"	v
+arena_redzone_corruption	arena.c	2500;"	d	file:
+arena_redzone_corruption	arena.c	2501;"	d	file:
+arena_redzone_corruption	arena.c	2513;"	d	file:
+arena_redzone_corruption	arena.c	2514;"	d	file:
+arena_redzones_validate	arena.c	/^arena_redzones_validate(void *ptr, arena_bin_info_t *bin_info, bool reset)$/;"	f	file:
+arena_reset	arena.c	/^arena_reset(tsd_t *tsd, arena_t *arena)$/;"	f
+arena_run_alloc_large	arena.c	/^arena_run_alloc_large(tsdn_t *tsdn, arena_t *arena, size_t size, bool zero)$/;"	f	file:
+arena_run_alloc_large_helper	arena.c	/^arena_run_alloc_large_helper(arena_t *arena, size_t size, bool zero)$/;"	f	file:
+arena_run_alloc_small	arena.c	/^arena_run_alloc_small(tsdn_t *tsdn, arena_t *arena, size_t size, szind_t binind)$/;"	f	file:
+arena_run_alloc_small_helper	arena.c	/^arena_run_alloc_small_helper(arena_t *arena, size_t size, szind_t binind)$/;"	f	file:
+arena_run_coalesce	arena.c	/^arena_run_coalesce(arena_t *arena, arena_chunk_t *chunk, size_t *p_size,$/;"	f	file:
+arena_run_dalloc	arena.c	/^arena_run_dalloc(tsdn_t *tsdn, arena_t *arena, arena_run_t *run, bool dirty,$/;"	f	file:
+arena_run_dirty_insert	arena.c	/^arena_run_dirty_insert(arena_t *arena, arena_chunk_t *chunk, size_t pageind,$/;"	f	file:
+arena_run_dirty_remove	arena.c	/^arena_run_dirty_remove(arena_t *arena, arena_chunk_t *chunk, size_t pageind,$/;"	f	file:
+arena_run_first_best_fit	arena.c	/^arena_run_first_best_fit(arena_t *arena, size_t size)$/;"	f	file:
+arena_run_init_large	arena.c	/^arena_run_init_large(arena_t *arena, arena_run_t *run, size_t size, bool zero)$/;"	f	file:
+arena_run_page_mark_zeroed	arena.c	/^arena_run_page_mark_zeroed(arena_chunk_t *chunk, size_t run_ind)$/;"	f
+arena_run_page_validate_zeroed	arena.c	/^arena_run_page_validate_zeroed(arena_chunk_t *chunk, size_t run_ind)$/;"	f
+arena_run_reg_alloc	arena.c	/^arena_run_reg_alloc(arena_run_t *run, arena_bin_info_t *bin_info)$/;"	f
+arena_run_reg_dalloc	arena.c	/^arena_run_reg_dalloc(arena_run_t *run, void *ptr)$/;"	f
+arena_run_size_get	arena.c	/^arena_run_size_get(arena_t *arena, arena_chunk_t *chunk, arena_run_t *run,$/;"	f	file:
+arena_run_split_large	arena.c	/^arena_run_split_large(arena_t *arena, arena_run_t *run, size_t size, bool zero)$/;"	f	file:
+arena_run_split_large_helper	arena.c	/^arena_run_split_large_helper(arena_t *arena, arena_run_t *run, size_t size,$/;"	f	file:
+arena_run_split_remove	arena.c	/^arena_run_split_remove(arena_t *arena, arena_chunk_t *chunk, size_t run_ind,$/;"	f	file:
+arena_run_split_small	arena.c	/^arena_run_split_small(arena_t *arena, arena_run_t *run, size_t size,$/;"	f	file:
+arena_run_trim_head	arena.c	/^arena_run_trim_head(tsdn_t *tsdn, arena_t *arena, arena_chunk_t *chunk,$/;"	f	file:
+arena_run_trim_tail	arena.c	/^arena_run_trim_tail(tsdn_t *tsdn, arena_t *arena, arena_chunk_t *chunk,$/;"	f	file:
+arena_run_zero	arena.c	/^arena_run_zero(arena_chunk_t *chunk, size_t run_ind, size_t npages)$/;"	f
+arena_set	jemalloc.c	/^arena_set(unsigned ind, arena_t *arena)$/;"	f	file:
+arena_sn_comp	arena.c	/^arena_sn_comp(const arena_chunk_map_misc_t *a, const arena_chunk_map_misc_t *b)$/;"	f
+arena_snad_comp	arena.c	/^arena_snad_comp(const arena_chunk_map_misc_t *a,$/;"	f
+arena_spare_discard	arena.c	/^arena_spare_discard(tsdn_t *tsdn, arena_t *arena, arena_chunk_t *spare)$/;"	f	file:
+arena_stash_dirty	arena.c	/^arena_stash_dirty(tsdn_t *tsdn, arena_t *arena, chunk_hooks_t *chunk_hooks,$/;"	f	file:
+arena_stats_merge	arena.c	/^arena_stats_merge(tsdn_t *tsdn, arena_t *arena, unsigned *nthreads,$/;"	f
+arena_tcache_fill_small	arena.c	/^arena_tcache_fill_small(tsdn_t *tsdn, arena_t *arena, tcache_bin_t *tbin,$/;"	f
+arena_tdata_get_hard	jemalloc.c	/^arena_tdata_get_hard(tsd_t *tsd, unsigned ind)$/;"	f
+arena_unbind	jemalloc.c	/^arena_unbind(tsd_t *tsd, unsigned ind, bool internal)$/;"	f	file:
+arena_unstash_purged	arena.c	/^arena_unstash_purged(tsdn_t *tsdn, arena_t *arena, chunk_hooks_t *chunk_hooks,$/;"	f	file:
+arenas	jemalloc.c	/^arena_t			**arenas;$/;"	v
+arenas_bin_i_index	ctl.c	/^arenas_bin_i_index(tsdn_t *tsdn, const size_t *mib, size_t miblen, size_t i)$/;"	f	file:
+arenas_bin_i_node	ctl.c	/^static const ctl_named_node_t arenas_bin_i_node[] = {$/;"	v	file:
+arenas_bin_node	ctl.c	/^static const ctl_indexed_node_t arenas_bin_node[] = {$/;"	v	file:
+arenas_decay_time_ctl	ctl.c	/^arenas_decay_time_ctl(tsd_t *tsd, const size_t *mib, size_t miblen, void *oldp,$/;"	f	file:
+arenas_extend_ctl	ctl.c	/^arenas_extend_ctl(tsd_t *tsd, const size_t *mib, size_t miblen, void *oldp,$/;"	f	file:
+arenas_hchunk_i_index	ctl.c	/^arenas_hchunk_i_index(tsdn_t *tsdn, const size_t *mib, size_t miblen, size_t i)$/;"	f	file:
+arenas_hchunk_i_node	ctl.c	/^static const ctl_named_node_t arenas_hchunk_i_node[] = {$/;"	v	file:
+arenas_hchunk_node	ctl.c	/^static const ctl_indexed_node_t arenas_hchunk_node[] = {$/;"	v	file:
+arenas_initialized_ctl	ctl.c	/^arenas_initialized_ctl(tsd_t *tsd, const size_t *mib, size_t miblen, void *oldp,$/;"	f	file:
+arenas_lg_dirty_mult_ctl	ctl.c	/^arenas_lg_dirty_mult_ctl(tsd_t *tsd, const size_t *mib, size_t miblen,$/;"	f	file:
+arenas_lock	jemalloc.c	/^static malloc_mutex_t	arenas_lock;$/;"	v	file:
+arenas_lrun_i_index	ctl.c	/^arenas_lrun_i_index(tsdn_t *tsdn, const size_t *mib, size_t miblen, size_t i)$/;"	f	file:
+arenas_lrun_i_node	ctl.c	/^static const ctl_named_node_t arenas_lrun_i_node[] = {$/;"	v	file:
+arenas_lrun_node	ctl.c	/^static const ctl_indexed_node_t arenas_lrun_node[] = {$/;"	v	file:
+arenas_narenas_ctl	ctl.c	/^arenas_narenas_ctl(tsd_t *tsd, const size_t *mib, size_t miblen, void *oldp,$/;"	f	file:
+arenas_node	ctl.c	/^static const ctl_named_node_t arenas_node[] = {$/;"	v	file:
+arenas_tdata_bypass_cleanup	jemalloc.c	/^arenas_tdata_bypass_cleanup(tsd_t *tsd)$/;"	f
+arenas_tdata_cleanup	jemalloc.c	/^arenas_tdata_cleanup(tsd_t *tsd)$/;"	f
+assert	util.c	5;"	d	file:
+assert	util.c	663;"	d	file:
+base_alloc	base.c	/^base_alloc(tsdn_t *tsdn, size_t size)$/;"	f
+base_allocated	base.c	/^static size_t		base_allocated;$/;"	v	file:
+base_avail_szsnad	base.c	/^static extent_tree_t	base_avail_szsnad;$/;"	v	file:
+base_boot	base.c	/^base_boot(void)$/;"	f
+base_chunk_alloc	base.c	/^base_chunk_alloc(tsdn_t *tsdn, size_t minsize)$/;"	f	file:
+base_extent_node_init	base.c	/^base_extent_node_init(extent_node_t *node, void *addr, size_t size)$/;"	f	file:
+base_extent_sn_next	base.c	/^static size_t		base_extent_sn_next;$/;"	v	file:
+base_mapped	base.c	/^static size_t		base_mapped;$/;"	v	file:
+base_mtx	base.c	/^static malloc_mutex_t	base_mtx;$/;"	v	file:
+base_node_dalloc	base.c	/^base_node_dalloc(tsdn_t *tsdn, extent_node_t *node)$/;"	f	file:
+base_node_try_alloc	base.c	/^base_node_try_alloc(tsdn_t *tsdn)$/;"	f	file:
+base_nodes	base.c	/^static extent_node_t	*base_nodes;$/;"	v	file:
+base_postfork_child	base.c	/^base_postfork_child(tsdn_t *tsdn)$/;"	f
+base_postfork_parent	base.c	/^base_postfork_parent(tsdn_t *tsdn)$/;"	f
+base_prefork	base.c	/^base_prefork(tsdn_t *tsdn)$/;"	f
+base_resident	base.c	/^static size_t		base_resident;$/;"	v	file:
+base_stats_get	base.c	/^base_stats_get(tsdn_t *tsdn, size_t *allocated, size_t *resident,$/;"	f
+batch_free	zone.c	/^	void (*batch_free)(struct _malloc_zone_t *, void **, unsigned);$/;"	m	struct:_malloc_zone_t	file:
+batch_malloc	zone.c	/^	unsigned (*batch_malloc)(struct _malloc_zone_t *, size_t, void **, unsigned);$/;"	m	struct:_malloc_zone_t	file:
+bin_info_init	arena.c	/^bin_info_init(void)$/;"	f	file:
+bin_info_run_size_calc	arena.c	/^bin_info_run_size_calc(arena_bin_info_t *bin_info)$/;"	f	file:
+bitmap_info_init	bitmap.c	/^bitmap_info_init(bitmap_info_t *binfo, size_t nbits)$/;"	f
+bitmap_info_ngroups	bitmap.c	/^bitmap_info_ngroups(const bitmap_info_t *binfo)$/;"	f	file:
+bitmap_init	bitmap.c	/^bitmap_init(bitmap_t *bitmap, const bitmap_info_t *binfo)$/;"	f
+bitmap_size	bitmap.c	/^bitmap_size(const bitmap_info_t *binfo)$/;"	f
+blocks_in_use	zone.c	/^	unsigned blocks_in_use;$/;"	m	struct:malloc_statistics_t	file:
+bootstrap_calloc	jemalloc.c	/^bootstrap_calloc(size_t num, size_t size)$/;"	f
+bootstrap_free	jemalloc.c	/^bootstrap_free(void *ptr)$/;"	f
+bootstrap_malloc	jemalloc.c	/^bootstrap_malloc(size_t size)$/;"	f
+bt2gctx	prof.c	/^static ckh_t		bt2gctx;$/;"	v	file:
+bt2gctx_mtx	prof.c	/^static malloc_mutex_t	bt2gctx_mtx;$/;"	v	file:
+bt_init	prof.c	/^bt_init(prof_bt_t *bt, void **vec)$/;"	f
+buferror	util.c	/^buferror(int err, char *buf, size_t buflen)$/;"	f
+calloc	zone.c	/^	void *(*calloc)(struct _malloc_zone_t *, size_t, size_t);$/;"	m	struct:_malloc_zone_t	file:
+check	zone.c	/^	boolean_t (*check)(malloc_zone_t *);$/;"	m	struct:malloc_introspection_t	file:
+chunk_alloc_base	chunk.c	/^chunk_alloc_base(size_t size)$/;"	f
+chunk_alloc_cache	chunk.c	/^chunk_alloc_cache(tsdn_t *tsdn, arena_t *arena, chunk_hooks_t *chunk_hooks,$/;"	f
+chunk_alloc_core	chunk.c	/^chunk_alloc_core(tsdn_t *tsdn, arena_t *arena, void *new_addr, size_t size,$/;"	f	file:
+chunk_alloc_default	chunk.c	/^chunk_alloc_default(void *new_addr, size_t size, size_t alignment, bool *zero,$/;"	f	file:
+chunk_alloc_default_impl	chunk.c	/^chunk_alloc_default_impl(tsdn_t *tsdn, arena_t *arena, void *new_addr,$/;"	f	file:
+chunk_alloc_dss	chunk_dss.c	/^chunk_alloc_dss(tsdn_t *tsdn, arena_t *arena, void *new_addr, size_t size,$/;"	f
+chunk_alloc_mmap	chunk_mmap.c	/^chunk_alloc_mmap(void *new_addr, size_t size, size_t alignment, bool *zero,$/;"	f
+chunk_alloc_mmap_slow	chunk_mmap.c	/^chunk_alloc_mmap_slow(size_t size, size_t alignment, bool *zero, bool *commit)$/;"	f	file:
+chunk_alloc_retained	chunk.c	/^chunk_alloc_retained(tsdn_t *tsdn, arena_t *arena, chunk_hooks_t *chunk_hooks,$/;"	f	file:
+chunk_alloc_wrapper	chunk.c	/^chunk_alloc_wrapper(tsdn_t *tsdn, arena_t *arena, chunk_hooks_t *chunk_hooks,$/;"	f
+chunk_arena_get	chunk.c	/^chunk_arena_get(tsdn_t *tsdn, unsigned arena_ind)$/;"	f	file:
+chunk_boot	chunk.c	/^chunk_boot(void)$/;"	f
+chunk_commit_default	chunk.c	/^chunk_commit_default(void *chunk, size_t size, size_t offset, size_t length,$/;"	f	file:
+chunk_dalloc_cache	chunk.c	/^chunk_dalloc_cache(tsdn_t *tsdn, arena_t *arena, chunk_hooks_t *chunk_hooks,$/;"	f
+chunk_dalloc_default	chunk.c	/^chunk_dalloc_default(void *chunk, size_t size, bool committed,$/;"	f	file:
+chunk_dalloc_default_impl	chunk.c	/^chunk_dalloc_default_impl(void *chunk, size_t size)$/;"	f	file:
+chunk_dalloc_mmap	chunk_mmap.c	/^chunk_dalloc_mmap(void *chunk, size_t size)$/;"	f
+chunk_dalloc_wrapper	chunk.c	/^chunk_dalloc_wrapper(tsdn_t *tsdn, arena_t *arena, chunk_hooks_t *chunk_hooks,$/;"	f
+chunk_decommit_default	chunk.c	/^chunk_decommit_default(void *chunk, size_t size, size_t offset, size_t length,$/;"	f	file:
+chunk_deregister	chunk.c	/^chunk_deregister(const void *chunk, const extent_node_t *node)$/;"	f
+chunk_dss_boot	chunk_dss.c	/^chunk_dss_boot(void)$/;"	f
+chunk_dss_max_update	chunk_dss.c	/^chunk_dss_max_update(void *new_addr)$/;"	f	file:
+chunk_dss_mergeable	chunk_dss.c	/^chunk_dss_mergeable(void *chunk_a, void *chunk_b)$/;"	f
+chunk_dss_prec_get	chunk_dss.c	/^chunk_dss_prec_get(void)$/;"	f
+chunk_dss_prec_set	chunk_dss.c	/^chunk_dss_prec_set(dss_prec_t dss_prec)$/;"	f
+chunk_dss_sbrk	chunk_dss.c	/^chunk_dss_sbrk(intptr_t increment)$/;"	f	file:
+chunk_first_best_fit	chunk.c	/^chunk_first_best_fit(arena_t *arena, extent_tree_t *chunks_szsnad, size_t size)$/;"	f	file:
+chunk_hooks_assure_initialized	chunk.c	/^chunk_hooks_assure_initialized(tsdn_t *tsdn, arena_t *arena,$/;"	f	file:
+chunk_hooks_assure_initialized_impl	chunk.c	/^chunk_hooks_assure_initialized_impl(tsdn_t *tsdn, arena_t *arena,$/;"	f	file:
+chunk_hooks_assure_initialized_locked	chunk.c	/^chunk_hooks_assure_initialized_locked(tsdn_t *tsdn, arena_t *arena,$/;"	f	file:
+chunk_hooks_default	chunk.c	/^const chunk_hooks_t	chunk_hooks_default = {$/;"	v
+chunk_hooks_get	chunk.c	/^chunk_hooks_get(tsdn_t *tsdn, arena_t *arena)$/;"	f
+chunk_hooks_get_locked	chunk.c	/^chunk_hooks_get_locked(arena_t *arena)$/;"	f	file:
+chunk_hooks_set	chunk.c	/^chunk_hooks_set(tsdn_t *tsdn, arena_t *arena, const chunk_hooks_t *chunk_hooks)$/;"	f
+chunk_in_dss	chunk_dss.c	/^chunk_in_dss(void *chunk)$/;"	f
+chunk_in_dss_helper	chunk_dss.c	/^chunk_in_dss_helper(void *chunk, void *max)$/;"	f	file:
+chunk_merge_default	chunk.c	/^chunk_merge_default(void *chunk_a, size_t size_a, void *chunk_b, size_t size_b,$/;"	f	file:
+chunk_merge_default_impl	chunk.c	/^chunk_merge_default_impl(void *chunk_a, void *chunk_b)$/;"	f	file:
+chunk_npages	chunk.c	/^size_t		chunk_npages;$/;"	v
+chunk_purge_default	chunk.c	/^chunk_purge_default(void *chunk, size_t size, size_t offset, size_t length,$/;"	f	file:
+chunk_purge_wrapper	chunk.c	/^chunk_purge_wrapper(tsdn_t *tsdn, arena_t *arena, chunk_hooks_t *chunk_hooks,$/;"	f
+chunk_record	chunk.c	/^chunk_record(tsdn_t *tsdn, arena_t *arena, chunk_hooks_t *chunk_hooks,$/;"	f	file:
+chunk_recycle	chunk.c	/^chunk_recycle(tsdn_t *tsdn, arena_t *arena, chunk_hooks_t *chunk_hooks,$/;"	f	file:
+chunk_register	chunk.c	/^chunk_register(const void *chunk, const extent_node_t *node, bool *gdump)$/;"	f
+chunk_split_default	chunk.c	/^chunk_split_default(void *chunk, size_t size, size_t size_a, size_t size_b,$/;"	f	file:
+chunks_rtree	chunk.c	/^rtree_t		chunks_rtree;$/;"	v
+chunks_rtree_node_alloc	chunk.c	/^chunks_rtree_node_alloc(size_t nelms)$/;"	f	file:
+chunksize	chunk.c	/^size_t		chunksize;$/;"	v
+chunksize_mask	chunk.c	/^size_t		chunksize_mask; \/* (chunksize - 1). *\/$/;"	v
+ckh_bucket_search	ckh.c	/^ckh_bucket_search(ckh_t *ckh, size_t bucket, const void *key)$/;"	f
+ckh_count	ckh.c	/^ckh_count(ckh_t *ckh)$/;"	f
+ckh_delete	ckh.c	/^ckh_delete(tsd_t *tsd, ckh_t *ckh)$/;"	f
+ckh_evict_reloc_insert	ckh.c	/^ckh_evict_reloc_insert(ckh_t *ckh, size_t argbucket, void const **argkey,$/;"	f
+ckh_grow	ckh.c	/^ckh_grow(tsd_t *tsd, ckh_t *ckh)$/;"	f	file:
+ckh_insert	ckh.c	/^ckh_insert(tsd_t *tsd, ckh_t *ckh, const void *key, const void *data)$/;"	f
+ckh_isearch	ckh.c	/^ckh_isearch(ckh_t *ckh, const void *key)$/;"	f
+ckh_iter	ckh.c	/^ckh_iter(ckh_t *ckh, size_t *tabind, void **key, void **data)$/;"	f
+ckh_new	ckh.c	/^ckh_new(tsd_t *tsd, ckh_t *ckh, size_t minitems, ckh_hash_t *hash,$/;"	f
+ckh_pointer_hash	ckh.c	/^ckh_pointer_hash(const void *key, size_t r_hash[2])$/;"	f
+ckh_pointer_keycomp	ckh.c	/^ckh_pointer_keycomp(const void *k1, const void *k2)$/;"	f
+ckh_rebuild	ckh.c	/^ckh_rebuild(ckh_t *ckh, ckhc_t *aTab)$/;"	f
+ckh_remove	ckh.c	/^ckh_remove(tsd_t *tsd, ckh_t *ckh, const void *searchkey, void **key,$/;"	f
+ckh_search	ckh.c	/^ckh_search(ckh_t *ckh, const void *searchkey, void **key, void **data)$/;"	f
+ckh_shrink	ckh.c	/^ckh_shrink(tsd_t *tsd, ckh_t *ckh)$/;"	f	file:
+ckh_string_hash	ckh.c	/^ckh_string_hash(const void *key, size_t r_hash[2])$/;"	f
+ckh_string_keycomp	ckh.c	/^ckh_string_keycomp(const void *k1, const void *k2)$/;"	f
+ckh_try_bucket_insert	ckh.c	/^ckh_try_bucket_insert(ckh_t *ckh, size_t bucket, const void *key,$/;"	f
+ckh_try_insert	ckh.c	/^ckh_try_insert(ckh_t *ckh, void const**argkey, void const**argdata)$/;"	f
+cleanups	tsd.c	/^static malloc_tsd_cleanup_t cleanups[MALLOC_TSD_CLEANUPS_MAX];$/;"	v	file:
+cnt_all	prof.c	/^	prof_cnt_t	cnt_all;$/;"	m	struct:prof_tdata_merge_iter_arg_s	file:
+config_node	ctl.c	/^static const ctl_named_node_t	config_node[] = {$/;"	v	file:
+ctl_arena_clear	ctl.c	/^ctl_arena_clear(ctl_arena_stats_t *astats)$/;"	f	file:
+ctl_arena_init	ctl.c	/^ctl_arena_init(ctl_arena_stats_t *astats)$/;"	f	file:
+ctl_arena_refresh	ctl.c	/^ctl_arena_refresh(tsdn_t *tsdn, arena_t *arena, unsigned i)$/;"	f	file:
+ctl_arena_stats_amerge	ctl.c	/^ctl_arena_stats_amerge(tsdn_t *tsdn, ctl_arena_stats_t *cstats, arena_t *arena)$/;"	f	file:
+ctl_arena_stats_smerge	ctl.c	/^ctl_arena_stats_smerge(ctl_arena_stats_t *sstats, ctl_arena_stats_t *astats)$/;"	f	file:
+ctl_boot	ctl.c	/^ctl_boot(void)$/;"	f
+ctl_bymib	ctl.c	/^ctl_bymib(tsd_t *tsd, const size_t *mib, size_t miblen, void *oldp,$/;"	f
+ctl_byname	ctl.c	/^ctl_byname(tsd_t *tsd, const char *name, void *oldp, size_t *oldlenp,$/;"	f
+ctl_epoch	ctl.c	/^static uint64_t		ctl_epoch;$/;"	v	file:
+ctl_grow	ctl.c	/^ctl_grow(tsdn_t *tsdn)$/;"	f	file:
+ctl_indexed_node	ctl.c	/^ctl_indexed_node(const ctl_node_t *node)$/;"	f
+ctl_init	ctl.c	/^ctl_init(tsdn_t *tsdn)$/;"	f	file:
+ctl_initialized	ctl.c	/^static bool		ctl_initialized;$/;"	v	file:
+ctl_lookup	ctl.c	/^ctl_lookup(tsdn_t *tsdn, const char *name, ctl_node_t const **nodesp,$/;"	f	file:
+ctl_mtx	ctl.c	/^static malloc_mutex_t	ctl_mtx;$/;"	v	file:
+ctl_named_children	ctl.c	/^ctl_named_children(const ctl_named_node_t *node, size_t index)$/;"	f
+ctl_named_node	ctl.c	/^ctl_named_node(const ctl_node_t *node)$/;"	f
+ctl_nametomib	ctl.c	/^ctl_nametomib(tsdn_t *tsdn, const char *name, size_t *mibp, size_t *miblenp)$/;"	f
+ctl_postfork_child	ctl.c	/^ctl_postfork_child(tsdn_t *tsdn)$/;"	f
+ctl_postfork_parent	ctl.c	/^ctl_postfork_parent(tsdn_t *tsdn)$/;"	f
+ctl_prefork	ctl.c	/^ctl_prefork(tsdn_t *tsdn)$/;"	f
+ctl_refresh	ctl.c	/^ctl_refresh(tsdn_t *tsdn)$/;"	f	file:
+ctl_stats	ctl.c	/^static ctl_stats_t	ctl_stats;$/;"	v	file:
+cum_gctxs	prof.c	/^static unsigned		cum_gctxs; \/* Atomic counter. *\/$/;"	v	file:
+curchunks	chunk.c	/^static size_t	curchunks;$/;"	v	file:
+d2s	util.c	/^d2s(intmax_t x, char sign, char *s, size_t *slen_p)$/;"	f	file:
+decay_time_default	arena.c	/^static ssize_t	decay_time_default;$/;"	v	file:
+default_zone	zone.c	/^static malloc_zone_t *default_zone, *purgeable_zone;$/;"	v	file:
+destroy	zone.c	/^	void (*destroy)(struct _malloc_zone_t *);$/;"	m	struct:_malloc_zone_t	file:
+disable_discharge_checking	zone.c	/^	boolean_t (*disable_discharge_checking)(malloc_zone_t *);$/;"	m	struct:malloc_introspection_t	file:
+discharge	zone.c	/^	void (*discharge)(malloc_zone_t *, void *);$/;"	m	struct:malloc_introspection_t	file:
+dss_base	chunk_dss.c	/^static void		*dss_base;$/;"	v	file:
+dss_exhausted	chunk_dss.c	/^static unsigned		dss_exhausted;$/;"	v	file:
+dss_max	chunk_dss.c	/^static void		*dss_max;$/;"	v	file:
+dss_prec_default	chunk_dss.c	/^static unsigned		dss_prec_default = (unsigned)DSS_PREC_DEFAULT;$/;"	v	file:
+dss_prec_names	chunk_dss.c	/^const char	*dss_prec_names[] = {$/;"	v
+enable_discharge_checking	zone.c	/^	boolean_t (*enable_discharge_checking)(malloc_zone_t *);$/;"	m	struct:malloc_introspection_t	file:
+enumerate_discharged_pointers	zone.c	/^	void (*enumerate_discharged_pointers)(malloc_zone_t *, void (^)(void *, void *));$/;"	m	struct:malloc_introspection_t	file:
+enumerate_unavailable_without_blocks	zone.c	/^	void *enumerate_unavailable_without_blocks;$/;"	m	struct:malloc_introspection_t	file:
+enumerator	zone.c	/^	kern_return_t (*enumerator)(task_t, void *, unsigned, vm_address_t, memory_reader_t, vm_range_recorder_t);$/;"	m	struct:malloc_introspection_t	file:
+epoch_ctl	ctl.c	/^epoch_ctl(tsd_t *tsd, const size_t *mib, size_t miblen, void *oldp,$/;"	f	file:
+extent_ad_comp	extent.c	/^extent_ad_comp(const extent_node_t *a, const extent_node_t *b)$/;"	f
+extent_size_quantize_ceil	extent.c	/^extent_size_quantize_ceil(size_t size) {$/;"	f
+extent_size_quantize_floor	extent.c	/^extent_size_quantize_floor(size_t size) {$/;"	f	file:
+extent_sn_comp	extent.c	/^extent_sn_comp(const extent_node_t *a, const extent_node_t *b)$/;"	f
+extent_sz_comp	extent.c	/^extent_sz_comp(const extent_node_t *a, const extent_node_t *b)$/;"	f
+extent_szsnad_comp	extent.c	/^extent_szsnad_comp(const extent_node_t *a, const extent_node_t *b)$/;"	f
+flag_in_valgrind	jemalloc.c	/^	flag_in_valgrind	= (1U << 5),$/;"	e	enum:__anon2	file:
+flag_opt_junk_alloc	jemalloc.c	/^	flag_opt_junk_alloc	= (1U),$/;"	e	enum:__anon2	file:
+flag_opt_junk_free	jemalloc.c	/^	flag_opt_junk_free	= (1U << 1),$/;"	e	enum:__anon2	file:
+flag_opt_quarantine	jemalloc.c	/^	flag_opt_quarantine	= (1U << 2),$/;"	e	enum:__anon2	file:
+flag_opt_utrace	jemalloc.c	/^	flag_opt_utrace		= (1U << 4),$/;"	e	enum:__anon2	file:
+flag_opt_xmalloc	jemalloc.c	/^	flag_opt_xmalloc	= (1U << 6)$/;"	e	enum:__anon2	file:
+flag_opt_zero	jemalloc.c	/^	flag_opt_zero		= (1U << 3),$/;"	e	enum:__anon2	file:
+force_lock	zone.c	/^	void (*force_lock)(malloc_zone_t *);$/;"	m	struct:malloc_introspection_t	file:
+force_unlock	zone.c	/^	void (*force_unlock)(malloc_zone_t *);$/;"	m	struct:malloc_introspection_t	file:
+free	zone.c	/^	void (*free)(struct _malloc_zone_t *, void *);$/;"	m	struct:_malloc_zone_t	file:
+free_definite_size	zone.c	/^	void (*free_definite_size)(struct _malloc_zone_t *, void *, size_t);$/;"	m	struct:_malloc_zone_t	file:
+gctx_locks	prof.c	/^static malloc_mutex_t	*gctx_locks;$/;"	v	file:
+good_size	zone.c	/^	size_t (*good_size)(malloc_zone_t *, size_t);$/;"	m	struct:malloc_introspection_t	file:
+highchunks	chunk.c	/^static size_t	highchunks;$/;"	v	file:
+hmin	rtree.c	/^hmin(unsigned ha, unsigned hb)$/;"	f	file:
+huge_aalloc	huge.c	/^huge_aalloc(const void *ptr)$/;"	f
+huge_dalloc	huge.c	/^huge_dalloc(tsdn_t *tsdn, void *ptr)$/;"	f
+huge_dalloc_junk	huge.c	/^huge_dalloc_junk(void *ptr, size_t usize)$/;"	f	file:
+huge_dalloc_junk	huge.c	/^huge_dalloc_junk_t *huge_dalloc_junk = JEMALLOC_N(huge_dalloc_junk_impl);$/;"	v
+huge_dalloc_junk	huge.c	121;"	d	file:
+huge_dalloc_junk	huge.c	122;"	d	file:
+huge_dalloc_junk	huge.c	138;"	d	file:
+huge_dalloc_junk	huge.c	139;"	d	file:
+huge_malloc	huge.c	/^huge_malloc(tsdn_t *tsdn, arena_t *arena, size_t usize, bool zero)$/;"	f
+huge_node_get	huge.c	/^huge_node_get(const void *ptr)$/;"	f	file:
+huge_node_reset	huge.c	/^huge_node_reset(tsdn_t *tsdn, const void *ptr, extent_node_t *node, bool *gdump)$/;"	f	file:
+huge_node_set	huge.c	/^huge_node_set(tsdn_t *tsdn, const void *ptr, extent_node_t *node, bool *gdump)$/;"	f	file:
+huge_node_unset	huge.c	/^huge_node_unset(const void *ptr, const extent_node_t *node)$/;"	f	file:
+huge_palloc	huge.c	/^huge_palloc(tsdn_t *tsdn, arena_t *arena, size_t usize, size_t alignment,$/;"	f
+huge_prof_tctx_get	huge.c	/^huge_prof_tctx_get(tsdn_t *tsdn, const void *ptr)$/;"	f
+huge_prof_tctx_reset	huge.c	/^huge_prof_tctx_reset(tsdn_t *tsdn, const void *ptr)$/;"	f
+huge_prof_tctx_set	huge.c	/^huge_prof_tctx_set(tsdn_t *tsdn, const void *ptr, prof_tctx_t *tctx)$/;"	f
+huge_ralloc	huge.c	/^huge_ralloc(tsd_t *tsd, arena_t *arena, void *ptr, size_t oldsize,$/;"	f
+huge_ralloc_move_helper	huge.c	/^huge_ralloc_move_helper(tsdn_t *tsdn, arena_t *arena, size_t usize,$/;"	f	file:
+huge_ralloc_no_move	huge.c	/^huge_ralloc_no_move(tsdn_t *tsdn, void *ptr, size_t oldsize, size_t usize_min,$/;"	f
+huge_ralloc_no_move_expand	huge.c	/^huge_ralloc_no_move_expand(tsdn_t *tsdn, void *ptr, size_t oldsize,$/;"	f	file:
+huge_ralloc_no_move_shrink	huge.c	/^huge_ralloc_no_move_shrink(tsdn_t *tsdn, void *ptr, size_t oldsize,$/;"	f	file:
+huge_ralloc_no_move_similar	huge.c	/^huge_ralloc_no_move_similar(tsdn_t *tsdn, void *ptr, size_t oldsize,$/;"	f	file:
+huge_salloc	huge.c	/^huge_salloc(tsdn_t *tsdn, const void *ptr)$/;"	f
+ialloc_body	jemalloc.c	/^ialloc_body(size_t size, bool zero, tsdn_t **tsdn, size_t *usize,$/;"	f
+ialloc_post_check	jemalloc.c	/^ialloc_post_check(void *ret, tsdn_t *tsdn, size_t usize, const char *func,$/;"	f
+ialloc_prof	jemalloc.c	/^ialloc_prof(tsd_t *tsd, size_t usize, szind_t ind, bool zero, bool slow_path)$/;"	f
+ialloc_prof_sample	jemalloc.c	/^ialloc_prof_sample(tsd_t *tsd, size_t usize, szind_t ind, bool zero,$/;"	f	file:
+iarena_cleanup	jemalloc.c	/^iarena_cleanup(tsd_t *tsd)$/;"	f
+ifree	jemalloc.c	/^ifree(tsd_t *tsd, void *ptr, tcache_t *tcache, bool slow_path)$/;"	f
+imallocx_body	jemalloc.c	/^imallocx_body(size_t size, int flags, tsdn_t **tsdn, size_t *usize,$/;"	f
+imallocx_flags	jemalloc.c	/^imallocx_flags(tsdn_t *tsdn, size_t usize, size_t alignment, bool zero,$/;"	f
+imallocx_flags_decode	jemalloc.c	/^imallocx_flags_decode(tsd_t *tsd, size_t size, int flags, size_t *usize,$/;"	f
+imallocx_no_prof	jemalloc.c	/^imallocx_no_prof(tsd_t *tsd, size_t size, int flags, size_t *usize,$/;"	f
+imallocx_prof	jemalloc.c	/^imallocx_prof(tsd_t *tsd, size_t size, int flags, size_t *usize, bool slow_path)$/;"	f
+imallocx_prof_sample	jemalloc.c	/^imallocx_prof_sample(tsdn_t *tsdn, size_t usize, size_t alignment, bool zero,$/;"	f	file:
+imemalign	jemalloc.c	/^imemalign(void **memptr, size_t alignment, size_t size, size_t min_alignment)$/;"	f	file:
+imemalign_prof	jemalloc.c	/^imemalign_prof(tsd_t *tsd, size_t alignment, size_t usize)$/;"	f
+imemalign_prof_sample	jemalloc.c	/^imemalign_prof_sample(tsd_t *tsd, size_t alignment, size_t usize,$/;"	f	file:
+in_valgrind	jemalloc.c	/^bool	in_valgrind;$/;"	v
+inallocx	jemalloc.c	/^inallocx(tsdn_t *tsdn, size_t size, int flags)$/;"	f
+init_init_lock	jemalloc.c	/^static const void (WINAPI *init_init_lock)(void) = _init_init_lock;$/;"	v	file:
+init_lock	jemalloc.c	/^static malloc_mutex_t	init_lock = MALLOC_MUTEX_INITIALIZER;$/;"	v	file:
+init_lock	jemalloc.c	/^static malloc_mutex_t	init_lock = SRWLOCK_INIT;$/;"	v	file:
+init_lock	jemalloc.c	/^static malloc_mutex_t	init_lock;$/;"	v	file:
+init_lock_initialized	jemalloc.c	/^static bool init_lock_initialized = false;$/;"	v	file:
+init_thp_initially_huge	arena.c	/^init_thp_initially_huge(void) {$/;"	f	file:
+introspect	zone.c	/^	struct malloc_introspection_t *introspect;$/;"	m	struct:_malloc_zone_t	typeref:struct:_malloc_zone_t::malloc_introspection_t	file:
+irallocx_prof	jemalloc.c	/^irallocx_prof(tsd_t *tsd, void *old_ptr, size_t old_usize, size_t size,$/;"	f
+irallocx_prof_sample	jemalloc.c	/^irallocx_prof_sample(tsd_t *tsd, void *old_ptr, size_t old_usize,$/;"	f	file:
+irealloc_prof	jemalloc.c	/^irealloc_prof(tsd_t *tsd, void *old_ptr, size_t old_usize, size_t usize)$/;"	f
+irealloc_prof_sample	jemalloc.c	/^irealloc_prof_sample(tsd_t *tsd, void *old_ptr, size_t old_usize, size_t usize,$/;"	f	file:
+is_malloc	jemalloc.c	2063;"	d	file:
+is_malloc_	jemalloc.c	2062;"	d	file:
+isfree	jemalloc.c	/^isfree(tsd_t *tsd, void *ptr, size_t usize, tcache_t *tcache, bool slow_path)$/;"	f
+isthreaded	mutex.c	/^bool isthreaded = false;$/;"	v
+ixallocx_helper	jemalloc.c	/^ixallocx_helper(tsdn_t *tsdn, void *ptr, size_t old_usize, size_t size,$/;"	f
+ixallocx_prof	jemalloc.c	/^ixallocx_prof(tsd_t *tsd, void *ptr, size_t old_usize, size_t size,$/;"	f
+ixallocx_prof_sample	jemalloc.c	/^ixallocx_prof_sample(tsdn_t *tsdn, void *ptr, size_t old_usize, size_t size,$/;"	f	file:
+je_calloc	jemalloc.c	/^void	*__libc_calloc(size_t n, size_t size) PREALIAS(je_calloc);$/;"	v
+je_dallocx	jemalloc.c	/^je_dallocx(void *ptr, int flags)$/;"	f
+je_free	jemalloc.c	/^je_free(void *ptr)$/;"	f
+je_free	jemalloc.c	/^void	__libc_free(void* ptr) PREALIAS(je_free);$/;"	v
+je_mallctl	jemalloc.c	/^je_mallctl(const char *name, void *oldp, size_t *oldlenp, void *newp,$/;"	f
+je_mallctlbymib	jemalloc.c	/^je_mallctlbymib(const size_t *mib, size_t miblen, void *oldp, size_t *oldlenp,$/;"	f
+je_mallctlnametomib	jemalloc.c	/^je_mallctlnametomib(const char *name, size_t *mibp, size_t *miblenp)$/;"	f
+je_malloc	jemalloc.c	/^void	*__libc_malloc(size_t size) PREALIAS(je_malloc);$/;"	v
+je_malloc_message	util.c	/^JEMALLOC_EXPORT void	(*je_malloc_message)(void *, const char *s);$/;"	v
+je_malloc_stats_print	jemalloc.c	/^je_malloc_stats_print(void (*write_cb)(void *, const char *), void *cbopaque,$/;"	f
+je_malloc_usable_size	jemalloc.c	/^je_malloc_usable_size(JEMALLOC_USABLE_SIZE_CONST void *ptr)$/;"	f
+je_memalign	jemalloc.c	/^void	*__libc_memalign(size_t align, size_t s) PREALIAS(je_memalign);$/;"	v
+je_posix_memalign	jemalloc.c	/^    PREALIAS(je_posix_memalign);$/;"	v
+je_posix_memalign	jemalloc.c	/^je_posix_memalign(void **memptr, size_t alignment, size_t size)$/;"	f
+je_rallocx	jemalloc.c	/^je_rallocx(void *ptr, size_t size, int flags)$/;"	f
+je_realloc	jemalloc.c	/^je_realloc(void *ptr, size_t size)$/;"	f
+je_realloc	jemalloc.c	/^void	*__libc_realloc(void* ptr, size_t size) PREALIAS(je_realloc);$/;"	v
+je_sdallocx	jemalloc.c	/^je_sdallocx(void *ptr, size_t size, int flags)$/;"	f
+je_valloc	jemalloc.c	/^void	*__libc_valloc(size_t size) PREALIAS(je_valloc);$/;"	v
+je_xallocx	jemalloc.c	/^je_xallocx(void *ptr, size_t size, size_t extra, int flags)$/;"	f
+jemalloc_constructor	jemalloc.c	/^jemalloc_constructor(void)$/;"	f	file:
+jemalloc_postfork_child	jemalloc.c	/^jemalloc_postfork_child(void)$/;"	f
+jemalloc_postfork_parent	jemalloc.c	/^jemalloc_postfork_parent(void)$/;"	f
+jemalloc_prefork	jemalloc.c	/^jemalloc_prefork(void)$/;"	f
+jemalloc_secure_getenv	jemalloc.c	/^jemalloc_secure_getenv(const char *name)$/;"	f	file:
+jemalloc_zone	zone.c	/^static malloc_zone_t jemalloc_zone;$/;"	v	file:
+jemalloc_zone_introspect	zone.c	/^static struct malloc_introspection_t jemalloc_zone_introspect;$/;"	v	typeref:struct:malloc_introspection_t	file:
+large_maxclass	arena.c	/^size_t		large_maxclass; \/* Max large size class. *\/$/;"	v
+leak_ngctx	prof.c	/^	size_t	leak_ngctx;$/;"	m	struct:prof_gctx_merge_iter_arg_s	file:
+lg_dirty_mult_default	arena.c	/^static ssize_t	lg_dirty_mult_default;$/;"	v	file:
+lg_prof_sample	prof.c	/^size_t		lg_prof_sample;$/;"	v
+log	zone.c	/^	void (*log)(malloc_zone_t *, void *);$/;"	m	struct:malloc_introspection_t	file:
+malloc	zone.c	/^	void *(*malloc)(struct _malloc_zone_t *, size_t);$/;"	m	struct:_malloc_zone_t	file:
+malloc_conf_error	jemalloc.c	/^malloc_conf_error(const char *msg, const char *k, size_t klen, const char *v,$/;"	f	file:
+malloc_conf_init	jemalloc.c	/^malloc_conf_init(void)$/;"	f	file:
+malloc_conf_next	jemalloc.c	/^malloc_conf_next(char const **opts_p, char const **k_p, size_t *klen_p,$/;"	f	file:
+malloc_cprintf	util.c	/^malloc_cprintf(void (*write_cb)(void *, const char *), void *cbopaque,$/;"	f
+malloc_init	jemalloc.c	/^malloc_init(void)$/;"	f
+malloc_init_a0	jemalloc.c	/^malloc_init_a0(void)$/;"	f
+malloc_init_a0_initialized	jemalloc.c	/^	malloc_init_a0_initialized	= 2,$/;"	e	enum:__anon1	file:
+malloc_init_hard	jemalloc.c	/^malloc_init_hard(void)$/;"	f	file:
+malloc_init_hard_a0	jemalloc.c	/^malloc_init_hard_a0(void)$/;"	f	file:
+malloc_init_hard_a0_locked	jemalloc.c	/^malloc_init_hard_a0_locked()$/;"	f	file:
+malloc_init_hard_finish	jemalloc.c	/^malloc_init_hard_finish(tsdn_t *tsdn)$/;"	f	file:
+malloc_init_hard_needed	jemalloc.c	/^malloc_init_hard_needed(void)$/;"	f	file:
+malloc_init_hard_recursible	jemalloc.c	/^malloc_init_hard_recursible(void)$/;"	f	file:
+malloc_init_initialized	jemalloc.c	/^	malloc_init_initialized		= 0 \/* Common case --> jnz. *\/$/;"	e	enum:__anon1	file:
+malloc_init_recursible	jemalloc.c	/^	malloc_init_recursible		= 1,$/;"	e	enum:__anon1	file:
+malloc_init_state	jemalloc.c	/^static malloc_init_t	malloc_init_state = malloc_init_uninitialized;$/;"	v	file:
+malloc_init_t	jemalloc.c	/^} malloc_init_t;$/;"	t	typeref:enum:__anon1	file:
+malloc_init_uninitialized	jemalloc.c	/^	malloc_init_uninitialized	= 3,$/;"	e	enum:__anon1	file:
+malloc_initialized	jemalloc.c	/^malloc_initialized(void)$/;"	f
+malloc_initializer	jemalloc.c	/^static bool			malloc_initializer = NO_INITIALIZER;$/;"	v	file:
+malloc_initializer	jemalloc.c	/^static pthread_t		malloc_initializer = NO_INITIALIZER;$/;"	v	file:
+malloc_introspection_t	zone.c	/^typedef struct malloc_introspection_t {$/;"	s	file:
+malloc_introspection_t	zone.c	/^} malloc_introspection_t;$/;"	t	typeref:struct:malloc_introspection_t	file:
+malloc_is_malloc	jemalloc.c	2061;"	d	file:
+malloc_mutex_boot	mutex.c	/^malloc_mutex_boot(void)$/;"	f
+malloc_mutex_init	mutex.c	/^malloc_mutex_init(malloc_mutex_t *mutex, const char *name, witness_rank_t rank)$/;"	f
+malloc_mutex_postfork_child	mutex.c	/^malloc_mutex_postfork_child(tsdn_t *tsdn, malloc_mutex_t *mutex)$/;"	f
+malloc_mutex_postfork_parent	mutex.c	/^malloc_mutex_postfork_parent(tsdn_t *tsdn, malloc_mutex_t *mutex)$/;"	f
+malloc_mutex_prefork	mutex.c	/^malloc_mutex_prefork(tsdn_t *tsdn, malloc_mutex_t *mutex)$/;"	f
+malloc_ncpus	jemalloc.c	/^malloc_ncpus(void)$/;"	f	file:
+malloc_printf	util.c	/^malloc_printf(const char *format, ...)$/;"	f
+malloc_slow	jemalloc.c	/^static bool	malloc_slow = true;$/;"	v	file:
+malloc_slow_flag_init	jemalloc.c	/^malloc_slow_flag_init(void)$/;"	f	file:
+malloc_slow_flags	jemalloc.c	/^static uint8_t	malloc_slow_flags;$/;"	v	file:
+malloc_snprintf	util.c	/^malloc_snprintf(char *str, size_t size, const char *format, ...)$/;"	f
+malloc_statistics_t	zone.c	/^typedef struct malloc_statistics_t {$/;"	s	file:
+malloc_statistics_t	zone.c	/^} malloc_statistics_t;$/;"	t	typeref:struct:malloc_statistics_t	file:
+malloc_strtoumax	util.c	/^malloc_strtoumax(const char *restrict nptr, char **restrict endptr, int base)$/;"	f
+malloc_thread_init	jemalloc.c	/^malloc_thread_init(void)$/;"	f
+malloc_tsd_boot0	tsd.c	/^malloc_tsd_boot0(void)$/;"	f
+malloc_tsd_boot1	tsd.c	/^malloc_tsd_boot1(void)$/;"	f
+malloc_tsd_cleanup_register	tsd.c	/^malloc_tsd_cleanup_register(bool (*f)(void))$/;"	f
+malloc_tsd_dalloc	tsd.c	/^malloc_tsd_dalloc(void *wrapper)$/;"	f
+malloc_tsd_data	tsd.c	/^malloc_tsd_data(, , tsd_t, TSD_INITIALIZER)$/;"	f
+malloc_tsd_no_cleanup	tsd.c	/^malloc_tsd_no_cleanup(void *arg)$/;"	f
+malloc_utrace_t	jemalloc.c	/^} malloc_utrace_t;$/;"	t	typeref:struct:__anon3	file:
+malloc_vcprintf	util.c	/^malloc_vcprintf(void (*write_cb)(void *, const char *), void *cbopaque,$/;"	f
+malloc_vsnprintf	util.c	/^malloc_vsnprintf(char *str, size_t size, const char *format, va_list ap)$/;"	f
+malloc_write	util.c	/^malloc_write(const char *s)$/;"	f
+malloc_zone_t	zone.c	/^} malloc_zone_t;$/;"	t	typeref:struct:_malloc_zone_t	file:
+map_bias	arena.c	/^size_t		map_bias;$/;"	v
+map_misc_offset	arena.c	/^size_t		map_misc_offset;$/;"	v
+max_size_in_use	zone.c	/^	size_t max_size_in_use;$/;"	m	struct:malloc_statistics_t	file:
+memalign	zone.c	/^	void *(*memalign)(struct _malloc_zone_t *, size_t, size_t);$/;"	m	struct:_malloc_zone_t	file:
+memory_reader_t	zone.c	/^typedef kern_return_t memory_reader_t(task_t, vm_address_t, vm_size_t, void **);$/;"	t	file:
+mmap_flags	pages.c	/^static int	mmap_flags;$/;"	v	file:
+narenas_auto	jemalloc.c	/^unsigned		narenas_auto; \/* Read-only after initialization. *\/$/;"	v
+narenas_tdata_cleanup	jemalloc.c	/^narenas_tdata_cleanup(tsd_t *tsd)$/;"	f
+narenas_total	jemalloc.c	/^static unsigned		narenas_total; \/* Use narenas_total_*(). *\/$/;"	v	file:
+narenas_total_get	jemalloc.c	/^narenas_total_get(void)$/;"	f
+narenas_total_inc	jemalloc.c	/^narenas_total_inc(void)$/;"	f	file:
+narenas_total_set	jemalloc.c	/^narenas_total_set(unsigned narenas)$/;"	f	file:
+ncleanups	tsd.c	/^static unsigned ncleanups;$/;"	v	file:
+ncpus	jemalloc.c	/^unsigned	ncpus;$/;"	v
+next_thr_uid	prof.c	/^static uint64_t		next_thr_uid;$/;"	v	file:
+next_thr_uid_mtx	prof.c	/^static malloc_mutex_t	next_thr_uid_mtx;$/;"	v	file:
+nhbins	tcache.c	/^unsigned		nhbins;$/;"	v
+nhclasses	arena.c	/^unsigned	nhclasses; \/* Number of huge size classes. *\/$/;"	v
+nlclasses	arena.c	/^unsigned	nlclasses; \/* Number of large size classes. *\/$/;"	v
+not_implemented	util.c	20;"	d	file:
+not_implemented	util.c	665;"	d	file:
+not_reached	util.c	12;"	d	file:
+not_reached	util.c	664;"	d	file:
+nstime_add	nstime.c	/^nstime_add(nstime_t *time, const nstime_t *addend)$/;"	f
+nstime_compare	nstime.c	/^nstime_compare(const nstime_t *a, const nstime_t *b)$/;"	f
+nstime_copy	nstime.c	/^nstime_copy(nstime_t *time, const nstime_t *source)$/;"	f
+nstime_divide	nstime.c	/^nstime_divide(const nstime_t *time, const nstime_t *divisor)$/;"	f
+nstime_get	nstime.c	/^nstime_get(nstime_t *time)$/;"	f	file:
+nstime_idivide	nstime.c	/^nstime_idivide(nstime_t *time, uint64_t divisor)$/;"	f
+nstime_imultiply	nstime.c	/^nstime_imultiply(nstime_t *time, uint64_t multiplier)$/;"	f
+nstime_init	nstime.c	/^nstime_init(nstime_t *time, uint64_t ns)$/;"	f
+nstime_init2	nstime.c	/^nstime_init2(nstime_t *time, uint64_t sec, uint64_t nsec)$/;"	f
+nstime_monotonic	nstime.c	/^nstime_monotonic(void)$/;"	f
+nstime_monotonic	nstime.c	/^nstime_monotonic_t *nstime_monotonic = JEMALLOC_N(n_nstime_monotonic);$/;"	v
+nstime_monotonic	nstime.c	154;"	d	file:
+nstime_monotonic	nstime.c	155;"	d	file:
+nstime_monotonic	nstime.c	165;"	d	file:
+nstime_monotonic	nstime.c	166;"	d	file:
+nstime_ns	nstime.c	/^nstime_ns(const nstime_t *time)$/;"	f
+nstime_nsec	nstime.c	/^nstime_nsec(const nstime_t *time)$/;"	f
+nstime_sec	nstime.c	/^nstime_sec(const nstime_t *time)$/;"	f
+nstime_subtract	nstime.c	/^nstime_subtract(nstime_t *time, const nstime_t *subtrahend)$/;"	f
+nstime_update	nstime.c	/^nstime_update(nstime_t *time)$/;"	f
+nstime_update	nstime.c	/^nstime_update_t *nstime_update = JEMALLOC_N(n_nstime_update);$/;"	v
+nstime_update	nstime.c	171;"	d	file:
+nstime_update	nstime.c	172;"	d	file:
+nstime_update	nstime.c	191;"	d	file:
+nstime_update	nstime.c	192;"	d	file:
+o2s	util.c	/^o2s(uintmax_t x, bool alt_form, char *s, size_t *slen_p)$/;"	f	file:
+opt_abort	jemalloc.c	/^bool	opt_abort =$/;"	v
+opt_decay_time	arena.c	/^ssize_t		opt_decay_time = DECAY_TIME_DEFAULT;$/;"	v
+opt_dss	chunk.c	/^const char	*opt_dss = DSS_DEFAULT;$/;"	v
+opt_junk	jemalloc.c	/^const char	*opt_junk =$/;"	v
+opt_junk_alloc	jemalloc.c	/^bool	opt_junk_alloc =$/;"	v
+opt_junk_free	jemalloc.c	/^bool	opt_junk_free =$/;"	v
+opt_lg_chunk	chunk.c	/^size_t		opt_lg_chunk = 0;$/;"	v
+opt_lg_dirty_mult	arena.c	/^ssize_t		opt_lg_dirty_mult = LG_DIRTY_MULT_DEFAULT;$/;"	v
+opt_lg_prof_interval	prof.c	/^ssize_t		opt_lg_prof_interval = LG_PROF_INTERVAL_DEFAULT;$/;"	v
+opt_lg_prof_sample	prof.c	/^size_t		opt_lg_prof_sample = LG_PROF_SAMPLE_DEFAULT;$/;"	v
+opt_lg_tcache_max	tcache.c	/^ssize_t	opt_lg_tcache_max = LG_TCACHE_MAXCLASS_DEFAULT;$/;"	v
+opt_narenas	jemalloc.c	/^unsigned	opt_narenas = 0;$/;"	v
+opt_node	ctl.c	/^static const ctl_named_node_t opt_node[] = {$/;"	v	file:
+opt_prof	prof.c	/^bool		opt_prof = false;$/;"	v
+opt_prof_accum	prof.c	/^bool		opt_prof_accum = false;$/;"	v
+opt_prof_active	prof.c	/^bool		opt_prof_active = true;$/;"	v
+opt_prof_final	prof.c	/^bool		opt_prof_final = false;$/;"	v
+opt_prof_gdump	prof.c	/^bool		opt_prof_gdump = false;$/;"	v
+opt_prof_leak	prof.c	/^bool		opt_prof_leak = false;$/;"	v
+opt_prof_prefix	prof.c	/^char		opt_prof_prefix[$/;"	v
+opt_prof_thread_active_init	prof.c	/^bool		opt_prof_thread_active_init = true;$/;"	v
+opt_purge	arena.c	/^purge_mode_t	opt_purge = PURGE_DEFAULT;$/;"	v
+opt_quarantine	jemalloc.c	/^size_t	opt_quarantine = ZU(0);$/;"	v
+opt_redzone	jemalloc.c	/^bool	opt_redzone = false;$/;"	v
+opt_stats_print	stats.c	/^bool	opt_stats_print = false;$/;"	v
+opt_tcache	tcache.c	/^bool	opt_tcache = true;$/;"	v
+opt_thp	arena.c	/^bool		opt_thp = true;$/;"	v
+opt_utrace	jemalloc.c	/^bool	opt_utrace = false;$/;"	v
+opt_xmalloc	jemalloc.c	/^bool	opt_xmalloc = false;$/;"	v
+opt_zero	jemalloc.c	/^bool	opt_zero = false;$/;"	v
+os_overcommits	pages.c	/^static bool	os_overcommits;$/;"	v	file:
+os_overcommits_proc	pages.c	/^os_overcommits_proc(void)$/;"	f	file:
+os_overcommits_sysctl	pages.c	/^os_overcommits_sysctl(void)$/;"	f	file:
+p	jemalloc.c	/^	void	*p;	\/* Input pointer (as in realloc(p, s)). *\/$/;"	m	struct:__anon3	file:
+pages_boot	pages.c	/^pages_boot(void)$/;"	f
+pages_commit	pages.c	/^pages_commit(void *addr, size_t size)$/;"	f
+pages_commit_impl	pages.c	/^pages_commit_impl(void *addr, size_t size, bool commit)$/;"	f	file:
+pages_decommit	pages.c	/^pages_decommit(void *addr, size_t size)$/;"	f
+pages_huge	pages.c	/^pages_huge(void *addr, size_t size)$/;"	f
+pages_map	pages.c	/^pages_map(void *addr, size_t size, bool *commit)$/;"	f
+pages_nohuge	pages.c	/^pages_nohuge(void *addr, size_t size)$/;"	f
+pages_purge	pages.c	/^pages_purge(void *addr, size_t size)$/;"	f
+pages_trim	pages.c	/^pages_trim(void *addr, size_t alloc_size, size_t leadsize, size_t size,$/;"	f
+pages_unmap	pages.c	/^pages_unmap(void *addr, size_t size)$/;"	f
+postpone_init	mutex.c	/^static bool		postpone_init = true;$/;"	v	file:
+postponed_mutexes	mutex.c	/^static malloc_mutex_t	*postponed_mutexes = NULL;$/;"	v	file:
+pressure_relief	zone.c	/^	size_t (*pressure_relief)(struct _malloc_zone_t *, size_t);$/;"	m	struct:_malloc_zone_t	file:
+print	zone.c	/^	void (*print)(malloc_zone_t *, boolean_t);$/;"	m	struct:malloc_introspection_t	file:
+prof_active	prof.c	/^bool			prof_active;$/;"	v
+prof_active_ctl	ctl.c	/^prof_active_ctl(tsd_t *tsd, const size_t *mib, size_t miblen, void *oldp,$/;"	f	file:
+prof_active_get	prof.c	/^prof_active_get(tsdn_t *tsdn)$/;"	f
+prof_active_mtx	prof.c	/^static malloc_mutex_t	prof_active_mtx;$/;"	v	file:
+prof_active_set	prof.c	/^prof_active_set(tsdn_t *tsdn, bool active)$/;"	f
+prof_alloc_rollback	prof.c	/^prof_alloc_rollback(tsd_t *tsd, prof_tctx_t *tctx, bool updated)$/;"	f
+prof_backtrace	prof.c	/^prof_backtrace(prof_bt_t *bt)$/;"	f
+prof_boot0	prof.c	/^prof_boot0(void)$/;"	f
+prof_boot1	prof.c	/^prof_boot1(void)$/;"	f
+prof_boot2	prof.c	/^prof_boot2(tsd_t *tsd)$/;"	f
+prof_booted	prof.c	/^static bool		prof_booted = false;$/;"	v	file:
+prof_bt_count	prof.c	/^prof_bt_count(void)$/;"	f
+prof_bt_hash	prof.c	/^prof_bt_hash(const void *key, size_t r_hash[2])$/;"	f	file:
+prof_bt_keycomp	prof.c	/^prof_bt_keycomp(const void *k1, const void *k2)$/;"	f	file:
+prof_dump	prof.c	/^prof_dump(tsd_t *tsd, bool propagate_err, const char *filename, bool leakcheck)$/;"	f	file:
+prof_dump_buf	prof.c	/^static char		prof_dump_buf[$/;"	v	file:
+prof_dump_buf_end	prof.c	/^static size_t		prof_dump_buf_end;$/;"	v	file:
+prof_dump_close	prof.c	/^prof_dump_close(bool propagate_err)$/;"	f	file:
+prof_dump_ctl	ctl.c	/^prof_dump_ctl(tsd_t *tsd, const size_t *mib, size_t miblen, void *oldp,$/;"	f	file:
+prof_dump_fd	prof.c	/^static int		prof_dump_fd;$/;"	v	file:
+prof_dump_filename	prof.c	/^prof_dump_filename(char *filename, char v, uint64_t vseq)$/;"	f	file:
+prof_dump_flush	prof.c	/^prof_dump_flush(bool propagate_err)$/;"	f	file:
+prof_dump_gctx	prof.c	/^prof_dump_gctx(tsdn_t *tsdn, bool propagate_err, prof_gctx_t *gctx,$/;"	f	file:
+prof_dump_gctx_prep	prof.c	/^prof_dump_gctx_prep(tsdn_t *tsdn, prof_gctx_t *gctx, prof_gctx_tree_t *gctxs)$/;"	f	file:
+prof_dump_header	prof.c	/^prof_dump_header(tsdn_t *tsdn, bool propagate_err, const prof_cnt_t *cnt_all)$/;"	f	file:
+prof_dump_header	prof.c	/^prof_dump_header_t *prof_dump_header = JEMALLOC_N(prof_dump_header_impl);$/;"	v
+prof_dump_header	prof.c	1315;"	d	file:
+prof_dump_header	prof.c	1316;"	d	file:
+prof_dump_header	prof.c	1337;"	d	file:
+prof_dump_header	prof.c	1338;"	d	file:
+prof_dump_iseq	prof.c	/^static uint64_t		prof_dump_iseq;$/;"	v	file:
+prof_dump_maps	prof.c	/^prof_dump_maps(bool propagate_err)$/;"	f	file:
+prof_dump_mseq	prof.c	/^static uint64_t		prof_dump_mseq;$/;"	v	file:
+prof_dump_mtx	prof.c	/^static malloc_mutex_t	prof_dump_mtx;$/;"	v	file:
+prof_dump_open	prof.c	/^prof_dump_open(bool propagate_err, const char *filename)$/;"	f	file:
+prof_dump_open	prof.c	/^prof_dump_open_t *prof_dump_open = JEMALLOC_N(prof_dump_open_impl);$/;"	v
+prof_dump_open	prof.c	934;"	d	file:
+prof_dump_open	prof.c	935;"	d	file:
+prof_dump_open	prof.c	953;"	d	file:
+prof_dump_open	prof.c	954;"	d	file:
+prof_dump_printf	prof.c	/^prof_dump_printf(bool propagate_err, const char *format, ...)$/;"	f	file:
+prof_dump_seq	prof.c	/^static uint64_t		prof_dump_seq;$/;"	v	file:
+prof_dump_seq_mtx	prof.c	/^static malloc_mutex_t	prof_dump_seq_mtx;$/;"	v	file:
+prof_dump_useq	prof.c	/^static uint64_t		prof_dump_useq;$/;"	v	file:
+prof_dump_write	prof.c	/^prof_dump_write(bool propagate_err, const char *s)$/;"	f	file:
+prof_enter	prof.c	/^prof_enter(tsd_t *tsd, prof_tdata_t *tdata)$/;"	f
+prof_fdump	prof.c	/^prof_fdump(void)$/;"	f	file:
+prof_free_sampled_object	prof.c	/^prof_free_sampled_object(tsd_t *tsd, size_t usize, prof_tctx_t *tctx)$/;"	f
+prof_gctx_comp	prof.c	/^prof_gctx_comp(const prof_gctx_t *a, const prof_gctx_t *b)$/;"	f
+prof_gctx_create	prof.c	/^prof_gctx_create(tsdn_t *tsdn, prof_bt_t *bt)$/;"	f	file:
+prof_gctx_dump_iter	prof.c	/^prof_gctx_dump_iter(prof_gctx_tree_t *gctxs, prof_gctx_t *gctx, void *opaque)$/;"	f	file:
+prof_gctx_dump_iter_arg_s	prof.c	/^struct prof_gctx_dump_iter_arg_s {$/;"	s	file:
+prof_gctx_finish	prof.c	/^prof_gctx_finish(tsd_t *tsd, prof_gctx_tree_t *gctxs)$/;"	f	file:
+prof_gctx_merge_iter	prof.c	/^prof_gctx_merge_iter(prof_gctx_tree_t *gctxs, prof_gctx_t *gctx, void *opaque)$/;"	f	file:
+prof_gctx_merge_iter_arg_s	prof.c	/^struct prof_gctx_merge_iter_arg_s {$/;"	s	file:
+prof_gctx_mutex_choose	prof.c	/^prof_gctx_mutex_choose(void)$/;"	f	file:
+prof_gctx_should_destroy	prof.c	/^prof_gctx_should_destroy(prof_gctx_t *gctx)$/;"	f	file:
+prof_gctx_try_destroy	prof.c	/^prof_gctx_try_destroy(tsd_t *tsd, prof_tdata_t *tdata_self, prof_gctx_t *gctx,$/;"	f	file:
+prof_gdump	prof.c	/^prof_gdump(tsdn_t *tsdn)$/;"	f
+prof_gdump_ctl	ctl.c	/^prof_gdump_ctl(tsd_t *tsd, const size_t *mib, size_t miblen, void *oldp,$/;"	f	file:
+prof_gdump_get	prof.c	/^prof_gdump_get(tsdn_t *tsdn)$/;"	f
+prof_gdump_mtx	prof.c	/^static malloc_mutex_t	prof_gdump_mtx;$/;"	v	file:
+prof_gdump_set	prof.c	/^prof_gdump_set(tsdn_t *tsdn, bool gdump)$/;"	f
+prof_gdump_val	prof.c	/^bool			prof_gdump_val;$/;"	v
+prof_getpid	prof.c	/^prof_getpid(void)$/;"	f	file:
+prof_idump	prof.c	/^prof_idump(tsdn_t *tsdn)$/;"	f
+prof_interval	prof.c	/^uint64_t	prof_interval = 0;$/;"	v
+prof_leakcheck	prof.c	/^prof_leakcheck(const prof_cnt_t *cnt_all, size_t leak_ngctx,$/;"	f	file:
+prof_leave	prof.c	/^prof_leave(tsd_t *tsd, prof_tdata_t *tdata)$/;"	f
+prof_lookup	prof.c	/^prof_lookup(tsd_t *tsd, prof_bt_t *bt)$/;"	f
+prof_lookup_global	prof.c	/^prof_lookup_global(tsd_t *tsd, prof_bt_t *bt, prof_tdata_t *tdata,$/;"	f	file:
+prof_malloc_sample_object	prof.c	/^prof_malloc_sample_object(tsdn_t *tsdn, const void *ptr, size_t usize,$/;"	f
+prof_mdump	prof.c	/^prof_mdump(tsd_t *tsd, const char *filename)$/;"	f
+prof_node	ctl.c	/^static const ctl_named_node_t	prof_node[] = {$/;"	v	file:
+prof_open_maps	prof.c	/^prof_open_maps(const char *format, ...)$/;"	f	file:
+prof_postfork_child	prof.c	/^prof_postfork_child(tsdn_t *tsdn)$/;"	f
+prof_postfork_parent	prof.c	/^prof_postfork_parent(tsdn_t *tsdn)$/;"	f
+prof_prefork0	prof.c	/^prof_prefork0(tsdn_t *tsdn)$/;"	f
+prof_prefork1	prof.c	/^prof_prefork1(tsdn_t *tsdn)$/;"	f
+prof_reset	prof.c	/^prof_reset(tsd_t *tsd, size_t lg_sample)$/;"	f
+prof_reset_ctl	ctl.c	/^prof_reset_ctl(tsd_t *tsd, const size_t *mib, size_t miblen, void *oldp,$/;"	f	file:
+prof_sample_threshold_update	prof.c	/^prof_sample_threshold_update(prof_tdata_t *tdata)$/;"	f
+prof_tctx_comp	prof.c	/^prof_tctx_comp(const prof_tctx_t *a, const prof_tctx_t *b)$/;"	f
+prof_tctx_destroy	prof.c	/^prof_tctx_destroy(tsd_t *tsd, prof_tctx_t *tctx)$/;"	f	file:
+prof_tctx_dump_iter	prof.c	/^prof_tctx_dump_iter(prof_tctx_tree_t *tctxs, prof_tctx_t *tctx, void *opaque)$/;"	f	file:
+prof_tctx_dump_iter_arg_s	prof.c	/^struct prof_tctx_dump_iter_arg_s {$/;"	s	file:
+prof_tctx_finish_iter	prof.c	/^prof_tctx_finish_iter(prof_tctx_tree_t *tctxs, prof_tctx_t *tctx, void *arg)$/;"	f	file:
+prof_tctx_merge_gctx	prof.c	/^prof_tctx_merge_gctx(tsdn_t *tsdn, prof_tctx_t *tctx, prof_gctx_t *gctx)$/;"	f	file:
+prof_tctx_merge_iter	prof.c	/^prof_tctx_merge_iter(prof_tctx_tree_t *tctxs, prof_tctx_t *tctx, void *arg)$/;"	f	file:
+prof_tctx_merge_tdata	prof.c	/^prof_tctx_merge_tdata(tsdn_t *tsdn, prof_tctx_t *tctx, prof_tdata_t *tdata)$/;"	f	file:
+prof_tctx_should_destroy	prof.c	/^prof_tctx_should_destroy(tsdn_t *tsdn, prof_tctx_t *tctx)$/;"	f	file:
+prof_tdata_cleanup	prof.c	/^prof_tdata_cleanup(tsd_t *tsd)$/;"	f
+prof_tdata_comp	prof.c	/^prof_tdata_comp(const prof_tdata_t *a, const prof_tdata_t *b)$/;"	f
+prof_tdata_count	prof.c	/^prof_tdata_count(void)$/;"	f
+prof_tdata_count_iter	prof.c	/^prof_tdata_count_iter(prof_tdata_tree_t *tdatas, prof_tdata_t *tdata, void *arg)$/;"	f	file:
+prof_tdata_destroy	prof.c	/^prof_tdata_destroy(tsd_t *tsd, prof_tdata_t *tdata, bool even_if_attached)$/;"	f	file:
+prof_tdata_destroy_locked	prof.c	/^prof_tdata_destroy_locked(tsd_t *tsd, prof_tdata_t *tdata,$/;"	f	file:
+prof_tdata_detach	prof.c	/^prof_tdata_detach(tsd_t *tsd, prof_tdata_t *tdata)$/;"	f	file:
+prof_tdata_dump_iter	prof.c	/^prof_tdata_dump_iter(prof_tdata_tree_t *tdatas, prof_tdata_t *tdata, void *arg)$/;"	f	file:
+prof_tdata_expire	prof.c	/^prof_tdata_expire(tsdn_t *tsdn, prof_tdata_t *tdata)$/;"	f	file:
+prof_tdata_init	prof.c	/^prof_tdata_init(tsd_t *tsd)$/;"	f
+prof_tdata_init_impl	prof.c	/^prof_tdata_init_impl(tsd_t *tsd, uint64_t thr_uid, uint64_t thr_discrim,$/;"	f	file:
+prof_tdata_merge_iter	prof.c	/^prof_tdata_merge_iter(prof_tdata_tree_t *tdatas, prof_tdata_t *tdata,$/;"	f	file:
+prof_tdata_merge_iter_arg_s	prof.c	/^struct prof_tdata_merge_iter_arg_s {$/;"	s	file:
+prof_tdata_mutex_choose	prof.c	/^prof_tdata_mutex_choose(uint64_t thr_uid)$/;"	f	file:
+prof_tdata_reinit	prof.c	/^prof_tdata_reinit(tsd_t *tsd, prof_tdata_t *tdata)$/;"	f
+prof_tdata_reset_iter	prof.c	/^prof_tdata_reset_iter(prof_tdata_tree_t *tdatas, prof_tdata_t *tdata, void *arg)$/;"	f	file:
+prof_tdata_should_destroy	prof.c	/^prof_tdata_should_destroy(tsdn_t *tsdn, prof_tdata_t *tdata,$/;"	f	file:
+prof_tdata_should_destroy_unlocked	prof.c	/^prof_tdata_should_destroy_unlocked(prof_tdata_t *tdata, bool even_if_attached)$/;"	f	file:
+prof_thr_uid_alloc	prof.c	/^prof_thr_uid_alloc(tsdn_t *tsdn)$/;"	f
+prof_thread_active_get	prof.c	/^prof_thread_active_get(tsd_t *tsd)$/;"	f
+prof_thread_active_init	prof.c	/^static bool		prof_thread_active_init;$/;"	v	file:
+prof_thread_active_init_ctl	ctl.c	/^prof_thread_active_init_ctl(tsd_t *tsd, const size_t *mib, size_t miblen,$/;"	f	file:
+prof_thread_active_init_get	prof.c	/^prof_thread_active_init_get(tsdn_t *tsdn)$/;"	f
+prof_thread_active_init_mtx	prof.c	/^static malloc_mutex_t	prof_thread_active_init_mtx;$/;"	v	file:
+prof_thread_active_init_set	prof.c	/^prof_thread_active_init_set(tsdn_t *tsdn, bool active_init)$/;"	f
+prof_thread_active_set	prof.c	/^prof_thread_active_set(tsd_t *tsd, bool active)$/;"	f
+prof_thread_name_alloc	prof.c	/^prof_thread_name_alloc(tsdn_t *tsdn, const char *thread_name)$/;"	f	file:
+prof_thread_name_get	prof.c	/^prof_thread_name_get(tsd_t *tsd)$/;"	f
+prof_thread_name_set	prof.c	/^prof_thread_name_set(tsd_t *tsd, const char *thread_name)$/;"	f
+prof_unwind_callback	prof.c	/^prof_unwind_callback(struct _Unwind_Context *context, void *arg)$/;"	f	file:
+prof_unwind_init_callback	prof.c	/^prof_unwind_init_callback(struct _Unwind_Context *context, void *arg)$/;"	f	file:
+propagate_err	prof.c	/^	bool	propagate_err;$/;"	m	struct:prof_gctx_dump_iter_arg_s	file:
+propagate_err	prof.c	/^	bool	propagate_err;$/;"	m	struct:prof_tctx_dump_iter_arg_s	file:
+pthread_create	mutex.c	/^pthread_create(pthread_t *__restrict thread,$/;"	f
+pthread_create_fptr	mutex.c	/^static int (*pthread_create_fptr)(pthread_t *__restrict, const pthread_attr_t *,$/;"	v	file:
+pthread_create_once	mutex.c	/^pthread_create_once(void)$/;"	f	file:
+purge_mode_names	arena.c	/^const char	*purge_mode_names[] = {$/;"	v
+purgeable_zone	zone.c	/^static malloc_zone_t *default_zone, *purgeable_zone;$/;"	v	file:
+quarantine	quarantine.c	/^quarantine(tsd_t *tsd, void *ptr)$/;"	f
+quarantine_alloc_hook_work	quarantine.c	/^quarantine_alloc_hook_work(tsd_t *tsd)$/;"	f
+quarantine_cleanup	quarantine.c	/^quarantine_cleanup(tsd_t *tsd)$/;"	f
+quarantine_drain	quarantine.c	/^quarantine_drain(tsdn_t *tsdn, quarantine_t *quarantine, size_t upper_bound)$/;"	f	file:
+quarantine_drain_one	quarantine.c	/^quarantine_drain_one(tsdn_t *tsdn, quarantine_t *quarantine)$/;"	f	file:
+quarantine_grow	quarantine.c	/^quarantine_grow(tsd_t *tsd, quarantine_t *quarantine)$/;"	f	file:
+quarantine_init	quarantine.c	/^quarantine_init(tsdn_t *tsdn, size_t lg_maxobjs)$/;"	f	file:
+r	jemalloc.c	/^	void	*r;	\/* Result pointer. *\/$/;"	m	struct:__anon3	file:
+realloc	zone.c	/^	void *(*realloc)(struct _malloc_zone_t *, void *, size_t);$/;"	m	struct:_malloc_zone_t	file:
+reinit_lock	zone.c	/^	void (*reinit_lock)(malloc_zone_t *);$/;"	m	struct:malloc_introspection_t	file:
+reserved1	zone.c	/^	void *reserved1;$/;"	m	struct:_malloc_zone_t	file:
+reserved2	zone.c	/^	void *reserved2;$/;"	m	struct:_malloc_zone_t	file:
+root_node	ctl.c	/^static const ctl_named_node_t	root_node[] = {$/;"	v	file:
+rtree_child_read_hard	rtree.c	/^rtree_child_read_hard(rtree_t *rtree, rtree_node_elm_t *elm, unsigned level)$/;"	f
+rtree_delete	rtree.c	/^rtree_delete(rtree_t *rtree)$/;"	f
+rtree_delete_subtree	rtree.c	/^rtree_delete_subtree(rtree_t *rtree, rtree_node_elm_t *node, unsigned level)$/;"	f	file:
+rtree_new	rtree.c	/^rtree_new(rtree_t *rtree, unsigned bits, rtree_node_alloc_t *alloc,$/;"	f
+rtree_node_init	rtree.c	/^rtree_node_init(rtree_t *rtree, unsigned level, rtree_node_elm_t **elmp)$/;"	f	file:
+rtree_subtree_read_hard	rtree.c	/^rtree_subtree_read_hard(rtree_t *rtree, unsigned level)$/;"	f
+run_quantize_ceil	arena.c	/^run_quantize_ceil(size_t size)$/;"	f	file:
+run_quantize_ceil	arena.c	/^run_quantize_t *run_quantize_ceil = JEMALLOC_N(n_run_quantize_ceil);$/;"	v
+run_quantize_ceil	arena.c	155;"	d	file:
+run_quantize_ceil	arena.c	156;"	d	file:
+run_quantize_ceil	arena.c	182;"	d	file:
+run_quantize_ceil	arena.c	183;"	d	file:
+run_quantize_floor	arena.c	/^run_quantize_floor(size_t size)$/;"	f	file:
+run_quantize_floor	arena.c	/^run_quantize_t *run_quantize_floor = JEMALLOC_N(n_run_quantize_floor);$/;"	v
+run_quantize_floor	arena.c	118;"	d	file:
+run_quantize_floor	arena.c	119;"	d	file:
+run_quantize_floor	arena.c	149;"	d	file:
+run_quantize_floor	arena.c	150;"	d	file:
+s	jemalloc.c	/^	size_t	s;	\/* Request size. *\/$/;"	m	struct:__anon3	file:
+size	zone.c	/^	size_t (*size)(struct _malloc_zone_t *, const void *);$/;"	m	struct:_malloc_zone_t	file:
+size	zone.c	/^	vm_size_t size;$/;"	m	struct:__anon4	file:
+size_allocated	zone.c	/^	size_t size_allocated;$/;"	m	struct:malloc_statistics_t	file:
+size_in_use	zone.c	/^	size_t size_in_use;$/;"	m	struct:malloc_statistics_t	file:
+stack_nelms	tcache.c	/^static unsigned		stack_nelms; \/* Total stack elms per tcache. *\/$/;"	v	file:
+statistics	zone.c	/^	void (*statistics)(malloc_zone_t *, malloc_statistics_t *);$/;"	m	struct:malloc_introspection_t	file:
+stats_arena_bins_print	stats.c	/^stats_arena_bins_print(void (*write_cb)(void *, const char *), void *cbopaque,$/;"	f	file:
+stats_arena_hchunks_print	stats.c	/^stats_arena_hchunks_print(void (*write_cb)(void *, const char *),$/;"	f	file:
+stats_arena_lruns_print	stats.c	/^stats_arena_lruns_print(void (*write_cb)(void *, const char *), void *cbopaque,$/;"	f	file:
+stats_arena_print	stats.c	/^stats_arena_print(void (*write_cb)(void *, const char *), void *cbopaque,$/;"	f	file:
+stats_arenas_i_bins_j_index	ctl.c	/^stats_arenas_i_bins_j_index(tsdn_t *tsdn, const size_t *mib, size_t miblen,$/;"	f	file:
+stats_arenas_i_bins_j_node	ctl.c	/^static const ctl_named_node_t stats_arenas_i_bins_j_node[] = {$/;"	v	file:
+stats_arenas_i_bins_node	ctl.c	/^static const ctl_indexed_node_t stats_arenas_i_bins_node[] = {$/;"	v	file:
+stats_arenas_i_hchunks_j_index	ctl.c	/^stats_arenas_i_hchunks_j_index(tsdn_t *tsdn, const size_t *mib, size_t miblen,$/;"	f	file:
+stats_arenas_i_hchunks_j_node	ctl.c	/^static const ctl_named_node_t stats_arenas_i_hchunks_j_node[] = {$/;"	v	file:
+stats_arenas_i_hchunks_node	ctl.c	/^static const ctl_indexed_node_t stats_arenas_i_hchunks_node[] = {$/;"	v	file:
+stats_arenas_i_huge_node	ctl.c	/^static const ctl_named_node_t stats_arenas_i_huge_node[] = {$/;"	v	file:
+stats_arenas_i_index	ctl.c	/^stats_arenas_i_index(tsdn_t *tsdn, const size_t *mib, size_t miblen, size_t i)$/;"	f	file:
+stats_arenas_i_large_node	ctl.c	/^static const ctl_named_node_t stats_arenas_i_large_node[] = {$/;"	v	file:
+stats_arenas_i_lruns_j_index	ctl.c	/^stats_arenas_i_lruns_j_index(tsdn_t *tsdn, const size_t *mib, size_t miblen,$/;"	f	file:
+stats_arenas_i_lruns_j_node	ctl.c	/^static const ctl_named_node_t stats_arenas_i_lruns_j_node[] = {$/;"	v	file:
+stats_arenas_i_lruns_node	ctl.c	/^static const ctl_indexed_node_t stats_arenas_i_lruns_node[] = {$/;"	v	file:
+stats_arenas_i_metadata_node	ctl.c	/^static const ctl_named_node_t stats_arenas_i_metadata_node[] = {$/;"	v	file:
+stats_arenas_i_node	ctl.c	/^static const ctl_named_node_t stats_arenas_i_node[] = {$/;"	v	file:
+stats_arenas_i_small_node	ctl.c	/^static const ctl_named_node_t stats_arenas_i_small_node[] = {$/;"	v	file:
+stats_arenas_node	ctl.c	/^static const ctl_indexed_node_t stats_arenas_node[] = {$/;"	v	file:
+stats_cactive	stats.c	/^size_t	stats_cactive = 0;$/;"	v
+stats_general_print	stats.c	/^stats_general_print(void (*write_cb)(void *, const char *), void *cbopaque,$/;"	f	file:
+stats_node	ctl.c	/^static const ctl_named_node_t stats_node[] = {$/;"	v	file:
+stats_print	stats.c	/^stats_print(void (*write_cb)(void *, const char *), void *cbopaque,$/;"	f
+stats_print_atexit	jemalloc.c	/^stats_print_atexit(void)$/;"	f	file:
+stats_print_helper	stats.c	/^stats_print_helper(void (*write_cb)(void *, const char *), void *cbopaque,$/;"	f	file:
+super_arena_i_node	ctl.c	/^static const ctl_named_node_t super_arena_i_node[] = {$/;"	v	file:
+super_arenas_bin_i_node	ctl.c	/^static const ctl_named_node_t super_arenas_bin_i_node[] = {$/;"	v	file:
+super_arenas_hchunk_i_node	ctl.c	/^static const ctl_named_node_t super_arenas_hchunk_i_node[] = {$/;"	v	file:
+super_arenas_lrun_i_node	ctl.c	/^static const ctl_named_node_t super_arenas_lrun_i_node[] = {$/;"	v	file:
+super_root_node	ctl.c	/^static const ctl_named_node_t super_root_node[] = {$/;"	v	file:
+super_stats_arenas_i_bins_j_node	ctl.c	/^static const ctl_named_node_t super_stats_arenas_i_bins_j_node[] = {$/;"	v	file:
+super_stats_arenas_i_hchunks_j_node	ctl.c	/^static const ctl_named_node_t super_stats_arenas_i_hchunks_j_node[] = {$/;"	v	file:
+super_stats_arenas_i_lruns_j_node	ctl.c	/^static const ctl_named_node_t super_stats_arenas_i_lruns_j_node[] = {$/;"	v	file:
+super_stats_arenas_i_node	ctl.c	/^static const ctl_named_node_t super_stats_arenas_i_node[] = {$/;"	v	file:
+tcache_alloc_small_hard	tcache.c	/^tcache_alloc_small_hard(tsdn_t *tsdn, arena_t *arena, tcache_t *tcache,$/;"	f
+tcache_arena_associate	tcache.c	/^tcache_arena_associate(tsdn_t *tsdn, tcache_t *tcache, arena_t *arena)$/;"	f	file:
+tcache_arena_dissociate	tcache.c	/^tcache_arena_dissociate(tsdn_t *tsdn, tcache_t *tcache, arena_t *arena)$/;"	f	file:
+tcache_arena_reassociate	tcache.c	/^tcache_arena_reassociate(tsdn_t *tsdn, tcache_t *tcache, arena_t *oldarena,$/;"	f
+tcache_bin_flush_large	tcache.c	/^tcache_bin_flush_large(tsd_t *tsd, tcache_bin_t *tbin, szind_t binind,$/;"	f
+tcache_bin_flush_small	tcache.c	/^tcache_bin_flush_small(tsd_t *tsd, tcache_t *tcache, tcache_bin_t *tbin,$/;"	f
+tcache_bin_info	tcache.c	/^tcache_bin_info_t	*tcache_bin_info;$/;"	v
+tcache_boot	tcache.c	/^tcache_boot(tsdn_t *tsdn) {$/;"	f
+tcache_cleanup	tcache.c	/^tcache_cleanup(tsd_t *tsd)$/;"	f
+tcache_create	tcache.c	/^tcache_create(tsdn_t *tsdn, arena_t *arena)$/;"	f
+tcache_create_ctl	ctl.c	/^tcache_create_ctl(tsd_t *tsd, const size_t *mib, size_t miblen, void *oldp,$/;"	f	file:
+tcache_destroy	tcache.c	/^tcache_destroy(tsd_t *tsd, tcache_t *tcache)$/;"	f	file:
+tcache_destroy_ctl	ctl.c	/^tcache_destroy_ctl(tsd_t *tsd, const size_t *mib, size_t miblen, void *oldp,$/;"	f	file:
+tcache_enabled_cleanup	tcache.c	/^tcache_enabled_cleanup(tsd_t *tsd)$/;"	f
+tcache_event_hard	tcache.c	/^tcache_event_hard(tsd_t *tsd, tcache_t *tcache)$/;"	f
+tcache_flush_ctl	ctl.c	/^tcache_flush_ctl(tsd_t *tsd, const size_t *mib, size_t miblen, void *oldp,$/;"	f	file:
+tcache_get_hard	tcache.c	/^tcache_get_hard(tsd_t *tsd)$/;"	f
+tcache_maxclass	tcache.c	/^size_t			tcache_maxclass;$/;"	v
+tcache_node	ctl.c	/^static const ctl_named_node_t	tcache_node[] = {$/;"	v	file:
+tcache_postfork_child	tcache.c	/^tcache_postfork_child(tsdn_t *tsdn) {$/;"	f
+tcache_postfork_parent	tcache.c	/^tcache_postfork_parent(tsdn_t *tsdn) {$/;"	f
+tcache_prefork	tcache.c	/^tcache_prefork(tsdn_t *tsdn) {$/;"	f
+tcache_salloc	tcache.c	/^tcache_salloc(tsdn_t *tsdn, const void *ptr)$/;"	f
+tcache_stats_merge	tcache.c	/^tcache_stats_merge(tsdn_t *tsdn, tcache_t *tcache, arena_t *arena)$/;"	f
+tcaches	tcache.c	/^tcaches_t		*tcaches;$/;"	v
+tcaches_avail	tcache.c	/^static tcaches_t	*tcaches_avail;$/;"	v	file:
+tcaches_create	tcache.c	/^tcaches_create(tsd_t *tsd, unsigned *r_ind) {$/;"	f
+tcaches_create_prep	tcache.c	/^tcaches_create_prep(tsd_t *tsd) {$/;"	f	file:
+tcaches_destroy	tcache.c	/^tcaches_destroy(tsd_t *tsd, unsigned ind) {$/;"	f
+tcaches_elm_flush	tcache.c	/^tcaches_elm_flush(tsd_t *tsd, tcaches_t *elm) {$/;"	f	file:
+tcaches_flush	tcache.c	/^tcaches_flush(tsd_t *tsd, unsigned ind) {$/;"	f
+tcaches_mtx	tcache.c	/^static malloc_mutex_t	tcaches_mtx;$/;"	v	file:
+tcaches_past	tcache.c	/^static unsigned		tcaches_past;$/;"	v	file:
+tdata_locks	prof.c	/^static malloc_mutex_t	*tdata_locks;$/;"	v	file:
+tdatas	prof.c	/^static prof_tdata_tree_t	tdatas;$/;"	v	file:
+tdatas_mtx	prof.c	/^static malloc_mutex_t	tdatas_mtx;$/;"	v	file:
+thp_initially_huge	arena.c	/^static bool	thp_initially_huge;$/;"	v	file:
+thread_allocated_cleanup	jemalloc.c	/^thread_allocated_cleanup(tsd_t *tsd)$/;"	f
+thread_arena_ctl	ctl.c	/^thread_arena_ctl(tsd_t *tsd, const size_t *mib, size_t miblen, void *oldp,$/;"	f	file:
+thread_deallocated_cleanup	jemalloc.c	/^thread_deallocated_cleanup(tsd_t *tsd)$/;"	f
+thread_node	ctl.c	/^static const ctl_named_node_t	thread_node[] = {$/;"	v	file:
+thread_prof_active_ctl	ctl.c	/^thread_prof_active_ctl(tsd_t *tsd, const size_t *mib, size_t miblen, void *oldp,$/;"	f	file:
+thread_prof_name_ctl	ctl.c	/^thread_prof_name_ctl(tsd_t *tsd, const size_t *mib, size_t miblen, void *oldp,$/;"	f	file:
+thread_prof_node	ctl.c	/^static const ctl_named_node_t	thread_prof_node[] = {$/;"	v	file:
+thread_tcache_enabled_ctl	ctl.c	/^thread_tcache_enabled_ctl(tsd_t *tsd, const size_t *mib, size_t miblen,$/;"	f	file:
+thread_tcache_flush_ctl	ctl.c	/^thread_tcache_flush_ctl(tsd_t *tsd, const size_t *mib, size_t miblen,$/;"	f	file:
+thread_tcache_node	ctl.c	/^static const ctl_named_node_t	thread_tcache_node[] = {$/;"	v	file:
+tsd_cleanup	tsd.c	/^tsd_cleanup(void *arg)$/;"	f
+tsd_init_check_recursion	tsd.c	/^tsd_init_check_recursion(tsd_init_head_t *head, tsd_init_block_t *block)$/;"	f
+tsd_init_finish	tsd.c	/^tsd_init_finish(tsd_init_head_t *head, tsd_init_block_t *block)$/;"	f
+tsdn	prof.c	/^	tsdn_t		*tsdn;$/;"	m	struct:prof_tdata_merge_iter_arg_s	file:
+tsdn	prof.c	/^	tsdn_t	*tsdn;$/;"	m	struct:prof_gctx_dump_iter_arg_s	file:
+tsdn	prof.c	/^	tsdn_t	*tsdn;$/;"	m	struct:prof_gctx_merge_iter_arg_s	file:
+tsdn	prof.c	/^	tsdn_t	*tsdn;$/;"	m	struct:prof_tctx_dump_iter_arg_s	file:
+u2s	util.c	/^u2s(uintmax_t x, unsigned base, bool uppercase, char *s, size_t *slen_p)$/;"	f	file:
+valgrind_freelike_block	valgrind.c	/^valgrind_freelike_block(void *ptr, size_t usize)$/;"	f
+valgrind_make_mem_defined	valgrind.c	/^valgrind_make_mem_defined(void *ptr, size_t usize)$/;"	f
+valgrind_make_mem_noaccess	valgrind.c	/^valgrind_make_mem_noaccess(void *ptr, size_t usize)$/;"	f
+valgrind_make_mem_undefined	valgrind.c	/^valgrind_make_mem_undefined(void *ptr, size_t usize)$/;"	f
+valloc	zone.c	/^	void *(*valloc)(struct _malloc_zone_t *, size_t);$/;"	m	struct:_malloc_zone_t	file:
+version	zone.c	/^	unsigned version;$/;"	m	struct:_malloc_zone_t	file:
+vm_range_recorder_t	zone.c	/^typedef void vm_range_recorder_t(task_t, void *, unsigned type, vm_range_t *, unsigned);$/;"	t	file:
+vm_range_t	zone.c	/^} vm_range_t;$/;"	t	typeref:struct:__anon4	file:
+weak_import	zone.c	/^JEMALLOC_ATTR(weak_import);$/;"	v
+witness_depth_error	witness.c	/^witness_depth_error(const witness_list_t *witnesses,$/;"	f
+witness_depth_error	witness.c	/^witness_depth_error_t *witness_depth_error = JEMALLOC_N(n_witness_depth_error);$/;"	v
+witness_depth_error	witness.c	74;"	d	file:
+witness_depth_error	witness.c	75;"	d	file:
+witness_depth_error	witness.c	91;"	d	file:
+witness_depth_error	witness.c	92;"	d	file:
+witness_fork_cleanup	witness.c	/^witness_fork_cleanup(tsd_t *tsd)$/;"	f
+witness_init	witness.c	/^witness_init(witness_t *witness, const char *name, witness_rank_t rank,$/;"	f
+witness_lock_error	witness.c	/^witness_lock_error(const witness_list_t *witnesses, const witness_t *witness)$/;"	f
+witness_lock_error	witness.c	/^witness_lock_error_t *witness_lock_error = JEMALLOC_N(n_witness_lock_error);$/;"	v
+witness_lock_error	witness.c	15;"	d	file:
+witness_lock_error	witness.c	16;"	d	file:
+witness_lock_error	witness.c	31;"	d	file:
+witness_lock_error	witness.c	32;"	d	file:
+witness_not_owner_error	witness.c	/^witness_not_owner_error(const witness_t *witness)$/;"	f
+witness_not_owner_error	witness.c	/^witness_not_owner_error_t *witness_not_owner_error =$/;"	v
+witness_not_owner_error	witness.c	55;"	d	file:
+witness_not_owner_error	witness.c	56;"	d	file:
+witness_not_owner_error	witness.c	67;"	d	file:
+witness_not_owner_error	witness.c	68;"	d	file:
+witness_owner_error	witness.c	/^witness_owner_error(const witness_t *witness)$/;"	f
+witness_owner_error	witness.c	/^witness_owner_error_t *witness_owner_error = JEMALLOC_N(n_witness_owner_error);$/;"	v
+witness_owner_error	witness.c	37;"	d	file:
+witness_owner_error	witness.c	38;"	d	file:
+witness_owner_error	witness.c	49;"	d	file:
+witness_owner_error	witness.c	50;"	d	file:
+witness_postfork_child	witness.c	/^witness_postfork_child(tsd_t *tsd)$/;"	f
+witness_postfork_parent	witness.c	/^witness_postfork_parent(tsd_t *tsd)$/;"	f
+witness_prefork	witness.c	/^witness_prefork(tsd_t *tsd)$/;"	f
+witnesses_cleanup	witness.c	/^witnesses_cleanup(tsd_t *tsd)$/;"	f
+wrtmessage	util.c	/^wrtmessage(void *cbopaque, const char *s)$/;"	f	file:
+x2s	util.c	/^x2s(uintmax_t x, bool alt_form, bool uppercase, char *s, size_t *slen_p)$/;"	f	file:
+zone_batch_free	zone.c	/^zone_batch_free(struct _malloc_zone_t *zone, void **to_be_freed,$/;"	f	file:
+zone_batch_malloc	zone.c	/^zone_batch_malloc(struct _malloc_zone_t *zone, size_t size, void **results,$/;"	f	file:
+zone_calloc	zone.c	/^zone_calloc(malloc_zone_t *zone, size_t num, size_t size)$/;"	f	file:
+zone_check	zone.c	/^zone_check(malloc_zone_t *zone)$/;"	f	file:
+zone_default_get	zone.c	/^zone_default_get(void)$/;"	f	file:
+zone_destroy	zone.c	/^zone_destroy(malloc_zone_t *zone)$/;"	f	file:
+zone_enumerator	zone.c	/^zone_enumerator(task_t task, void *data, unsigned type_mask,$/;"	f	file:
+zone_force_lock	zone.c	/^zone_force_lock(malloc_zone_t *zone)$/;"	f	file:
+zone_force_unlock	zone.c	/^zone_force_unlock(malloc_zone_t *zone)$/;"	f	file:
+zone_free	zone.c	/^zone_free(malloc_zone_t *zone, void *ptr)$/;"	f	file:
+zone_free_definite_size	zone.c	/^zone_free_definite_size(malloc_zone_t *zone, void *ptr, size_t size)$/;"	f	file:
+zone_good_size	zone.c	/^zone_good_size(malloc_zone_t *zone, size_t size)$/;"	f	file:
+zone_init	zone.c	/^zone_init(void)$/;"	f	file:
+zone_locked	zone.c	/^	boolean_t (*zone_locked)(malloc_zone_t *);$/;"	m	struct:malloc_introspection_t	file:
+zone_locked	zone.c	/^zone_locked(malloc_zone_t *zone)$/;"	f	file:
+zone_log	zone.c	/^zone_log(malloc_zone_t *zone, void *address)$/;"	f	file:
+zone_malloc	zone.c	/^zone_malloc(malloc_zone_t *zone, size_t size)$/;"	f	file:
+zone_memalign	zone.c	/^zone_memalign(malloc_zone_t *zone, size_t alignment, size_t size)$/;"	f	file:
+zone_name	zone.c	/^	const char *zone_name;$/;"	m	struct:_malloc_zone_t	file:
+zone_pressure_relief	zone.c	/^zone_pressure_relief(struct _malloc_zone_t *zone, size_t goal)$/;"	f	file:
+zone_print	zone.c	/^zone_print(malloc_zone_t *zone, boolean_t verbose)$/;"	f	file:
+zone_promote	zone.c	/^zone_promote(void)$/;"	f	file:
+zone_realloc	zone.c	/^zone_realloc(malloc_zone_t *zone, void *ptr, size_t size)$/;"	f	file:
+zone_reinit_lock	zone.c	/^zone_reinit_lock(malloc_zone_t *zone)$/;"	f	file:
+zone_size	zone.c	/^zone_size(malloc_zone_t *zone, const void *ptr)$/;"	f	file:
+zone_statistics	zone.c	/^zone_statistics(malloc_zone_t *zone, malloc_statistics_t *stats)$/;"	f	file:
+zone_valloc	zone.c	/^zone_valloc(malloc_zone_t *zone, size_t size)$/;"	f	file:

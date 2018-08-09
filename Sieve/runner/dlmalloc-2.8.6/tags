@@ -1,0 +1,567 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABORT	dlmalloc-2.8.6.c	624;"	d	file:
+ABORT_ON_ASSERT_FAILURE	dlmalloc-2.8.6.c	627;"	d	file:
+ACQUIRE_LOCK	dlmalloc-2.8.6.c	1889;"	d	file:
+ACQUIRE_LOCK	dlmalloc-2.8.6.c	1966;"	d	file:
+ACQUIRE_LOCK	dlmalloc-2.8.6.c	1973;"	d	file:
+ACQUIRE_LOCK	dlmalloc-2.8.6.c	2002;"	d	file:
+ACQUIRE_MALLOC_GLOBAL_LOCK	dlmalloc-2.8.6.c	1806;"	d	file:
+ACQUIRE_MALLOC_GLOBAL_LOCK	dlmalloc-2.8.6.c	2036;"	d	file:
+BitScanForward	dlmalloc-2.8.6.c	1541;"	d	file:
+BitScanReverse	dlmalloc-2.8.6.c	1542;"	d	file:
+CALL_DIRECT_MMAP	dlmalloc-2.8.6.c	1737;"	d	file:
+CALL_DIRECT_MMAP	dlmalloc-2.8.6.c	1739;"	d	file:
+CALL_DIRECT_MMAP	dlmalloc-2.8.6.c	1747;"	d	file:
+CALL_MMAP	dlmalloc-2.8.6.c	1727;"	d	file:
+CALL_MMAP	dlmalloc-2.8.6.c	1729;"	d	file:
+CALL_MMAP	dlmalloc-2.8.6.c	1748;"	d	file:
+CALL_MORECORE	dlmalloc-2.8.6.c	1712;"	d	file:
+CALL_MORECORE	dlmalloc-2.8.6.c	1714;"	d	file:
+CALL_MORECORE	dlmalloc-2.8.6.c	1717;"	d	file:
+CALL_MREMAP	dlmalloc-2.8.6.c	1757;"	d	file:
+CALL_MREMAP	dlmalloc-2.8.6.c	1759;"	d	file:
+CALL_MREMAP	dlmalloc-2.8.6.c	1762;"	d	file:
+CALL_MUNMAP	dlmalloc-2.8.6.c	1732;"	d	file:
+CALL_MUNMAP	dlmalloc-2.8.6.c	1734;"	d	file:
+CALL_MUNMAP	dlmalloc-2.8.6.c	1749;"	d	file:
+CAS_LOCK	dlmalloc-2.8.6.c	1826;"	d	file:
+CAS_LOCK	dlmalloc-2.8.6.c	1852;"	d	file:
+CAS_LOCK	dlmalloc-2.8.6.c	1856;"	d	file:
+CHUNK_ALIGN_MASK	dlmalloc-2.8.6.c	1613;"	d	file:
+CHUNK_OVERHEAD	dlmalloc-2.8.6.c	2201;"	d	file:
+CHUNK_OVERHEAD	dlmalloc-2.8.6.c	2203;"	d	file:
+CINUSE_BIT	dlmalloc-2.8.6.c	2245;"	d	file:
+CLEAR_LOCK	dlmalloc-2.8.6.c	1827;"	d	file:
+CLEAR_LOCK	dlmalloc-2.8.6.c	1853;"	d	file:
+CLEAR_LOCK	dlmalloc-2.8.6.c	1857;"	d	file:
+CMFAIL	dlmalloc-2.8.6.c	1634;"	d	file:
+CORRUPTION_ERROR_ACTION	dlmalloc-2.8.6.c	2771;"	d	file:
+CORRUPTION_ERROR_ACTION	dlmalloc-2.8.6.c	2777;"	d	file:
+CURRENT_THREAD	dlmalloc-2.8.6.c	1898;"	d	file:
+CURRENT_THREAD	dlmalloc-2.8.6.c	1907;"	d	file:
+DEBUG	dlmalloc-2.8.6.c	1452;"	d	file:
+DEFAULT_GRANULARITY	dlmalloc-2.8.6.c	673;"	d	file:
+DEFAULT_GRANULARITY	dlmalloc-2.8.6.c	675;"	d	file:
+DEFAULT_MMAP_THRESHOLD	dlmalloc-2.8.6.c	687;"	d	file:
+DEFAULT_MMAP_THRESHOLD	dlmalloc-2.8.6.c	689;"	d	file:
+DEFAULT_TRIM_THRESHOLD	dlmalloc-2.8.6.c	680;"	d	file:
+DEFAULT_TRIM_THRESHOLD	dlmalloc-2.8.6.c	682;"	d	file:
+DESTROY_LOCK	dlmalloc-2.8.6.c	1805;"	d	file:
+DESTROY_LOCK	dlmalloc-2.8.6.c	1891;"	d	file:
+DESTROY_LOCK	dlmalloc-2.8.6.c	1968;"	d	file:
+DESTROY_LOCK	dlmalloc-2.8.6.c	1977;"	d	file:
+DESTROY_LOCK	dlmalloc-2.8.6.c	2006;"	d	file:
+DIRECT_MMAP	dlmalloc-2.8.6.c	1746;"	d	file:
+DIRECT_MMAP_DEFAULT	dlmalloc-2.8.6.c	1660;"	d	file:
+DIRECT_MMAP_DEFAULT	dlmalloc-2.8.6.c	1697;"	d	file:
+DLMALLOC_EXPORT	dlmalloc-2.8.6.c	530;"	d	file:
+DLMALLOC_VERSION	dlmalloc-2.8.6.c	526;"	d	file:
+EQ_OWNER	dlmalloc-2.8.6.c	1899;"	d	file:
+EQ_OWNER	dlmalloc-2.8.6.c	1908;"	d	file:
+EXTERN_BIT	dlmalloc-2.8.6.c	1769;"	d	file:
+FENCEPOST_HEAD	dlmalloc-2.8.6.c	2251;"	d	file:
+FLAG4_BIT	dlmalloc-2.8.6.c	2246;"	d	file:
+FLAG_BITS	dlmalloc-2.8.6.c	2248;"	d	file:
+FOOTERS	dlmalloc-2.8.6.c	621;"	d	file:
+FORCEINLINE	dlmalloc-2.8.6.c	786;"	d	file:
+FORCEINLINE	dlmalloc-2.8.6.c	788;"	d	file:
+FORCEINLINE	dlmalloc-2.8.6.c	804;"	d	file:
+FORCEINLINE	dlmalloc-2.8.6.c	808;"	d	file:
+FOUR_SIZE_T_SIZES	dlmalloc-2.8.6.c	1608;"	d	file:
+HALF_MAX_SIZE_T	dlmalloc-2.8.6.c	1610;"	d	file:
+HAVE_MMAP	dlmalloc-2.8.6.c	546;"	d	file:
+HAVE_MMAP	dlmalloc-2.8.6.c	572;"	d	file:
+HAVE_MMAP	dlmalloc-2.8.6.c	640;"	d	file:
+HAVE_MORECORE	dlmalloc-2.8.6.c	547;"	d	file:
+HAVE_MORECORE	dlmalloc-2.8.6.c	571;"	d	file:
+HAVE_MORECORE	dlmalloc-2.8.6.c	658;"	d	file:
+HAVE_MORECORE	dlmalloc-2.8.6.c	660;"	d	file:
+HAVE_MREMAP	dlmalloc-2.8.6.c	647;"	d	file:
+HAVE_MREMAP	dlmalloc-2.8.6.c	650;"	d	file:
+INITIAL_LOCK	dlmalloc-2.8.6.c	1804;"	d	file:
+INITIAL_LOCK	dlmalloc-2.8.6.c	1890;"	d	file:
+INITIAL_LOCK	dlmalloc-2.8.6.c	1967;"	d	file:
+INITIAL_LOCK	dlmalloc-2.8.6.c	1976;"	d	file:
+INITIAL_LOCK	dlmalloc-2.8.6.c	2005;"	d	file:
+INSECURE	dlmalloc-2.8.6.c	634;"	d	file:
+INUSE_BITS	dlmalloc-2.8.6.c	2247;"	d	file:
+LACKS_ERRNO_H	dlmalloc-2.8.6.c	554;"	d	file:
+LACKS_FCNTL_H	dlmalloc-2.8.6.c	538;"	d	file:
+LACKS_SCHED_H	dlmalloc-2.8.6.c	555;"	d	file:
+LACKS_STRINGS_H	dlmalloc-2.8.6.c	552;"	d	file:
+LACKS_STRING_H	dlmalloc-2.8.6.c	551;"	d	file:
+LACKS_SYS_MMAN_H	dlmalloc-2.8.6.c	550;"	d	file:
+LACKS_SYS_PARAM_H	dlmalloc-2.8.6.c	549;"	d	file:
+LACKS_SYS_TYPES_H	dlmalloc-2.8.6.c	553;"	d	file:
+LACKS_UNISTD_H	dlmalloc-2.8.6.c	548;"	d	file:
+LOCK_AT_FORK	dlmalloc-2.8.6.c	1526;"	d	file:
+MALLINFO_FIELD_TYPE	dlmalloc-2.8.6.c	709;"	d	file:
+MALLOC_ALIGNMENT	dlmalloc-2.8.6.c	575;"	d	file:
+MALLOC_ALIGNMENT	dlmalloc-2.8.6.c	618;"	d	file:
+MALLOC_FAILURE_ACTION	dlmalloc-2.8.6.c	557;"	d	file:
+MALLOC_FAILURE_ACTION	dlmalloc-2.8.6.c	654;"	d	file:
+MALLOC_INSPECT_ALL	dlmalloc-2.8.6.c	637;"	d	file:
+MAP_ANONYMOUS	dlmalloc-2.8.6.c	1642;"	d	file:
+MAX_RELEASE_CHECK_RATE	dlmalloc-2.8.6.c	694;"	d	file:
+MAX_RELEASE_CHECK_RATE	dlmalloc-2.8.6.c	696;"	d	file:
+MAX_REQUEST	dlmalloc-2.8.6.c	2222;"	d	file:
+MAX_SIZE_T	dlmalloc-2.8.6.c	585;"	d	file:
+MAX_SMALL_REQUEST	dlmalloc-2.8.6.c	2575;"	d	file:
+MAX_SMALL_SIZE	dlmalloc-2.8.6.c	2574;"	d	file:
+MCHUNK_SIZE	dlmalloc-2.8.6.c	2198;"	d	file:
+MFAIL	dlmalloc-2.8.6.c	1633;"	d	file:
+MIN_CHUNK_SIZE	dlmalloc-2.8.6.c	2212;"	d	file:
+MIN_LARGE_SIZE	dlmalloc-2.8.6.c	2573;"	d	file:
+MIN_REQUEST	dlmalloc-2.8.6.c	2223;"	d	file:
+MIN_SMALL_INDEX	dlmalloc-2.8.6.c	2825;"	d	file:
+MLOCK_T	dlmalloc-2.8.6.c	1886;"	d	file:
+MLOCK_T	dlmalloc-2.8.6.c	1917;"	d	file:
+MLOCK_T	dlmalloc-2.8.6.c	1972;"	d	file:
+MLOCK_T	dlmalloc-2.8.6.c	2001;"	d	file:
+MMAP	dlmalloc-2.8.6.c	1744;"	d	file:
+MMAP_CHUNK_OVERHEAD	dlmalloc-2.8.6.c	2207;"	d	file:
+MMAP_CLEARS	dlmalloc-2.8.6.c	561;"	d	file:
+MMAP_CLEARS	dlmalloc-2.8.6.c	563;"	d	file:
+MMAP_CLEARS	dlmalloc-2.8.6.c	643;"	d	file:
+MMAP_DEFAULT	dlmalloc-2.8.6.c	1646;"	d	file:
+MMAP_DEFAULT	dlmalloc-2.8.6.c	1654;"	d	file:
+MMAP_DEFAULT	dlmalloc-2.8.6.c	1695;"	d	file:
+MMAP_FLAGS	dlmalloc-2.8.6.c	1645;"	d	file:
+MMAP_FLAGS	dlmalloc-2.8.6.c	1652;"	d	file:
+MMAP_FOOT_PAD	dlmalloc-2.8.6.c	2209;"	d	file:
+MMAP_PROT	dlmalloc-2.8.6.c	1640;"	d	file:
+MORECORE_CONTIGUOUS	dlmalloc-2.8.6.c	664;"	d	file:
+MORECORE_CONTIGUOUS	dlmalloc-2.8.6.c	668;"	d	file:
+MORECORE_DEFAULT	dlmalloc-2.8.6.c	666;"	d	file:
+MREMAP_DEFAULT	dlmalloc-2.8.6.c	1703;"	d	file:
+MSPACES	dlmalloc-2.8.6.c	612;"	d	file:
+MSPACES	dlmalloc-2.8.6.c	614;"	d	file:
+MUNMAP	dlmalloc-2.8.6.c	1745;"	d	file:
+MUNMAP_DEFAULT	dlmalloc-2.8.6.c	1639;"	d	file:
+MUNMAP_DEFAULT	dlmalloc-2.8.6.c	1696;"	d	file:
+M_GRANULARITY	dlmalloc-2.8.6.c	726;"	d	file:
+M_MMAP_THRESHOLD	dlmalloc-2.8.6.c	727;"	d	file:
+M_TRIM_THRESHOLD	dlmalloc-2.8.6.c	725;"	d	file:
+NEED_GLOBAL_LOCK_INIT	dlmalloc-2.8.6.c	1978;"	d	file:
+NOINLINE	dlmalloc-2.8.6.c	793;"	d	file:
+NOINLINE	dlmalloc-2.8.6.c	795;"	d	file:
+NOINLINE	dlmalloc-2.8.6.c	797;"	d	file:
+NO_MALLINFO	dlmalloc-2.8.6.c	706;"	d	file:
+NO_MALLOC_STATS	dlmalloc-2.8.6.c	712;"	d	file:
+NO_SEGMENT_TRAVERSAL	dlmalloc-2.8.6.c	715;"	d	file:
+NSMALLBINS	dlmalloc-2.8.6.c	2568;"	d	file:
+NTREEBINS	dlmalloc-2.8.6.c	2569;"	d	file:
+ONLY_MSPACES	dlmalloc-2.8.6.c	608;"	d	file:
+PINUSE_BIT	dlmalloc-2.8.6.c	2244;"	d	file:
+POSTACTION	dlmalloc-2.8.6.c	2742;"	d	file:
+POSTACTION	dlmalloc-2.8.6.c	2750;"	d	file:
+PREACTION	dlmalloc-2.8.6.c	2741;"	d	file:
+PREACTION	dlmalloc-2.8.6.c	2746;"	d	file:
+PROCEED_ON_ERROR	dlmalloc-2.8.6.c	630;"	d	file:
+PTHREAD_MUTEX_RECURSIVE	dlmalloc-2.8.6.c	2013;"	d	file:
+RELEASE_LOCK	dlmalloc-2.8.6.c	1888;"	d	file:
+RELEASE_LOCK	dlmalloc-2.8.6.c	1964;"	d	file:
+RELEASE_LOCK	dlmalloc-2.8.6.c	1974;"	d	file:
+RELEASE_LOCK	dlmalloc-2.8.6.c	2003;"	d	file:
+RELEASE_MALLOC_GLOBAL_LOCK	dlmalloc-2.8.6.c	1807;"	d	file:
+RELEASE_MALLOC_GLOBAL_LOCK	dlmalloc-2.8.6.c	2040;"	d	file:
+RTCHECK	dlmalloc-2.8.6.c	3032;"	d	file:
+RTCHECK	dlmalloc-2.8.6.c	3034;"	d	file:
+RTCHECK	dlmalloc-2.8.6.c	3037;"	d	file:
+SIX_SIZE_T_SIZES	dlmalloc-2.8.6.c	1609;"	d	file:
+SIZE_T_BITSIZE	dlmalloc-2.8.6.c	1599;"	d	file:
+SIZE_T_FOUR	dlmalloc-2.8.6.c	1606;"	d	file:
+SIZE_T_ONE	dlmalloc-2.8.6.c	1604;"	d	file:
+SIZE_T_SIZE	dlmalloc-2.8.6.c	1598;"	d	file:
+SIZE_T_TWO	dlmalloc-2.8.6.c	1605;"	d	file:
+SIZE_T_ZERO	dlmalloc-2.8.6.c	1603;"	d	file:
+SLEEP_EX_DURATION	dlmalloc-2.8.6.c	1864;"	d	file:
+SMALLBIN_SHIFT	dlmalloc-2.8.6.c	2570;"	d	file:
+SMALLBIN_WIDTH	dlmalloc-2.8.6.c	2571;"	d	file:
+SPINS_PER_YIELD	dlmalloc-2.8.6.c	1862;"	d	file:
+SPIN_LOCK_YIELD	dlmalloc-2.8.6.c	1865;"	d	file:
+SPIN_LOCK_YIELD	dlmalloc-2.8.6.c	1867;"	d	file:
+SPIN_LOCK_YIELD	dlmalloc-2.8.6.c	1869;"	d	file:
+SPIN_LOCK_YIELD	dlmalloc-2.8.6.c	1871;"	d	file:
+STRUCT_MALLINFO_DECLARED	dlmalloc-2.8.6.c	762;"	d	file:
+SYS_ALLOC_PADDING	dlmalloc-2.8.6.c	2684;"	d	file:
+THREAD_ID_T	dlmalloc-2.8.6.c	1897;"	d	file:
+THREAD_ID_T	dlmalloc-2.8.6.c	1906;"	d	file:
+TOP_FOOT_SIZE	dlmalloc-2.8.6.c	2728;"	d	file:
+TREEBIN_SHIFT	dlmalloc-2.8.6.c	2572;"	d	file:
+TRY_LOCK	dlmalloc-2.8.6.c	1887;"	d	file:
+TRY_LOCK	dlmalloc-2.8.6.c	1965;"	d	file:
+TRY_LOCK	dlmalloc-2.8.6.c	1975;"	d	file:
+TRY_LOCK	dlmalloc-2.8.6.c	2004;"	d	file:
+TWO_SIZE_T_SIZES	dlmalloc-2.8.6.c	1607;"	d	file:
+USAGE_ERROR_ACTION	dlmalloc-2.8.6.c	2772;"	d	file:
+USAGE_ERROR_ACTION	dlmalloc-2.8.6.c	2781;"	d	file:
+USE_BUILTIN_FFS	dlmalloc-2.8.6.c	700;"	d	file:
+USE_DEV_RANDOM	dlmalloc-2.8.6.c	703;"	d	file:
+USE_LOCKS	dlmalloc-2.8.6.c	588;"	d	file:
+USE_LOCK_BIT	dlmalloc-2.8.6.c	1803;"	d	file:
+USE_LOCK_BIT	dlmalloc-2.8.6.c	2033;"	d	file:
+USE_MMAP_BIT	dlmalloc-2.8.6.c	1724;"	d	file:
+USE_MMAP_BIT	dlmalloc-2.8.6.c	1742;"	d	file:
+USE_NONCONTIGUOUS_BIT	dlmalloc-2.8.6.c	1766;"	d	file:
+USE_SPIN_LOCKS	dlmalloc-2.8.6.c	598;"	d	file:
+USE_SPIN_LOCKS	dlmalloc-2.8.6.c	604;"	d	file:
+WIN32	dlmalloc-2.8.6.c	535;"	d	file:
+WIN32	dlmalloc-2.8.6.c	539;"	d	file:
+WIN32_LEAN_AND_MEAN	dlmalloc-2.8.6.c	543;"	d	file:
+_GNU_SOURCE	dlmalloc-2.8.6.c	648;"	d	file:
+_SC_PAGE_SIZE	dlmalloc-2.8.6.c	1552;"	d	file:
+_STRUCT_MALLINFO	dlmalloc-2.8.6.c	761;"	d	file:
+__USE_GNU	dlmalloc-2.8.6.c	1472;"	d	file:
+__USE_GNU	dlmalloc-2.8.6.c	1474;"	d	file:
+_gm_	dlmalloc-2.8.6.c	/^static struct malloc_state _gm_;$/;"	v	typeref:struct:malloc_state	file:
+add_segment	dlmalloc-2.8.6.c	/^static void add_segment(mstate m, char* tbase, size_t tsize, flag_t mmapped) {$/;"	f	file:
+align_as_chunk	dlmalloc-2.8.6.c	2219;"	d	file:
+align_offset	dlmalloc-2.8.6.c	1619;"	d	file:
+arena	dlmalloc-2.8.6.c	/^  MALLINFO_FIELD_TYPE arena;    \/* non-mmapped space allocated from system *\/$/;"	m	struct:mallinfo	file:
+assert	dlmalloc-2.8.6.c	1443;"	d	file:
+assert	dlmalloc-2.8.6.c	1444;"	d	file:
+assert	dlmalloc-2.8.6.c	1450;"	d	file:
+base	dlmalloc-2.8.6.c	/^  char*        base;             \/* base address *\/$/;"	m	struct:malloc_segment	file:
+bin_find	dlmalloc-2.8.6.c	/^static int bin_find(mstate m, mchunkptr x) {$/;"	f	file:
+bindex_t	dlmalloc-2.8.6.c	/^typedef unsigned int bindex_t;         \/* Described below *\/$/;"	t	file:
+binmap_t	dlmalloc-2.8.6.c	/^typedef unsigned int binmap_t;         \/* Described below *\/$/;"	t	file:
+bit_for_tree_index	dlmalloc-2.8.6.c	2896;"	d	file:
+bk	dlmalloc-2.8.6.c	/^  struct malloc_chunk* bk;$/;"	m	struct:malloc_chunk	typeref:struct:malloc_chunk::malloc_chunk	file:
+bk	dlmalloc-2.8.6.c	/^  struct malloc_tree_chunk* bk;$/;"	m	struct:malloc_tree_chunk	typeref:struct:malloc_tree_chunk::malloc_tree_chunk	file:
+c	dlmalloc-2.8.6.c	/^  unsigned int c;$/;"	m	struct:malloc_recursive_lock	file:
+calloc_must_clear	dlmalloc-2.8.6.c	2295;"	d	file:
+calloc_must_clear	dlmalloc-2.8.6.c	2297;"	d	file:
+change_mparam	dlmalloc-2.8.6.c	/^static int change_mparam(int param_number, int value) {$/;"	f	file:
+check_free_chunk	dlmalloc-2.8.6.c	2791;"	d	file:
+check_free_chunk	dlmalloc-2.8.6.c	2799;"	d	file:
+check_inuse_chunk	dlmalloc-2.8.6.c	2792;"	d	file:
+check_inuse_chunk	dlmalloc-2.8.6.c	2800;"	d	file:
+check_malloc_state	dlmalloc-2.8.6.c	2795;"	d	file:
+check_malloc_state	dlmalloc-2.8.6.c	2804;"	d	file:
+check_malloced_chunk	dlmalloc-2.8.6.c	2793;"	d	file:
+check_malloced_chunk	dlmalloc-2.8.6.c	2802;"	d	file:
+check_mmapped_chunk	dlmalloc-2.8.6.c	2794;"	d	file:
+check_mmapped_chunk	dlmalloc-2.8.6.c	2803;"	d	file:
+check_top_chunk	dlmalloc-2.8.6.c	2796;"	d	file:
+check_top_chunk	dlmalloc-2.8.6.c	2801;"	d	file:
+child	dlmalloc-2.8.6.c	/^  struct malloc_tree_chunk* child[2];$/;"	m	struct:malloc_tree_chunk	typeref:struct:malloc_tree_chunk::malloc_tree_chunk	file:
+chunk2mem	dlmalloc-2.8.6.c	2216;"	d	file:
+chunk_minus_offset	dlmalloc-2.8.6.c	2268;"	d	file:
+chunk_plus_offset	dlmalloc-2.8.6.c	2267;"	d	file:
+chunksize	dlmalloc-2.8.6.c	2260;"	d	file:
+cinuse	dlmalloc-2.8.6.c	2254;"	d	file:
+clear_flag4	dlmalloc-2.8.6.c	2264;"	d	file:
+clear_pinuse	dlmalloc-2.8.6.c	2262;"	d	file:
+clear_smallmap	dlmalloc-2.8.6.c	2917;"	d	file:
+clear_treemap	dlmalloc-2.8.6.c	2921;"	d	file:
+compute_bit2idx	dlmalloc-2.8.6.c	2936;"	d	file:
+compute_bit2idx	dlmalloc-2.8.6.c	2944;"	d	file:
+compute_bit2idx	dlmalloc-2.8.6.c	2952;"	d	file:
+compute_bit2idx	dlmalloc-2.8.6.c	2960;"	d	file:
+compute_bit2idx	dlmalloc-2.8.6.c	2963;"	d	file:
+compute_tree_index	dlmalloc-2.8.6.c	2833;"	d	file:
+compute_tree_index	dlmalloc-2.8.6.c	2847;"	d	file:
+compute_tree_index	dlmalloc-2.8.6.c	2861;"	d	file:
+compute_tree_index	dlmalloc-2.8.6.c	2876;"	d	file:
+create_mspace	dlmalloc-2.8.6.c	/^mspace create_mspace(size_t capacity, int locked) {$/;"	f
+create_mspace_with_base	dlmalloc-2.8.6.c	/^mspace create_mspace_with_base(void* base, size_t capacity, int locked) {$/;"	f
+default_mflags	dlmalloc-2.8.6.c	/^  flag_t default_mflags;$/;"	m	struct:malloc_params	file:
+destroy_mspace	dlmalloc-2.8.6.c	/^size_t destroy_mspace(mspace msp) {$/;"	f
+dev_zero_fd	dlmalloc-2.8.6.c	/^static int dev_zero_fd = -1; \/* Cached file descriptor for \/dev\/zero. *\/$/;"	v	file:
+disable_contiguous	dlmalloc-2.8.6.c	2659;"	d	file:
+disable_lock	dlmalloc-2.8.6.c	2645;"	d	file:
+disable_lock	dlmalloc-2.8.6.c	2647;"	d	file:
+disable_mmap	dlmalloc-2.8.6.c	2653;"	d	file:
+disable_mmap	dlmalloc-2.8.6.c	2655;"	d	file:
+dispose_chunk	dlmalloc-2.8.6.c	/^static void dispose_chunk(mstate m, mchunkptr p, size_t psize) {$/;"	f	file:
+dlbulk_free	dlmalloc-2.8.6.c	/^size_t dlbulk_free(void* array[], size_t nelem) {$/;"	f
+dlbulk_free	dlmalloc-2.8.6.c	837;"	d	file:
+dlcalloc	dlmalloc-2.8.6.c	/^void* dlcalloc(size_t n_elements, size_t elem_size) {$/;"	f
+dlcalloc	dlmalloc-2.8.6.c	816;"	d	file:
+dlfree	dlmalloc-2.8.6.c	/^void dlfree(void* mem) {$/;"	f
+dlfree	dlmalloc-2.8.6.c	817;"	d	file:
+dlindependent_calloc	dlmalloc-2.8.6.c	/^void** dlindependent_calloc(size_t n_elements, size_t elem_size,$/;"	f
+dlindependent_calloc	dlmalloc-2.8.6.c	835;"	d	file:
+dlindependent_comalloc	dlmalloc-2.8.6.c	/^void** dlindependent_comalloc(size_t n_elements, size_t sizes[],$/;"	f
+dlindependent_comalloc	dlmalloc-2.8.6.c	836;"	d	file:
+dlmallinfo	dlmalloc-2.8.6.c	/^struct mallinfo dlmallinfo(void) {$/;"	f
+dlmallinfo	dlmalloc-2.8.6.c	825;"	d	file:
+dlmalloc	dlmalloc-2.8.6.c	/^void* dlmalloc(size_t bytes) {$/;"	f
+dlmalloc	dlmalloc-2.8.6.c	818;"	d	file:
+dlmalloc_footprint	dlmalloc-2.8.6.c	/^size_t dlmalloc_footprint(void) {$/;"	f
+dlmalloc_footprint	dlmalloc-2.8.6.c	830;"	d	file:
+dlmalloc_footprint_limit	dlmalloc-2.8.6.c	/^size_t dlmalloc_footprint_limit(void) {$/;"	f
+dlmalloc_footprint_limit	dlmalloc-2.8.6.c	832;"	d	file:
+dlmalloc_inspect_all	dlmalloc-2.8.6.c	/^void dlmalloc_inspect_all(void(*handler)(void *start,$/;"	f
+dlmalloc_inspect_all	dlmalloc-2.8.6.c	834;"	d	file:
+dlmalloc_max_footprint	dlmalloc-2.8.6.c	/^size_t dlmalloc_max_footprint(void) {$/;"	f
+dlmalloc_max_footprint	dlmalloc-2.8.6.c	831;"	d	file:
+dlmalloc_set_footprint_limit	dlmalloc-2.8.6.c	/^size_t dlmalloc_set_footprint_limit(size_t bytes) {$/;"	f
+dlmalloc_set_footprint_limit	dlmalloc-2.8.6.c	833;"	d	file:
+dlmalloc_stats	dlmalloc-2.8.6.c	/^void dlmalloc_stats() {$/;"	f
+dlmalloc_stats	dlmalloc-2.8.6.c	828;"	d	file:
+dlmalloc_trim	dlmalloc-2.8.6.c	/^int dlmalloc_trim(size_t pad) {$/;"	f
+dlmalloc_trim	dlmalloc-2.8.6.c	827;"	d	file:
+dlmalloc_usable_size	dlmalloc-2.8.6.c	/^size_t dlmalloc_usable_size(void* mem) {$/;"	f
+dlmalloc_usable_size	dlmalloc-2.8.6.c	829;"	d	file:
+dlmallopt	dlmalloc-2.8.6.c	/^int dlmallopt(int param_number, int value) {$/;"	f
+dlmallopt	dlmalloc-2.8.6.c	826;"	d	file:
+dlmemalign	dlmalloc-2.8.6.c	/^void* dlmemalign(size_t alignment, size_t bytes) {$/;"	f
+dlmemalign	dlmalloc-2.8.6.c	819;"	d	file:
+dlposix_memalign	dlmalloc-2.8.6.c	/^int dlposix_memalign(void** pp, size_t alignment, size_t bytes) {$/;"	f
+dlposix_memalign	dlmalloc-2.8.6.c	820;"	d	file:
+dlpvalloc	dlmalloc-2.8.6.c	/^void* dlpvalloc(size_t bytes) {$/;"	f
+dlpvalloc	dlmalloc-2.8.6.c	824;"	d	file:
+dlrealloc	dlmalloc-2.8.6.c	/^void* dlrealloc(void* oldmem, size_t bytes) {$/;"	f
+dlrealloc	dlmalloc-2.8.6.c	821;"	d	file:
+dlrealloc_in_place	dlmalloc-2.8.6.c	/^void* dlrealloc_in_place(void* oldmem, size_t bytes) {$/;"	f
+dlrealloc_in_place	dlmalloc-2.8.6.c	822;"	d	file:
+dlvalloc	dlmalloc-2.8.6.c	/^void* dlvalloc(size_t bytes) {$/;"	f
+dlvalloc	dlmalloc-2.8.6.c	823;"	d	file:
+do_check_any_chunk	dlmalloc-2.8.6.c	/^static void do_check_any_chunk(mstate m, mchunkptr p) {$/;"	f	file:
+do_check_free_chunk	dlmalloc-2.8.6.c	/^static void do_check_free_chunk(mstate m, mchunkptr p) {$/;"	f	file:
+do_check_inuse_chunk	dlmalloc-2.8.6.c	/^static void do_check_inuse_chunk(mstate m, mchunkptr p) {$/;"	f	file:
+do_check_malloc_state	dlmalloc-2.8.6.c	/^static void do_check_malloc_state(mstate m) {$/;"	f	file:
+do_check_malloced_chunk	dlmalloc-2.8.6.c	/^static void do_check_malloced_chunk(mstate m, void* mem, size_t s) {$/;"	f	file:
+do_check_mmapped_chunk	dlmalloc-2.8.6.c	/^static void do_check_mmapped_chunk(mstate m, mchunkptr p) {$/;"	f	file:
+do_check_smallbin	dlmalloc-2.8.6.c	/^static void do_check_smallbin(mstate m, bindex_t i) {$/;"	f	file:
+do_check_top_chunk	dlmalloc-2.8.6.c	/^static void do_check_top_chunk(mstate m, mchunkptr p) {$/;"	f	file:
+do_check_tree	dlmalloc-2.8.6.c	/^static void do_check_tree(mstate m, tchunkptr t) {$/;"	f	file:
+do_check_treebin	dlmalloc-2.8.6.c	/^static void do_check_treebin(mstate m, bindex_t i) {$/;"	f	file:
+dv	dlmalloc-2.8.6.c	/^  mchunkptr  dv;$/;"	m	struct:malloc_state	file:
+dvsize	dlmalloc-2.8.6.c	/^  size_t     dvsize;$/;"	m	struct:malloc_state	file:
+enable_lock	dlmalloc-2.8.6.c	2643;"	d	file:
+enable_mmap	dlmalloc-2.8.6.c	2651;"	d	file:
+ensure_initialization	dlmalloc-2.8.6.c	2625;"	d	file:
+extp	dlmalloc-2.8.6.c	/^  void*      extp;      \/* Unused but available for extensions *\/$/;"	m	struct:malloc_state	file:
+exts	dlmalloc-2.8.6.c	/^  size_t     exts;$/;"	m	struct:malloc_state	file:
+fd	dlmalloc-2.8.6.c	/^  struct malloc_chunk* fd;         \/* double links -- used only if free. *\/$/;"	m	struct:malloc_chunk	typeref:struct:malloc_chunk::malloc_chunk	file:
+fd	dlmalloc-2.8.6.c	/^  struct malloc_tree_chunk* fd;$/;"	m	struct:malloc_tree_chunk	typeref:struct:malloc_tree_chunk::malloc_tree_chunk	file:
+flag4inuse	dlmalloc-2.8.6.c	2256;"	d	file:
+flag_t	dlmalloc-2.8.6.c	/^typedef unsigned int flag_t;           \/* The type of various bit flag sets *\/$/;"	t	file:
+fm	dlmalloc-2.8.6.c	4782;"	d	file:
+footprint	dlmalloc-2.8.6.c	/^  size_t     footprint;$/;"	m	struct:malloc_state	file:
+footprint_limit	dlmalloc-2.8.6.c	/^  size_t     footprint_limit; \/* zero means no limit *\/$/;"	m	struct:malloc_state	file:
+fordblks	dlmalloc-2.8.6.c	/^  MALLINFO_FIELD_TYPE fordblks; \/* total free space *\/$/;"	m	struct:mallinfo	file:
+fsmblks	dlmalloc-2.8.6.c	/^  MALLINFO_FIELD_TYPE fsmblks;  \/* always 0 *\/$/;"	m	struct:mallinfo	file:
+get_foot	dlmalloc-2.8.6.c	2278;"	d	file:
+get_mstate_for	dlmalloc-2.8.6.c	3068;"	d	file:
+gm	dlmalloc-2.8.6.c	2631;"	d	file:
+granularity	dlmalloc-2.8.6.c	/^  size_t granularity;$/;"	m	struct:malloc_params	file:
+granularity_align	dlmalloc-2.8.6.c	2671;"	d	file:
+has_segment_link	dlmalloc-2.8.6.c	/^static int has_segment_link(mstate m, msegmentptr ss) {$/;"	f	file:
+hblkhd	dlmalloc-2.8.6.c	/^  MALLINFO_FIELD_TYPE hblkhd;   \/* space in mmapped regions *\/$/;"	m	struct:mallinfo	file:
+hblks	dlmalloc-2.8.6.c	/^  MALLINFO_FIELD_TYPE hblks;    \/* always 0 *\/$/;"	m	struct:mallinfo	file:
+head	dlmalloc-2.8.6.c	/^  size_t                    head;$/;"	m	struct:malloc_tree_chunk	file:
+head	dlmalloc-2.8.6.c	/^  size_t               head;       \/* Size and inuse bits. *\/$/;"	m	struct:malloc_chunk	file:
+ialloc	dlmalloc-2.8.6.c	/^static void** ialloc(mstate m,$/;"	f	file:
+idx2bit	dlmalloc-2.8.6.c	2913;"	d	file:
+index	dlmalloc-2.8.6.c	/^  bindex_t                  index;$/;"	m	struct:malloc_tree_chunk	file:
+init_bins	dlmalloc-2.8.6.c	/^static void init_bins(mstate m) {$/;"	f	file:
+init_malloc_global_mutex	dlmalloc-2.8.6.c	/^static void init_malloc_global_mutex() {$/;"	f	file:
+init_mparams	dlmalloc-2.8.6.c	/^static int init_mparams(void) {$/;"	f	file:
+init_top	dlmalloc-2.8.6.c	/^static void init_top(mstate m, mchunkptr p, size_t psize) {$/;"	f	file:
+init_user_mstate	dlmalloc-2.8.6.c	/^static mstate init_user_mstate(char* tbase, size_t tsize) {$/;"	f	file:
+insert_chunk	dlmalloc-2.8.6.c	3784;"	d	file:
+insert_large_chunk	dlmalloc-2.8.6.c	3643;"	d	file:
+insert_small_chunk	dlmalloc-2.8.6.c	3565;"	d	file:
+interlockedcompareexchange	dlmalloc-2.8.6.c	1516;"	d	file:
+interlockedcompareexchange	dlmalloc-2.8.6.c	1519;"	d	file:
+interlockedexchange	dlmalloc-2.8.6.c	1517;"	d	file:
+interlockedexchange	dlmalloc-2.8.6.c	1520;"	d	file:
+internal_bulk_free	dlmalloc-2.8.6.c	/^static size_t internal_bulk_free(mstate m, void* array[], size_t nelem) {$/;"	f	file:
+internal_free	dlmalloc-2.8.6.c	3797;"	d	file:
+internal_free	dlmalloc-2.8.6.c	3802;"	d	file:
+internal_free	dlmalloc-2.8.6.c	3806;"	d	file:
+internal_inspect_all	dlmalloc-2.8.6.c	/^static void internal_inspect_all(mstate m,$/;"	f	file:
+internal_mallinfo	dlmalloc-2.8.6.c	/^static struct mallinfo internal_mallinfo(mstate m) {$/;"	f	file:
+internal_malloc	dlmalloc-2.8.6.c	3796;"	d	file:
+internal_malloc	dlmalloc-2.8.6.c	3800;"	d	file:
+internal_malloc	dlmalloc-2.8.6.c	3805;"	d	file:
+internal_malloc_stats	dlmalloc-2.8.6.c	/^static void internal_malloc_stats(mstate m) {$/;"	f	file:
+internal_memalign	dlmalloc-2.8.6.c	/^static void* internal_memalign(mstate m, size_t alignment, size_t bytes) {$/;"	f	file:
+is_aligned	dlmalloc-2.8.6.c	1616;"	d	file:
+is_extern_segment	dlmalloc-2.8.6.c	2475;"	d	file:
+is_global	dlmalloc-2.8.6.c	2632;"	d	file:
+is_granularity_aligned	dlmalloc-2.8.6.c	2688;"	d	file:
+is_initialized	dlmalloc-2.8.6.c	2636;"	d	file:
+is_inuse	dlmalloc-2.8.6.c	2257;"	d	file:
+is_mmapped	dlmalloc-2.8.6.c	2258;"	d	file:
+is_mmapped_segment	dlmalloc-2.8.6.c	2474;"	d	file:
+is_page_aligned	dlmalloc-2.8.6.c	2686;"	d	file:
+is_small	dlmalloc-2.8.6.c	2822;"	d	file:
+keepcost	dlmalloc-2.8.6.c	/^  MALLINFO_FIELD_TYPE keepcost; \/* releasable (via malloc_trim) space *\/$/;"	m	struct:mallinfo	file:
+least_addr	dlmalloc-2.8.6.c	/^  char*      least_addr;$/;"	m	struct:malloc_state	file:
+least_bit	dlmalloc-2.8.6.c	2925;"	d	file:
+left_bits	dlmalloc-2.8.6.c	2928;"	d	file:
+leftmost_child	dlmalloc-2.8.6.c	2408;"	d	file:
+leftshift_for_tree_index	dlmalloc-2.8.6.c	2900;"	d	file:
+magic	dlmalloc-2.8.6.c	/^  size_t     magic;$/;"	m	struct:malloc_state	file:
+magic	dlmalloc-2.8.6.c	/^  size_t magic;$/;"	m	struct:malloc_params	file:
+mallinfo	dlmalloc-2.8.6.c	/^struct mallinfo {$/;"	s	file:
+malloc_chunk	dlmalloc-2.8.6.c	/^struct malloc_chunk {$/;"	s	file:
+malloc_corruption_error_count	dlmalloc-2.8.6.c	/^int malloc_corruption_error_count;$/;"	v
+malloc_getpagesize	dlmalloc-2.8.6.c	1556;"	d	file:
+malloc_getpagesize	dlmalloc-2.8.6.c	1560;"	d	file:
+malloc_getpagesize	dlmalloc-2.8.6.c	1563;"	d	file:
+malloc_getpagesize	dlmalloc-2.8.6.c	1569;"	d	file:
+malloc_getpagesize	dlmalloc-2.8.6.c	1573;"	d	file:
+malloc_getpagesize	dlmalloc-2.8.6.c	1575;"	d	file:
+malloc_getpagesize	dlmalloc-2.8.6.c	1579;"	d	file:
+malloc_getpagesize	dlmalloc-2.8.6.c	1582;"	d	file:
+malloc_getpagesize	dlmalloc-2.8.6.c	1584;"	d	file:
+malloc_global_mutex	dlmalloc-2.8.6.c	/^static MLOCK_T malloc_global_mutex = 0;$/;"	v	file:
+malloc_global_mutex	dlmalloc-2.8.6.c	/^static MLOCK_T malloc_global_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+malloc_global_mutex	dlmalloc-2.8.6.c	/^static MLOCK_T malloc_global_mutex = { 0, 0, (THREAD_ID_T)0};$/;"	v	file:
+malloc_global_mutex	dlmalloc-2.8.6.c	/^static MLOCK_T malloc_global_mutex;$/;"	v	file:
+malloc_global_mutex_status	dlmalloc-2.8.6.c	/^static volatile LONG malloc_global_mutex_status;$/;"	v	file:
+malloc_params	dlmalloc-2.8.6.c	/^struct malloc_params {$/;"	s	file:
+malloc_recursive_lock	dlmalloc-2.8.6.c	/^struct malloc_recursive_lock {$/;"	s	file:
+malloc_segment	dlmalloc-2.8.6.c	/^struct malloc_segment {$/;"	s	file:
+malloc_state	dlmalloc-2.8.6.c	/^struct malloc_state {$/;"	s	file:
+malloc_tree_chunk	dlmalloc-2.8.6.c	/^struct malloc_tree_chunk {$/;"	s	file:
+mark_inuse_foot	dlmalloc-2.8.6.c	3044;"	d	file:
+mark_inuse_foot	dlmalloc-2.8.6.c	3065;"	d	file:
+mark_smallmap	dlmalloc-2.8.6.c	2916;"	d	file:
+mark_treemap	dlmalloc-2.8.6.c	2920;"	d	file:
+max_footprint	dlmalloc-2.8.6.c	/^  size_t     max_footprint;$/;"	m	struct:malloc_state	file:
+mchunk	dlmalloc-2.8.6.c	/^typedef struct malloc_chunk  mchunk;$/;"	t	typeref:struct:malloc_chunk	file:
+mchunkptr	dlmalloc-2.8.6.c	/^typedef struct malloc_chunk* mchunkptr;$/;"	t	typeref:struct:malloc_chunk	file:
+mem2chunk	dlmalloc-2.8.6.c	2217;"	d	file:
+mflags	dlmalloc-2.8.6.c	/^  flag_t     mflags;$/;"	m	struct:malloc_state	file:
+minsize_for_tree_index	dlmalloc-2.8.6.c	2905;"	d	file:
+mmap_align	dlmalloc-2.8.6.c	2678;"	d	file:
+mmap_align	dlmalloc-2.8.6.c	2680;"	d	file:
+mmap_alloc	dlmalloc-2.8.6.c	/^static void* mmap_alloc(mstate m, size_t nb) {$/;"	f	file:
+mmap_resize	dlmalloc-2.8.6.c	/^static mchunkptr mmap_resize(mstate m, mchunkptr oldp, size_t nb, int flags) {$/;"	f	file:
+mmap_threshold	dlmalloc-2.8.6.c	/^  size_t mmap_threshold;$/;"	m	struct:malloc_params	file:
+mparams	dlmalloc-2.8.6.c	/^static struct malloc_params mparams;$/;"	v	typeref:struct:malloc_params	file:
+msegment	dlmalloc-2.8.6.c	/^typedef struct malloc_segment  msegment;$/;"	t	typeref:struct:malloc_segment	file:
+msegmentptr	dlmalloc-2.8.6.c	/^typedef struct malloc_segment* msegmentptr;$/;"	t	typeref:struct:malloc_segment	file:
+mspace	dlmalloc-2.8.6.c	/^typedef void* mspace;$/;"	t	file:
+mspace_bulk_free	dlmalloc-2.8.6.c	/^size_t mspace_bulk_free(mspace msp, void* array[], size_t nelem) {$/;"	f
+mspace_calloc	dlmalloc-2.8.6.c	/^void* mspace_calloc(mspace msp, size_t n_elements, size_t elem_size) {$/;"	f
+mspace_footprint	dlmalloc-2.8.6.c	/^size_t mspace_footprint(mspace msp) {$/;"	f
+mspace_footprint_limit	dlmalloc-2.8.6.c	/^size_t mspace_footprint_limit(mspace msp) {$/;"	f
+mspace_free	dlmalloc-2.8.6.c	/^void mspace_free(mspace msp, void* mem) {$/;"	f
+mspace_independent_calloc	dlmalloc-2.8.6.c	/^void** mspace_independent_calloc(mspace msp, size_t n_elements,$/;"	f
+mspace_independent_comalloc	dlmalloc-2.8.6.c	/^void** mspace_independent_comalloc(mspace msp, size_t n_elements,$/;"	f
+mspace_inspect_all	dlmalloc-2.8.6.c	/^void mspace_inspect_all(mspace msp,$/;"	f
+mspace_mallinfo	dlmalloc-2.8.6.c	/^struct mallinfo mspace_mallinfo(mspace msp) {$/;"	f
+mspace_malloc	dlmalloc-2.8.6.c	/^void* mspace_malloc(mspace msp, size_t bytes) {$/;"	f
+mspace_malloc_stats	dlmalloc-2.8.6.c	/^void mspace_malloc_stats(mspace msp) {$/;"	f
+mspace_mallopt	dlmalloc-2.8.6.c	/^int mspace_mallopt(int param_number, int value) {$/;"	f
+mspace_max_footprint	dlmalloc-2.8.6.c	/^size_t mspace_max_footprint(mspace msp) {$/;"	f
+mspace_memalign	dlmalloc-2.8.6.c	/^void* mspace_memalign(mspace msp, size_t alignment, size_t bytes) {$/;"	f
+mspace_realloc	dlmalloc-2.8.6.c	/^void* mspace_realloc(mspace msp, void* oldmem, size_t bytes) {$/;"	f
+mspace_realloc_in_place	dlmalloc-2.8.6.c	/^void* mspace_realloc_in_place(mspace msp, void* oldmem, size_t bytes) {$/;"	f
+mspace_set_footprint_limit	dlmalloc-2.8.6.c	/^size_t mspace_set_footprint_limit(mspace msp, size_t bytes) {$/;"	f
+mspace_track_large_chunks	dlmalloc-2.8.6.c	/^int mspace_track_large_chunks(mspace msp, int enable) {$/;"	f
+mspace_trim	dlmalloc-2.8.6.c	/^int mspace_trim(mspace msp, size_t pad) {$/;"	f
+mspace_usable_size	dlmalloc-2.8.6.c	/^size_t mspace_usable_size(const void* mem) {$/;"	f
+mstate	dlmalloc-2.8.6.c	/^typedef struct malloc_state*    mstate;$/;"	t	typeref:struct:malloc_state	file:
+mutex	dlmalloc-2.8.6.c	/^  MLOCK_T    mutex;     \/* locate lock among fields that rarely change *\/$/;"	m	struct:malloc_state	file:
+next	dlmalloc-2.8.6.c	/^  struct malloc_segment* next;   \/* ptr to next segment *\/$/;"	m	struct:malloc_segment	typeref:struct:malloc_segment::malloc_segment	file:
+next_chunk	dlmalloc-2.8.6.c	2271;"	d	file:
+next_pinuse	dlmalloc-2.8.6.c	2275;"	d	file:
+ok_address	dlmalloc-2.8.6.c	3007;"	d	file:
+ok_address	dlmalloc-2.8.6.c	3016;"	d	file:
+ok_inuse	dlmalloc-2.8.6.c	3011;"	d	file:
+ok_inuse	dlmalloc-2.8.6.c	3018;"	d	file:
+ok_magic	dlmalloc-2.8.6.c	3024;"	d	file:
+ok_magic	dlmalloc-2.8.6.c	3026;"	d	file:
+ok_next	dlmalloc-2.8.6.c	3009;"	d	file:
+ok_next	dlmalloc-2.8.6.c	3017;"	d	file:
+ok_pinuse	dlmalloc-2.8.6.c	3013;"	d	file:
+ok_pinuse	dlmalloc-2.8.6.c	3019;"	d	file:
+ordblks	dlmalloc-2.8.6.c	/^  MALLINFO_FIELD_TYPE ordblks;  \/* number of free chunks *\/$/;"	m	struct:mallinfo	file:
+overhead_for	dlmalloc-2.8.6.c	2290;"	d	file:
+pad_request	dlmalloc-2.8.6.c	2226;"	d	file:
+page_align	dlmalloc-2.8.6.c	2667;"	d	file:
+page_size	dlmalloc-2.8.6.c	/^  size_t page_size;$/;"	m	struct:malloc_params	file:
+parent	dlmalloc-2.8.6.c	/^  struct malloc_tree_chunk* parent;$/;"	m	struct:malloc_tree_chunk	typeref:struct:malloc_tree_chunk::malloc_tree_chunk	file:
+pinuse	dlmalloc-2.8.6.c	2255;"	d	file:
+post_fork_child	dlmalloc-2.8.6.c	/^static void post_fork_child(void)  { INITIAL_LOCK(&(gm)->mutex); }$/;"	f	file:
+post_fork_parent	dlmalloc-2.8.6.c	/^static void post_fork_parent(void) { RELEASE_LOCK(&(gm)->mutex); }$/;"	f	file:
+pre_fork	dlmalloc-2.8.6.c	/^static void pre_fork(void)         { ACQUIRE_LOCK(&(gm)->mutex); }$/;"	f	file:
+prepend_alloc	dlmalloc-2.8.6.c	/^static void* prepend_alloc(mstate m, char* newbase, char* oldbase,$/;"	f	file:
+prev_chunk	dlmalloc-2.8.6.c	2272;"	d	file:
+prev_foot	dlmalloc-2.8.6.c	/^  size_t                    prev_foot;$/;"	m	struct:malloc_tree_chunk	file:
+prev_foot	dlmalloc-2.8.6.c	/^  size_t               prev_foot;  \/* Size of previous chunk (if free).  *\/$/;"	m	struct:malloc_chunk	file:
+pthread_init_lock	dlmalloc-2.8.6.c	/^static int pthread_init_lock (MLOCK_T *lk) {$/;"	f	file:
+pthread_mutexattr_settype	dlmalloc-2.8.6.c	2014;"	d	file:
+recursive_acquire_lock	dlmalloc-2.8.6.c	/^static FORCEINLINE int recursive_acquire_lock(MLOCK_T *lk) {$/;"	f	file:
+recursive_release_lock	dlmalloc-2.8.6.c	/^static FORCEINLINE void recursive_release_lock(MLOCK_T *lk) {$/;"	f	file:
+recursive_try_lock	dlmalloc-2.8.6.c	/^static FORCEINLINE int recursive_try_lock(MLOCK_T *lk) {$/;"	f	file:
+release_checks	dlmalloc-2.8.6.c	/^  size_t     release_checks;$/;"	m	struct:malloc_state	file:
+release_unused_segments	dlmalloc-2.8.6.c	/^static size_t release_unused_segments(mstate m) {$/;"	f	file:
+replace_dv	dlmalloc-2.8.6.c	3629;"	d	file:
+request2size	dlmalloc-2.8.6.c	2230;"	d	file:
+reset_on_error	dlmalloc-2.8.6.c	/^static void reset_on_error(mstate m) {$/;"	f	file:
+same_or_left_bits	dlmalloc-2.8.6.c	2931;"	d	file:
+sbinptr	dlmalloc-2.8.6.c	/^typedef struct malloc_chunk* sbinptr;  \/* The type of bins of chunks *\/$/;"	t	typeref:struct:malloc_chunk	file:
+seg	dlmalloc-2.8.6.c	/^  msegment   seg;$/;"	m	struct:malloc_state	file:
+segment_holding	dlmalloc-2.8.6.c	/^static msegmentptr segment_holding(mstate m, char* addr) {$/;"	f	file:
+segment_holds	dlmalloc-2.8.6.c	2692;"	d	file:
+set_flag4	dlmalloc-2.8.6.c	2263;"	d	file:
+set_foot	dlmalloc-2.8.6.c	2279;"	d	file:
+set_free_with_pinuse	dlmalloc-2.8.6.c	2286;"	d	file:
+set_inuse	dlmalloc-2.8.6.c	3049;"	d	file:
+set_inuse	dlmalloc-2.8.6.c	3072;"	d	file:
+set_inuse_and_pinuse	dlmalloc-2.8.6.c	3054;"	d	file:
+set_inuse_and_pinuse	dlmalloc-2.8.6.c	3077;"	d	file:
+set_lock	dlmalloc-2.8.6.c	2661;"	d	file:
+set_size_and_pinuse_of_free_chunk	dlmalloc-2.8.6.c	2282;"	d	file:
+set_size_and_pinuse_of_inuse_chunk	dlmalloc-2.8.6.c	3059;"	d	file:
+set_size_and_pinuse_of_inuse_chunk	dlmalloc-2.8.6.c	3082;"	d	file:
+sflags	dlmalloc-2.8.6.c	/^  flag_t       sflags;           \/* mmap and extern flag *\/$/;"	m	struct:malloc_segment	file:
+should_trim	dlmalloc-2.8.6.c	2718;"	d	file:
+should_trim	dlmalloc-2.8.6.c	2720;"	d	file:
+size	dlmalloc-2.8.6.c	/^  size_t       size;             \/* allocated size *\/$/;"	m	struct:malloc_segment	file:
+sl	dlmalloc-2.8.6.c	/^  int sl;$/;"	m	struct:malloc_recursive_lock	file:
+small_index	dlmalloc-2.8.6.c	2823;"	d	file:
+small_index2size	dlmalloc-2.8.6.c	2824;"	d	file:
+smallbin_at	dlmalloc-2.8.6.c	2828;"	d	file:
+smallbins	dlmalloc-2.8.6.c	/^  mchunkptr  smallbins[(NSMALLBINS+1)*2];$/;"	m	struct:malloc_state	file:
+smallmap	dlmalloc-2.8.6.c	/^  binmap_t   smallmap;$/;"	m	struct:malloc_state	file:
+smallmap_is_marked	dlmalloc-2.8.6.c	2918;"	d	file:
+smblks	dlmalloc-2.8.6.c	/^  MALLINFO_FIELD_TYPE smblks;   \/* always 0 *\/$/;"	m	struct:mallinfo	file:
+spin_acquire_lock	dlmalloc-2.8.6.c	/^static int spin_acquire_lock(int *sl) {$/;"	f	file:
+sys_alloc	dlmalloc-2.8.6.c	/^static void* sys_alloc(mstate m, size_t nb) {$/;"	f	file:
+sys_trim	dlmalloc-2.8.6.c	/^static int sys_trim(mstate m, size_t pad) {$/;"	f	file:
+tbinptr	dlmalloc-2.8.6.c	/^typedef struct malloc_tree_chunk* tbinptr; \/* The type of bins of trees *\/$/;"	t	typeref:struct:malloc_tree_chunk	file:
+tchunk	dlmalloc-2.8.6.c	/^typedef struct malloc_tree_chunk  tchunk;$/;"	t	typeref:struct:malloc_tree_chunk	file:
+tchunkptr	dlmalloc-2.8.6.c	/^typedef struct malloc_tree_chunk* tchunkptr;$/;"	t	typeref:struct:malloc_tree_chunk	file:
+threadid	dlmalloc-2.8.6.c	/^  THREAD_ID_T threadid;$/;"	m	struct:malloc_recursive_lock	file:
+tmalloc_large	dlmalloc-2.8.6.c	/^static void* tmalloc_large(mstate m, size_t nb) {$/;"	f	file:
+tmalloc_small	dlmalloc-2.8.6.c	/^static void* tmalloc_small(mstate m, size_t nb) {$/;"	f	file:
+top	dlmalloc-2.8.6.c	/^  mchunkptr  top;$/;"	m	struct:malloc_state	file:
+topsize	dlmalloc-2.8.6.c	/^  size_t     topsize;$/;"	m	struct:malloc_state	file:
+traverse_and_check	dlmalloc-2.8.6.c	/^static size_t traverse_and_check(mstate m) {$/;"	f	file:
+treebin_at	dlmalloc-2.8.6.c	2829;"	d	file:
+treebins	dlmalloc-2.8.6.c	/^  tbinptr    treebins[NTREEBINS];$/;"	m	struct:malloc_state	file:
+treemap	dlmalloc-2.8.6.c	/^  binmap_t   treemap;$/;"	m	struct:malloc_state	file:
+treemap_is_marked	dlmalloc-2.8.6.c	2922;"	d	file:
+trim_check	dlmalloc-2.8.6.c	/^  size_t     trim_check;$/;"	m	struct:malloc_state	file:
+trim_threshold	dlmalloc-2.8.6.c	/^  size_t trim_threshold;$/;"	m	struct:malloc_params	file:
+try_realloc_chunk	dlmalloc-2.8.6.c	/^static mchunkptr try_realloc_chunk(mstate m, mchunkptr p, size_t nb,$/;"	f	file:
+unlink_chunk	dlmalloc-2.8.6.c	3788;"	d	file:
+unlink_first_small_chunk	dlmalloc-2.8.6.c	3610;"	d	file:
+unlink_large_chunk	dlmalloc-2.8.6.c	3711;"	d	file:
+unlink_small_chunk	dlmalloc-2.8.6.c	3584;"	d	file:
+uordblks	dlmalloc-2.8.6.c	/^  MALLINFO_FIELD_TYPE uordblks; \/* total allocated space *\/$/;"	m	struct:mallinfo	file:
+use_lock	dlmalloc-2.8.6.c	2642;"	d	file:
+use_mmap	dlmalloc-2.8.6.c	2650;"	d	file:
+use_noncontiguous	dlmalloc-2.8.6.c	2658;"	d	file:
+usmblks	dlmalloc-2.8.6.c	/^  MALLINFO_FIELD_TYPE usmblks;  \/* maximum total allocated space *\/$/;"	m	struct:mallinfo	file:
+win32direct_mmap	dlmalloc-2.8.6.c	/^static FORCEINLINE void* win32direct_mmap(size_t size) {$/;"	f	file:
+win32mmap	dlmalloc-2.8.6.c	/^static FORCEINLINE void* win32mmap(size_t size) {$/;"	f	file:
+win32munmap	dlmalloc-2.8.6.c	/^static FORCEINLINE int win32munmap(void* ptr, size_t size) {$/;"	f	file:
+x86_cas_lock	dlmalloc-2.8.6.c	/^static FORCEINLINE int x86_cas_lock(int *sl) {$/;"	f	file:
+x86_clear_lock	dlmalloc-2.8.6.c	/^static FORCEINLINE void x86_clear_lock(int* sl) {$/;"	f	file:
