@@ -4,8 +4,8 @@ from typing import List, Union
 import random
 from abc import ABCMeta, abstractmethod
 
-from heapexp import logutils
-from heapexp.interactiontypes import Alloc, Free, stringify_sequence
+from sieve import logutils
+from sieve.interactiontypes import Alloc, Free, stringify_sequence
 
 
 def get_php_str_repeat_generator(first_size, second_size):

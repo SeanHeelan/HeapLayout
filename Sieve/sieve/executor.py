@@ -9,7 +9,7 @@ import uuid
 
 from typing import List, Tuple, Optional
 
-from heapexp import logutils, interactiongen
+from sieve import logutils, interactiongen
 
 ERR_OS = 1
 ERR_TIMEOUT = 2

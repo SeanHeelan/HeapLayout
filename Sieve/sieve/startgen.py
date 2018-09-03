@@ -6,9 +6,9 @@ import re
 from abc import ABCMeta, abstractmethod
 from typing import List, Union
 
-from heapexp.interactiontypes import Calloc, Alloc, Free, Realloc
-from heapexp.interactiongen import stringify_sequence
-from heapexp.logutils import get_logger
+from sieve.interactiontypes import Calloc, Alloc, Free, Realloc
+from sieve.interactiongen import stringify_sequence
+from sieve.logutils import get_logger
 
 
 class StartingConfigError(Exception):

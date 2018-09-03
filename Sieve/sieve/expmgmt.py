@@ -12,7 +12,7 @@ import time
 
 from typing import List
 
-from heapexp import executor
+from sieve import executor
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

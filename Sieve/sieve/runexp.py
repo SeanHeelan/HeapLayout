@@ -9,7 +9,7 @@ import pathlib
 import sys
 import time
 
-from heapexp import logutils, startgen, interactiongen, executor, drivers
+from sieve import logutils, startgen, interactiongen, executor, drivers
 
 parser = argparse.ArgumentParser(
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)

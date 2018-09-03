@@ -28,6 +28,14 @@ make
 This should result in a number of binaries in the `runners` directory that act
 as drivers for each of the allocators.
 
+### Environment Variables
+
+The environment variable `HEAP_STARTING_CONFIGS` must be set to the full path of
+the `HeapLayout/Sieve/sieve/starting_configs` directory.
+
+You must also add `HeapLayout/Sieve` to PYTHONPATH so that the `sieve` module
+can be imported.
+
 ## Running an Experiment
 
 Run `./runexp.py --help` to see a list of available parameters for
