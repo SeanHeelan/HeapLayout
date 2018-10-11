@@ -126,7 +126,11 @@ directives are used to inform SHRIKE of the details of the layout problem to be
 solved. For example, `templates/cve-2013-2110-hash_init.template.php` contains
 the following lines:
 
-```
+```php
+<?php
+
+...
+
 $quote_str = str_repeat("\xf4", 123);
 #X-SHRIKE HEAP-MANIP 384 32
 # Allocates a 32 byte buffer as its third allocation
@@ -136,6 +140,9 @@ $vtx_dst = hash_init("md5");
 #X-SHRIKE RECORD-ALLOC 0 2
 quoted_printable_encode($quote_str);
 #X-SHRIKE REQUIRE-DISTANCE 1 2 384
+
+...
+?>
 ```
 
 The directives operate as follows (full details in section 3.2.3 of the paper):
@@ -165,3 +172,4 @@ extras - pointer_search.py
 
 [1]: https://sean.heelan.io/heaplayout
 [2]: https://github.com/SeanHeelan/PHP-SHRIKE
+[3]: https://sean.heelan.io
