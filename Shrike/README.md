@@ -161,9 +161,12 @@ The directives operate as follows (full details in section 3.2.3 of the paper):
   equal to Z.
 
 A template can contain as many `REQUIRE-DISTANCE` directives as you like. SHRIKE
-will start from the first and solve them one after the other.
+will start from the first and solve them one after the other. In the above
+template we have just a single such directive, requesting that SHRIKE find a way
+to place the third allocation made by `hash_init` 384 bytes after the first
+allocation made by `quoted_printable_encode`.
 
-So, putting all of this together looks something like the following:
+Solving this problem looks like the following:
 
 ```
 $ ./solve.py -o /tmp/output -p /data/Documents/git/php-shrike/install/bin/php
