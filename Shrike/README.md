@@ -85,17 +85,17 @@ heap allocator. We can find many more by fuzzing the existing fragments. Replace
 the `N` in the command line with the number of seconds you wish to fuzz for.
 With a single core you should give it 30 minutes (1800 seconds) or so. If you
 have more cores available this can be reduced. The output shown is for 60
-seconds with 6 cores, but you will want to let it run for longer.
+seconds with 6 cores.
 
 ```
-$ ./fuzz.py -p PHP-SHRIKE/install/bin/php fragged.pkl -t N
+$ ./fuzz.py -p PHP-SHRIKE/install/bin/php fragged.pkl -t 600
 INFO:__main__:Utilising 6 cores
 INFO:__main__:Analysing the PHP binary at PHP-SHRIKE/install/bin/php
 INFO:__main__:278 unique sequences across 490 fragments loaded from fragged.pkl
-INFO:shrike.php7:9200 total executions (153.33333333333334 per second)
-INFO:shrike.php7:2940 duplicates discovered
-INFO:shrike.php7:4520 errors
-INFO:__main__:1740 new interaction sequence discovered
+INFO:shrike.php7:132500 total executions (220.83333333333334 per second)
+INFO:shrike.php7:48325 duplicates discovered
+INFO:shrike.php7:58307 errors
+INFO:__main__:25868 new interaction sequence discovered
 INFO:__main__:Writing fuzzing results to fuzzed_fragged.pkl
 ```
 
@@ -163,12 +163,64 @@ The directives operate as follows (full details in section 3.2.3 of the paper):
 A template can contain as many `REQUIRE-DISTANCE` directives as you like. SHRIKE
 will start from the first and solve them one after the other.
 
-solve.py
-demo
+So, putting all of this together looks something like the following:
 
-extras - controlled_gen.py
-extras - pointer_search.py
+```
+$ ./solve.py -o /tmp/output -p /data/Documents/git/php-shrike/install/bin/php
+	\ --template templates/cve-2013-2110-hash_init.template.php -t 3600
+	\ fragged.pkl fuzzed_fragged.pkl
+2018-10-11 18:12:40 INFO     Utilising 6 cores
+2018-10-11 18:12:40 INFO     Analysing the PHP binary at PHP-SHRIKE/install/bin/php
+2018-10-11 18:12:40 INFO     Template: templates/cve-2013-2110-hash_init.template.php
+2018-10-11 18:12:40 INFO     Time limit: 3600
+2018-10-11 18:12:40 INFO     26146 unique sequences across 26358 fragments loaded from ['fragged.pkl', 'fuzzed_fragged.pkl']
+2018-10-11 18:12:40 INFO     Loaded template from templates/cve-2013-2110-hash_init.template.php
+2018-10-11 18:12:40 INFO     Template contains 1 stages
+2018-10-11 18:12:41 INFO     217 allocation sequences for size 384
+2018-10-11 18:12:41 INFO     Shortest sequences for size 384 have length 1 (4 alternates)
+2018-10-11 18:12:41 INFO     2071 allocation sequences for size 32
+2018-10-11 18:12:41 INFO     Shortest sequences for size 32 have length 1 (17 alternates)
+2018-10-11 18:12:41 INFO     Starting 6 workers
+2018-10-11 18:12:41 INFO     Workers started
+2018-10-11 18:12:43 INFO     Shortest distance is now None
+2018-10-11 18:12:43 INFO     Shortest distance 19744. Run time 1.07s. 11.24 executions per second. 12 successful executions. 0 errors.
+2018-10-11 18:12:45 INFO     Shortest distance is now 19744
+2018-10-11 18:12:45 INFO     Shortest distance 19200. Run time 2.15s. 7.44 executions per second. 16 successful executions. 0 errors.
+2018-10-11 18:12:46 INFO     Shortest distance 19200. Run time 3.33s. 13.21 executions per second. 44 successful executions. 0 errors.
+2018-10-11 18:12:48 INFO     Shortest distance 19200. Run time 5.20s. 15.37 executions per second. 80 successful executions. 0 errors.
 
+...
+
+2018-10-11 18:14:05 INFO     Shortest distance 1152. Run time 82.87s. 72.76 executions per second. 6024 successful executions. 3 errors.
+2018-10-11 18:14:15 INFO     Shortest distance 1152. Run time 92.88s. 74.15 executions per second. 6881 successful executions. 3 errors.
+2018-10-11 18:14:18 INFO     Shortest distance is now 1152
+2018-10-11 18:14:18 INFO     Discovered distance less than the cut off. Shutting down workers ...
+2018-10-11 18:14:18 INFO     Shutdown notification sent. Waiting 30 seconds ...
+2018-10-11 18:14:48 INFO     7515 successful executions. 3 errors.
+2018-10-11 18:14:48 INFO     === Progress Report ===
+2018-10-11 18:14:48 INFO     Time: 1, Distance: 19744, Executions: 0, Errors: 0
+2018-10-11 18:14:48 INFO     Time: 2, Distance: 19200, Executions: 12, Errors: 0
+2018-10-11 18:14:48 INFO     Time: 8, Distance: 15584, Executions: 93, Errors: 0
+2018-10-11 18:14:48 INFO     Time: 12, Distance: 15360, Executions: 210, Errors: 0
+2018-10-11 18:14:48 INFO     Time: 13, Distance: 7680, Executions: 210, Errors: 0
+2018-10-11 18:14:48 INFO     Time: 19, Distance: 5568, Executions: 740, Errors: 0
+2018-10-11 18:14:48 INFO     Time: 21, Distance: 1440, Executions: 793, Errors: 0
+2018-10-11 18:14:48 INFO     Time: 82, Distance: 1152, Executions: 5927, Errors: 3
+2018-10-11 18:14:48 INFO     Time: 95, Distance: 384, Executions: 6881, Errors: 3
+2018-10-11 18:14:48 INFO     === End Progress Report ===
+```
+
+If we look in the output directory we will find the original template as well as
+the final 'exploit' that has been modified to achieve the desired heap layout.
+
+```
+$ ls /tmp/output/
+000000000000000000000000001_solution  cve-2013-2110-hash_init.template.php
+$ wc -l /tmp/output/*
+  1711 /tmp/output/000000000000000000000000001_solution
+    22 /tmp/output/cve-2013-2110-hash_init.template.php
+  1733 total
+```
 
 [1]: https://sean.heelan.io/heaplayout
 [2]: https://github.com/SeanHeelan/PHP-SHRIKE
