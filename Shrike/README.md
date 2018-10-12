@@ -257,7 +257,8 @@ Then the rest of the exploit proceeds, under the assumption that the correct
 layout has been achieved. The template can be provided to the `solve.py` script
 as before. When the discovered solution is run it should result in the hijacking
 of the program's control flow and `gnome-calculator` will be executed. A demo of
-this process can be seen [here][4].
+this process can be seen [here][4]. There's no audio but the video description
+describes what is going on.
 
 If you want to generate the exploit for yourself you will need to modify a
 hardcoded address that is found on line 97 of the template. (Or if you want you
@@ -281,4 +282,4 @@ of it with slightly different names.
 [1]: https://sean.heelan.io/heaplayout
 [2]: https://github.com/SeanHeelan/PHP-SHRIKE
 [3]: https://sean.heelan.io
-[4]: https://www.youtube.com/
+[4]: https://www.youtube.com/watch?v=MOOvhckRoww
