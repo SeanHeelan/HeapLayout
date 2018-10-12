@@ -19,9 +19,9 @@ a human exploit developer to focus on the creative part of the exploit
 development process, while letting the machine use its raw reasoning power to
 solve the complex but tedious task of heap layout manipulation.
 
-# BibTex
+# BibTeX
 
-If you wish to cite this work the bibtex is as follows:
+If you wish to cite this work the BibTeX is as follows:
 
 ```
 @inproceedings {HeelanUSENIX2018,
