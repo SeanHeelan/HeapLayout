@@ -1,6 +1,7 @@
 # Shrike
 
-See the [associated paper][1].
+SHRIKE is a proof-of-concept template-based exploit generation system for the
+PHP language interpreter.
 
 ## Install
 
