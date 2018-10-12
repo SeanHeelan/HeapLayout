@@ -14,7 +14,7 @@ The `Shrike` subdirectory contains the source code for SHRIKE, a
 proof-of-concept template-based exploit generation system, targeting the PHP
 language interpreter. SHRIKE allows you to write an exploit containing 'holes'
 where heap layout manipulation needs to take place. This partial exploit is then
-taken by SHRIKE and completed.  The strength for this approach is that it allows
+taken by SHRIKE and completed.  The strength of this approach is that it allows
 a human exploit developer to focus on the creative part of the exploit
 development process, while letting the machine use its raw reasoning power to
 solve the complex but tedious task of heap layout manipulation.
