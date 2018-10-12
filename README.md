@@ -1,8 +1,25 @@
+# Introduction
+
 Here you will find the source code related to my paper titled *Automatic Heap
 Layout Manipulation for Exploitation*, published at USENIX Security 2018.
 
-The most recent version of the paper can be found [here][2], and a recording of
-the presentation and the slides can be found on the [USENIX website][1].
+The most recent version of the paper can be found in this repository as
+`usenix18-heelan.pdf`, and a recording of the presentation and the slides can be
+found on the [USENIX website][1].
+
+The `Sieve` subdirectory contains the source code for SIEVE, a framework
+for evaluating heap layout manipulation algorithms on synthetic benchmarks.
+
+The `Shrike` subdirectory contains the source code for SHRIKE, a
+proof-of-concept template-based exploit generation system, targeting the PHP
+language interpreter. SHRIKE allows you to write an exploit containing 'holes'
+where heap layout manipulation needs to take place. This partial exploit is then
+taken by SHRIKE and completed.  The strength for this approach is that it allows
+a human exploit developer to focus on the creative part of the exploit
+development process, while letting the machine use its raw reasoning power to
+solve the complex but tedious task of heap layout manipulation.
+
+# BibTex
 
 If you wish to cite this work the bibtex is as follows:
 
@@ -20,8 +37,9 @@ publisher = {{USENIX} Association},
 }
 ```
 
+# Contact
+
 If you have any questions regarding the paper or the code I can be reached via
-[sean.heelan@cs.ox.ac.uk](sean.heelan@cs.ox.ac.uk).
+[sean.heelan@cs.ox.ac.uk](mailto:sean.heelan@cs.ox.ac.uk).
 
 [1]: https://www.usenix.org/conference/usenixsecurity18/presentation/heelan
-[2]: https://seanhn.files.wordpress.com/2018/08/usenix_sec_18.pdf
