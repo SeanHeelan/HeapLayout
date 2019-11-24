@@ -1,7 +1,10 @@
 # Introduction
 
 Here you will find the source code related to my paper titled *Automatic Heap
-Layout Manipulation for Exploitation*, published at USENIX Security 2018.
+Layout Manipulation for Exploitation*, published at USENIX Security 2018. The 
+code in this repository is not *exactly* that which was used to generate the 
+results in that paper. I have since fixed a few bugs, and made some other 
+improvements. However, it should produce essentially the same results. 
 
 The most recent version of the paper can be found in this repository as
 `usenix18-heelan.pdf`, and a recording of the presentation and the slides can be
