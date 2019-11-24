@@ -1,0 +1,7 @@
+https://bugs.php.net/bug.php?id=71923
+https://github.com/dyntopia/exploits/blob/master/CVE-2016-3078
+
+Overflow is on the Zend heap so USE_ZEND_ALLOC=0 is required for a segmentation fault when
+running normally
+
+Overflow length is of 257 bytes. 256 bytes of content and a trailing NULL byte.

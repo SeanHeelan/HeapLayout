@@ -1,0 +1,11 @@
+Stack overflow
+
+"The bzread function in ext/bz2/bz2.c in PHP before 5.5.38, 5.6.x before 5.6.24, and 7.x before 7.0.9
+allows remote attackers to cause a denial of service (out-of-bounds write) or execute arbitrary code
+via a crafted bz2 archive."
+
+https://nvd.nist.gov/vuln/detail/CVE-2016-5399
+
+https://bugs.php.net/bug.php?id=72613
+
+https://gist.github.com/anonymous/ad5580eb30b139384ec7dba4d8283f60

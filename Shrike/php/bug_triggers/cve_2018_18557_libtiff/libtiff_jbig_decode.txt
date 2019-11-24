@@ -1,0 +1,4 @@
+Patch: https://gitlab.com/libtiff/libtiff/commit/681748ec2f5ce88da5f9fa6831e1653e46af8a66
+Report: https://bugs.chromium.org/p/project-zero/issues/detail?id=1697
+Build: gcc -o jbig_build_payload -ljbig jbig_build_payload.c
+

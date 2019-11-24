@@ -1,0 +1,5 @@
+break /usr/src/debug/bzip2-1.0.6-28.fc29.x86_64/bzlib.c:1482
+disable $bpnum
+break /usr/src/debug/bzip2-1.0.6-28.fc29.x86_64/decompress.c:404
+break __stack_chk_fail
+
