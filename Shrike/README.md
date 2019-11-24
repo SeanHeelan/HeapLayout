@@ -20,18 +20,23 @@ $ pip install -r requirements.txt
 
 ### Dumping PHP's Tests
 
-First we need to build our customised version of [PHP][2]. This is a modified
-version of PHP 7.1.6. The primary modifications are the addition of a number of
-vulnerabilities that were patched in previous versions, as well as an extension
-which adds new functions to PHP required by Shrike. Namely, functions that can
-record pointers and produce the distance between two recorded allocations.
+First we need to build our customised version of PHP, which can be found in the
+`php` sub-directory. This is a modified version of PHP 7.1.6. The primary
+modifications are the addition of a number of vulnerabilities that were patched
+in previous versions, as well as an extension which adds new functions to PHP
+required by Shrike. Namely, functions that can record pointers and produce the
+distance between two recorded allocations.
 
 ```
-$ git clone git@github.com:SeanHeelan/PHP-SHRIKE.git
-$ cd PHP-SHRIKE
-$ ./buildconf -f
+$ cd php
+$ ./buildconf --force
+$ # The following enables a few modules, but PHP has many more. You can view
+$ # the available options via ./configure --help. Feel free to enable as
+$ # many as you want. They offer more functionality to be explored.
 $ ./configure --prefix=`pwd`/install --enable-shrike --enable-dve \
-	--enable-mbstring --enable-intl --enable-exif --with-gd
+	--enable-mbstring --enable-intl --enable-exif --with-gd \
+	CFLAGS="-DU_USING_ICU_NAMESPACE=1" \
+	CXXFLAGS="-DU_USING_ICU_NAMESPACE=1"
 $ make && make install
 ```
 
@@ -39,7 +44,7 @@ Now we need to extract the tests that come with PHP. These are standalone PHP
 scripts that test functionality, regressions and so on.
 
 ```
-$ cd PHP-SHRIKE
+$ # Assuming we are in the HeapLayout/Shrike/php directory
 $ export TEST_PHP_EXECUTABLE=`pwd`/install/bin/php
 $ ./install/bin/php ./run-tests.php -x --offline --keep-php \
 	--temp-target phptests --temp-source `pwd`
@@ -52,30 +57,37 @@ $ find phptests/ -name *.phps | wc -l
 ### Extracting Valid Fragments of PHP
 
 Add the directory containing `shrike` to your Python path. Assuming you have
-cloned the `HeapLayout` repository at `~/HeapLayout`, one way to do this is as
-follows:
+cloned the `HeapLayout` repository at `~/HeapLayout`, you can permanently add
+the directory to your Python path as follows:
 
 ```
 $ echo 'export PYTHONPATH=~/HeapLayout/Shrike:$PYTHONPATH' >> ~/.bashrc
 $ source ~/.bashrc
 ```
 
+Or temporarily via:
+```
+$ cd ~/HeapLayout/Shrike
+$ export PYTHONPATH=`pwd`:$PYTHONPATH
+```
+
 We can then extract fragments of valid PHP from these tests as follows:
 
 ```
-$ ./frag.py -o fragged.pkl -p PHP-SHRIKE/install/bin/php phptests/
-INFO:__main__:Utilising 6 cores
-INFO:__main__:Analysing the PHP binary at PHP-SHRIKE/install/bin/php
-INFO:__main__:Processing tests from phptests/
-INFO:shrike.php7:Processed 11878 files
+$ # Assuming we are in the HeapLayout/Shrike directory
+$ ./frag.py -o fragged.pkl -p ../php/install/bin/php ../php/phptests/
+INFO:__main__:Utilising 8 cores
+INFO:__main__:Analysing the PHP binary at ../php/install/bin/php
+INFO:__main__:Processing tests from ../php/phptests/
+INFO:shrike.php7:Processed 11879 files
 INFO:shrike.php7:No results from 8757 files
 INFO:shrike.php7:203 extracted functions
-INFO:__main__:Extracting sequences from 1626 fragments
-INFO:__main__:89/1626 tests contained fatal errors
-INFO:__main__:1/1626 tests triggered OS errors
-INFO:__main__:87/1626 tests contained disabled functions
-INFO:__main__:959/1626 tests triggered no heap interaction
-INFO:__main__:278 unique allocator interaction sequences out of 490 total
+INFO:__main__:Extracting sequences from 1627 fragments
+INFO:__main__:90/1627 tests contained fatal errors
+INFO:__main__:0/1627 tests triggered OS errors
+INFO:__main__:87/1627 tests contained disabled functions
+INFO:__main__:957/1627 tests triggered no heap interaction
+INFO:__main__:280 unique allocator interaction sequences out of 493 total
 INFO:__main__:Logging sequences to fragged.pkl
 ```
 
@@ -89,7 +101,7 @@ have more cores available this can be reduced. The output shown is for 60
 seconds with 6 cores.
 
 ```
-$ ./fuzz.py -p PHP-SHRIKE/install/bin/php fragged.pkl -t 600
+$ ./fuzz.py -p ../php/install/bin/php fragged.pkl -t 600
 INFO:__main__:Utilising 6 cores
 INFO:__main__:Analysing the PHP binary at PHP-SHRIKE/install/bin/php
 INFO:__main__:278 unique sequences across 490 fragments loaded from fragged.pkl
@@ -103,7 +115,7 @@ INFO:__main__:Writing fuzzing results to fuzzed_fragged.pkl
 ### Template-Based Exploit Development with SHRIKE
 
 SHRIKE enables what I have taken to calling 'template-based exploit
-development'. The concept is explained in a bit more detail in [this][3] blog
+development'. The concept is explained in a bit more detail in [this][2] blog
 post. Essentially, the exploit developer writes their exploit as normal but
 leaves 'holes' in the exploit where a heap layout problem needs to be solved.
 SHRIKE then takes this 'template' and fills in the holes, such that the layout
@@ -170,11 +182,11 @@ allocation made by `quoted_printable_encode`.
 Solving this problem looks like the following:
 
 ```
-$ ./solve.py -o /tmp/output -p /data/Documents/git/php-shrike/install/bin/php
+$ ./solve.py -o /tmp/output -p ../php/install/bin/php
 	\ --template templates/cve-2013-2110-hash_init.template.php -t 3600
 	\ fragged.pkl fuzzed_fragged.pkl
 2018-10-11 18:12:40 INFO     Utilising 6 cores
-2018-10-11 18:12:40 INFO     Analysing the PHP binary at PHP-SHRIKE/install/bin/php
+2018-10-11 18:12:40 INFO     Analysing the PHP binary at ../php/install/bin/php
 2018-10-11 18:12:40 INFO     Template: templates/cve-2013-2110-hash_init.template.php
 2018-10-11 18:12:40 INFO     Time limit: 3600
 2018-10-11 18:12:40 INFO     26146 unique sequences across 26358 fragments loaded from ['fragged.pkl', 'fuzzed_fragged.pkl']
@@ -258,7 +270,7 @@ Then the rest of the exploit proceeds, under the assumption that the correct
 layout has been achieved. The template can be provided to the `solve.py` script
 as before. When the discovered solution is run it should result in the hijacking
 of the program's control flow and `gnome-calculator` will be executed. A demo of
-this process can be seen [here][4]. There's no audio but the video description
+this process can be seen [here][3]. There's no audio but the video description
 describes what is going on.
 
 If you want to generate the exploit for yourself you will need to modify a
@@ -281,6 +293,5 @@ of it with slightly different names.
 
 
 [1]: https://sean.heelan.io/heaplayout
-[2]: https://github.com/SeanHeelan/PHP-SHRIKE
-[3]: https://sean.heelan.io
-[4]: https://www.youtube.com/watch?v=MOOvhckRoww
+[2]: https://sean.heelan.io/2019/03/05/automation-in-exploit-generation-with-exploit-templates/
+[3]: https://www.youtube.com/watch?v=MOOvhckRoww
