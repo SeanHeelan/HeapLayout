@@ -114,18 +114,19 @@ class TemplateVersion:
 
 class RecordAlloc:
 
-    def __init__(self, index: int, identifier: int):
+    def __init__(self, index: int, identifier: int, expected_size: int):
         self.index = index
         self.identifier = identifier
+        self.expected_size = expected_size
 
     def as_directive(self) -> str:
-        self._last_instantiation = "#X-SHRIKE RECORD-ALLOC {} {}".format(
-                self.index, self.identifier)
+        self._last_instantiation = "#X-SHRIKE RECORD-ALLOC {} {} {}".format(
+                self.index, self.identifier, self.expected_size)
         return self._last_instantiation
 
     def as_code(self, frag_store: FragmentStore) -> str:
-        self._last_instantiation = "shrike_record_alloc({}, {});".format(
-                self.index, self.identifier)
+        self._last_instantiation = "shrike_record_alloc({}, {}, {});".format(
+                self.index, self.identifier, self.expected_size)
         return self._last_instantiation
 
     def last_instantiation(self) -> str:
@@ -206,7 +207,7 @@ class Template:
         self._de_template_version = re.compile(
                 r'^#X-SHRIKE TEMPLATE-VERSION\s+(\d+)\s*$')
         self._de_record_alloc = re.compile(
-                r'^#X-SHRIKE RECORD-ALLOC\s+((\d+)\s+(\d+))\s*$')
+                r'^#X-SHRIKE RECORD-ALLOC\s+((\d+)\s+(\d+)\s+(\d+))\s*$')
         self._de_require_distance = re.compile(
                 r'^#X-SHRIKE REQUIRE-DISTANCE\s+((\d+)\s+(\d+)\s+(\d+))\s*$')
 
@@ -331,7 +332,8 @@ class Template:
         self._template.append(TemplateVersion(int(args[0])))
 
     def _add_record_alloc(self, args: List[str]):
-        self._template.append(RecordAlloc(int(args[0]), int(args[1])))
+        self._template.append(
+                RecordAlloc(int(args[0]), int(args[1]), int(args[2])))
 
     def _add_require_distance(self, args: List[str]):
         component = RequireDistance(
