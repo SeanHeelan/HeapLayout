@@ -101,6 +101,12 @@ else:
     logger.info("Utilising {} cores".format(args.jobs))
 
 logger.info("Analysing the PHP binary at {}".format(args.php))
+if not os.path.exists(args.php):
+    logger.error("Invalid path: {}".format(args.php))
+    sys.exit(-1)
+
+args.php = os.path.abspath(args.php)
+
 logger.info("Template: {}".format(args.template))
 logger.info("Time limit: {}".format(args.time_limit))
 
