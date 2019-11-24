@@ -9,7 +9,9 @@ Currently it does not support any kind of multi-statement code.
 import argparse
 import itertools
 import logging
+import pathlib
 import os
+import sys
 
 from collections import defaultdict
 
@@ -47,7 +49,15 @@ logger.info("Utilising {} cores".format(args.jobs))
 logger.info("Analysing the PHP binary at {}".format(args.php))
 logger.info("Processing tests from {}".format(args.tests))
 
+p = pathlib.Path(args.tests)
+if not p.exists() or not p.is_dir():
+    logger.error("Invalid directory: {}".format(args.tests))
+    sys.exit(-1)
+
 fragments = php7.extract_fragments(args.tests, args.jobs)
+if not fragments:
+    logger.error("No fragments found in {}".format(args.tests))
+    sys.exit(-1)
 tests = set(itertools.chain.from_iterable(fragments.values()))
 logger.info("Extracting sequences from {} fragments".format(len(tests)))
 
